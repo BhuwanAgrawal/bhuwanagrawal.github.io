@@ -15,7 +15,7 @@ body {
 /* The grid: Three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  width: 20%;
   padding: 50px;
   text-align: center;
   font-size: 25px;

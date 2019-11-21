@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Google Icons</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+<link rel="stylesheet" href="/w3css/3/w3.css">
 <body>
 
 <!-- Navigation -->

@@ -1,30 +1,98 @@
+<!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/w3css/3/w3.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
 <body>
 
-<!-- Navigation -->
-<nav class="w3-bar w3-black">
-  <a href="#home" class="w3-button w3-bar-item">Home</a>
-  <a href="#Experience" class="w3-button w3-bar-item">Experience</a>
-  <a href="#Project" class="w3-button w3-bar-item">Project</a>
-  <a href="#Qualification" class="w3-button w3-bar-item">Qualification</a>
-  <a href="#Personal Information" class="w3-button w3-bar-item">Personal Information</a>
-</nav>
+<div style="text-align:center">
+  <h2>Expanding Grid</h2>
+  <p>Click on the boxes below:</p>
+</div>
 
+<!-- Three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:green;">
+    Box 1
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:blue;">
+    Box 2
+  </div>
+  <div class="column" onclick="openTab('b3');" style="background:red;">
+    Box 3
+  </div>
+</div>
 
-<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-  <p class="w3-medium">
-    
-   <a href="https://www.linkedin.com/in/bhuwanagrawal/" target="_blank">Linkedin Profile</a>
-   <i class="material-icons">mail_outline</i>
-<i class="material-icons" style="font-size:36px">mail_outline</i>
-<i class="material-icons" style="font-size:48px;color:red">mail_outline</i>
-    
-  </p>
-</footer>
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:green">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Box 1</h2>
+  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+</div>
 
+<div id="b2" class="containerTab" style="display:none;background:blue">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Box 2</h2>
+  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:red">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Box 3</h2>
+  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+</div>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
 
 </body>
-</html>
+</html> 

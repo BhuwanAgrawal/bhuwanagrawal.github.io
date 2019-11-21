@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +16,11 @@
 
 <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
   <p class="w3-medium">
-    <i class="material-icons">mail_outline</i>
+    
+   <a href="https://www.linkedin.com/in/bhuwanagrawal/" target="_blank">Linkedin Profile</a>
+   <i class="material-icons">mail_outline</i>
 <i class="material-icons" style="font-size:36px">mail_outline</i>
 <i class="material-icons" style="font-size:48px;color:red">mail_outline</i>
-   <a href="https://www.linkedin.com/in/bhuwanagrawal/" target="_blank">Linkedin Profile</a>
     
   </p>
 </footer>

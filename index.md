@@ -19,9 +19,6 @@
   <p class="w3-medium">
     
    <a href="https://www.linkedin.com/in/bhuwanagrawal/" target="_blank">Linkedin Profile</a>
-    <i class="material-icons">&#xf08c;</i>
-    <i class="material-icons">&#xe0e1;</i>
-    <i class="material-icons" style="font-size:48px;color:red">fab fa-linkedin</i>
     <i class="material-icons" style="font-size:48px;color:red">mail_outline</i>
   </p>
 </footer>

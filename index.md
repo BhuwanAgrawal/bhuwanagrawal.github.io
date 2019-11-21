@@ -17,7 +17,7 @@
 
 <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
   <p class="w3-medium">
-  Linkedin <a href="https://www.linkedin.com/in/bhuwanagrawal/" target="_blank">w3.css</a>
+   <a href="https://www.linkedin.com/in/bhuwanagrawal/" target="_blank">Linkedin Profile</a>
   </p>
 </footer>
 

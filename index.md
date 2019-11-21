@@ -46,6 +46,7 @@ body {
 </head>
 <body>
 
+<a href="examplefile.pdf" download>Download file</a>
 <div style="text-align:center">
   <h2>Resume</h2>
   <p>For detail information click on the boxes below:</p>

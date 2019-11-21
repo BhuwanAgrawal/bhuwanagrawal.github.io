@@ -47,20 +47,23 @@ body {
 <body>
 
 <div style="text-align:center">
-  <h2>Expanding Grid</h2>
-  <p>Click on the boxes below:</p>
+  <h2>Resume</h2>
+  <p>For detail information click on the boxes below:</p>
 </div>
 
 <!-- Three columns -->
 <div class="row">
   <div class="column" onclick="openTab('b1');" style="background:green;">
-    Box 1
+    Experience
   </div>
   <div class="column" onclick="openTab('b2');" style="background:blue;">
-    Box 2
+    Projects
   </div>
   <div class="column" onclick="openTab('b3');" style="background:red;">
-    Box 3
+    Education
+  </div>
+   <div class="column" onclick="openTab('b4');" style="background:red;">
+    Personal Information
   </div>
 </div>
 
@@ -78,6 +81,13 @@ body {
 </div>
 
 <div id="b3" class="containerTab" style="display:none;background:red">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Box 3</h2>
+  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+</div>
+
+
+<div id="b4" class="containerTab" style="display:none;background:red">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <h2>Box 3</h2>
   <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>

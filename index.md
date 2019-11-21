@@ -62,7 +62,7 @@ body {
   <div class="column" onclick="openTab('b3');" style="background:red;">
     Education
   </div>
-   <div class="column" onclick="openTab('b4');" style="background:red;">
+   <div class="column" onclick="openTab('b4');" style="background:yellow;">
     Personal Information
   </div>
 </div>
@@ -87,9 +87,9 @@ body {
 </div>
 
 
-<div id="b4" class="containerTab" style="display:none;background:red">
+<div id="b4" class="containerTab" style="display:none;background:yellow">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Box 3</h2>
+  <h2>Box 4</h2>
   <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
 </div>
 

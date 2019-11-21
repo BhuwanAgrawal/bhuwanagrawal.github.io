@@ -14,5 +14,13 @@
   <a href="#Personal Information" class="w3-button w3-bar-item">Personal Information</a>
 </nav>
 
+
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+</footer>
+
+
+
 </body>
 </html>

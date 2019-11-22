@@ -184,7 +184,7 @@ body {
 <div class="header">
 <div style="text-align:center">
   <!--h1>Resume</h1-->
-   <img src="Bhuwan.jpg" alt="Cinque Terre" width="600" height="400">
+   <img src="Bhuwan.jpg" alt="Cinque Terre" width="50" height="50" align="right">
   <h6> <b>Name: </b>Bhuwan Agrawal</h6>
   <h6><i class='fa fa-home'></i>: B-105 Stellar Mi Citihomes,</h6>
   <h6>Omicron 3, Greater Noida, 201310</h6>

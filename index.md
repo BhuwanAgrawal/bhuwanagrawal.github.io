@@ -141,7 +141,7 @@ body {
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
-  background-color: LightCyan;
+  background-color: LightSteelBlue;
   padding: 20px;
 }
 

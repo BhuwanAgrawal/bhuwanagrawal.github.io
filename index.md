@@ -75,7 +75,7 @@ body {
 }
 /* Increase the font size of the heading */
 .header h6 {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: normal;
   font-family: "Times New Roman", Times, serif;
   text-align: left;

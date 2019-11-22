@@ -11,6 +11,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Page header
+.header {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+
 /* The grid: Three equal columns that floats next to each other */
 .column {
   float: left;

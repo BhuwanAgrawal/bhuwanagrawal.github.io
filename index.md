@@ -201,7 +201,7 @@ body {
 
 <!-- Three columns -->
 <div class="row">
-  <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
+  <div class="column" onclick="openTab('b1');" style="background:LightCyan">
     About Me
   </div>
   <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;">

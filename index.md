@@ -65,16 +65,16 @@ body {
 
 <!-- Three columns -->
 <div class="row">
-  <div class="column" onclick="openTab('b1');" style="background:green;">
+  <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
     Experience
   </div>
-  <div class="column" onclick="openTab('b2');" style="background:blue;">
+  <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;">
     Projects
   </div>
-  <div class="column" onclick="openTab('b3');" style="background:red;">
+  <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;">
     Education
   </div>
-   <div class="column" onclick="openTab('b4');" style="background:yellow;">
+   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;">
     Personal Information
   </div>
 </div>

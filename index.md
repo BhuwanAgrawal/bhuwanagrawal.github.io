@@ -2,6 +2,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 <!-- First style-->
@@ -192,7 +193,7 @@ body {
   <h6><i class='fa fa-home'></i>: B-105 Stellar Mi Citihomes,</h6>
   <h6>Omicron 3, Greater Noida, 201310</h6>
   <h6><i class='fas fa-mobile-alt'></i>: 8800149988</h6>
-  <h6><i class='fa fa-envelope'></i>: <A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
+  <h6><i class='fa fa-envelope-o'></i>: <A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
   <h6><i class='fab fa-linkedin'></i>: <a href="https://www.linkedin.com/in/bhuwanagrawal">BhuwanAgrawal</a></h6>
 </div>
 <div style="text-align:center">

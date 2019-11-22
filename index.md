@@ -15,7 +15,7 @@ body {
 .column {
   float: left;
   width: 25%;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   font-size: 25px;
   cursor: pointer;

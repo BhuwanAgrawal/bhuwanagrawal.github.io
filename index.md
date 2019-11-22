@@ -221,7 +221,7 @@ body {
 <!-- Full-width columns: (hidden by default) -->
 
 <div id="b1" class="containerTab" style="display:none;background:green">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>About Me</h2>
 <div class="row">
   <div class="side">

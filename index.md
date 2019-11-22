@@ -3,10 +3,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <body>
-<div class="header"  >
- height: 200px;
+<div class="header" height: 200px;
   width: 50%;
-  background-color: powderblue;
+  background-color: powderblue; >
+ 
 <div style="text-align:right">
  <a href="examplefile.pdf" download class="right">Download Resume</a>
 </div>

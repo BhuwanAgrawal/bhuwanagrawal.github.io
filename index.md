@@ -2,11 +2,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
-
-
-
 <!-- First style-->
 <style>
 * {
@@ -26,7 +21,7 @@ body {
   text-align: center;
   font-size: 25px;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 
 .containerTab {

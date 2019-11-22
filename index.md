@@ -19,7 +19,7 @@ body {
   width: 25%;
   padding: 10px;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   cursor: pointer;
   color: black;
 }
@@ -172,8 +172,8 @@ body {
 
 <div class="header">
  
-<div style="text-align:right">
- <p><a href="examplefile.pdf" download class="right">Download Resume</a></p>
+<div style="text-align:right""font-weight: bold">
+ <p><a href="examplefile.pdf" download class="right">Resume</a></p>
 <p> <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a></p>
 </div>
 
@@ -204,13 +204,6 @@ body {
 <div id="b1" class="containerTab" style="display:none;background:green">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <h2>Box 1</h2>
-  <div class="navbar">
-  <a href="#" class="active">Home</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
-</div>
-
 <div class="row">
   <div class="side">
     <h2>About Me</h2>

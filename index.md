@@ -60,10 +60,11 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   background: #DCDCDC;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 /* Increase the font size of the heading */
@@ -172,10 +173,11 @@ body {
  
 <div style="text-align:right">
  <a href="examplefile.pdf" download class="right">Download Resume</a>
+ <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a>
 </div>
 
 <div style="text-align:center">
-  <h3>Resume</h3>
+  <h1>Resume</h1>
   <p>For detail information click on the boxes below:</p>
 </div>
 </div>

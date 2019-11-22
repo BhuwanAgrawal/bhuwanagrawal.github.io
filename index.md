@@ -189,13 +189,12 @@ body {
 <div style="text-align:center">
   <h1>Resume</h1>
   <h6> <b>Name: </b>Bhuwan Agrawal</h6>
-  <i class="material-icons">computer</i>
-  <i class='fab fa-linkedin'></i>
+  
   <h6> <b>Address: </b>B-105 Stellar Mi Citihomes, Omicron 3, Greater Noida, 201310</h6>
   <h6> <b>Mobile: </b>8800149988</h6>
   
   <h6><b>Email: </b><A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
-  <h6><b>Linkedin: </b><a href="https://www.linkedin.com/in/bhuwanagrawal">BhuwanAgrawal</a></h6>
+  <h6><b><i class='fab fa-linkedin'></i> </b><a href="https://www.linkedin.com/in/bhuwanagrawal">BhuwanAgrawal</a></h6>
 </div>
 <div style="text-align:center">
   <p>For detail information click on the boxes below:</p>

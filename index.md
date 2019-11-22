@@ -64,12 +64,13 @@ body {
   text-align: center;
   background: #DCDCDC;
   color: black;
-  font-weight: bold;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */

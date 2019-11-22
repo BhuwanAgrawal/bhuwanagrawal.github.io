@@ -173,8 +173,8 @@ body {
 <div class="header">
  
 <div style="text-align:right">
- <a href="examplefile.pdf" download class="right">Download Resume</a>
- <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a>
+ <p><a href="examplefile.pdf" download class="right">Download Resume</a></p>
+<p> <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a></p>
 </div>
 
 <div style="text-align:center">

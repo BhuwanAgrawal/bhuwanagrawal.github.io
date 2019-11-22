@@ -204,23 +204,27 @@ body {
 <!-- Three columns -->
 <div class="row">
   <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
-    Experience
+    About Me
   </div>
   <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;">
-    Projects
+    Experience
   </div>
   <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;">
+    Projects
+  </div>
+  <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;">
     Education
   </div>
-   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;">
+   <div class="column" onclick="openTab('b5');" style="background:#F5F5DC;">
     Personal Information
   </div>
 </div>
 
 <!-- Full-width columns: (hidden by default) -->
+
 <div id="b1" class="containerTab" style="display:none;background:green">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Box 1</h2>
+  <h2>About Me</h2>
 <div class="row">
   <div class="side">
     <h2>About Me</h2>
@@ -236,9 +240,29 @@ body {
  </div>
 </div>
 
-<div id="b2" class="containerTab" style="display:none;background:blue">
+
+
+<div id="b2" class="containerTab" style="display:none;background:green">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Box 2</h2>
+  <h2>Experience</h2>
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+ </div>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:blue">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Projects</h2>
   <div class="main">
     <h2>TITLE HEADING</h2>
     <h5>Title description, Dec 7, 2017</h5>
@@ -254,16 +278,16 @@ body {
   </div>
 </div>
 
-<div id="b3" class="containerTab" style="display:none;background:red">
+<div id="b4" class="containerTab" style="display:none;background:red">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Box 3</h2>
+  <h2>Education</h2>
   <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
 </div>
 
 
-<div id="b4" class="containerTab" style="display:none;background:yellow">
+<div id="b5" class="containerTab" style="display:none;background:yellow">
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Box 4</h2>
+  <h2>Personal Information</h2>
   <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
 </div>
 

@@ -81,7 +81,7 @@ body {
   font-weight: normal;
   font-family: "Times New Roman", Times, serif;
   text-align: left;
-  line-height: 60%;
+  line-height: 20%;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */

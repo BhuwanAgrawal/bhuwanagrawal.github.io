@@ -202,19 +202,19 @@ body {
 <!-- Three columns -->
 <div class="row">
   <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
-    About Me
+    <b>About Me</b>
   </div>
   <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;">
-    Experience
+    <b>Experience</b>
   </div>
   <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;">
-    Projects
+    <b>Projects</b>
   </div>
   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;">
-    Education
+    <b>Education</b>
   </div>
    <div class="column" onclick="openTab('b5');" style="background:#F5F5DC;">
-    Personal Information
+    <b>Personal Information</b>
   </div>
 </div>
 

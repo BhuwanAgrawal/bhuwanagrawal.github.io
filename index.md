@@ -179,6 +179,11 @@ body {
 
 <div style="text-align:center">
   <h1>Resume</h1>
+  <p class="right"> <b>Name: </b>Bhuwan Agrawal</p>
+  <p class="right"> <b>Address: </b>B-105 Stellar Mi Citihomes, Omicron 3, Greater Noida, 201310</p>
+  <p class="right"> <b>Mobile: </b>8800149988</p>
+  <p class="right"> <b>Email: </b>bhuwan83@gmail.com</p>
+  <p class="right"> <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a></p>
   <p>For detail information click on the boxes below:</p>
 </div>
 </div>

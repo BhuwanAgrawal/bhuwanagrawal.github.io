@@ -19,7 +19,7 @@ body {
 /* The grid: Three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
+  width: 20%;
   padding: 10px;
   text-align: center;
   font-size: 15px;

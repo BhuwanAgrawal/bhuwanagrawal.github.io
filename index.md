@@ -45,11 +45,6 @@ body {
 </head>
 <body>
 
-<a href="examplefile.pdf" download>Download file</a>
-<div style="text-align:center">
-  <h2>Resume</h2>
-  <p>For detail information click on the boxes below:</p>
-</div>
 
 <!-- Three columns -->
 <div class="row">
@@ -225,6 +220,12 @@ body {
 <body>
 
 <div class="header">
+
+<a href="examplefile.pdf" download>Download file</a>
+<div style="text-align:center">
+  <h2>Resume</h2>
+  <p>For detail information click on the boxes below:</p>
+</div>
   <h1>My Website</h1>
   <p>A <b>responsive</b> website created by me.</p>
 </div>

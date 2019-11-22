@@ -225,11 +225,11 @@ body {
   <h2>About Me</h2>
   <div class="row">
     <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
+    <p><h5>Title description, Dec 7, 2017</h5></p>
     <p>Some text..</p>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
+    <p><h2>TITLE HEADING</h2></p>
+    <p><h5>Title description, Sep 2, 2017</h5></p>
     <p>Some text..</p>
   </div>
 </div>
@@ -241,11 +241,11 @@ body {
   <h2>Experience</h2>
   <div class="row">
     <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
+    <p><h5>Title description, Dec 7, 2017</h5></p>
     <p>Some text..</p>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
+    <p><h2>TITLE HEADING</h2></p>
+    <p><h5>Title description, Sep 2, 2017</h5></p>
     <p>Some text..</p>
   </div>
 </div>
@@ -254,12 +254,12 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Projects</h2>
   <div class="main">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
+      <h2>TITLE HEADING</h2>
+    <p><h5>Title description, Dec 7, 2017</h5></p>
     <p>Some text..</p>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
+    <p><h2>TITLE HEADING</h2></p>
+    <p><h5>Title description, Sep 2, 2017</h5></p>
     <p>Some text..</p>
   </div>
 </div>
@@ -269,11 +269,11 @@ body {
   <h2>Education</h2>
   <div class="row">
     <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
+    <p><h5>Title description, Dec 7, 2017</h5></p>
     <p>Some text..</p>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
+    <p><h2>TITLE HEADING</h2></p>
+    <p><h5>Title description, Sep 2, 2017</h5></p>
     <p>Some text..</p>
   </div>
 </div>
@@ -283,12 +283,12 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Personal Information</h2>
   <div class="row">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
+       <h2>TITLE HEADING</h2>
+    <p><h5>Title description, Dec 7, 2017</h5></p>
     <p>Some text..</p>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
+    <p><h2>TITLE HEADING</h2></p>
+    <p><h5>Title description, Sep 2, 2017</h5></p>
     <p>Some text..</p>
   </div>
 </div>

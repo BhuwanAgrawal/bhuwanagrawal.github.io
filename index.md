@@ -2,6 +2,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 <!-- First style-->
 <style>
@@ -188,6 +190,7 @@ body {
   <h1>Resume</h1>
   <h6> <b>Name: </b>Bhuwan Agrawal</h6>
   <i class="material-icons">computer</i>
+  <i class='fab fa-linkedin'></i>
   <h6> <b>Address: </b>B-105 Stellar Mi Citihomes, Omicron 3, Greater Noida, 201310</h6>
   <h6> <b>Mobile: </b>8800149988</h6>
   

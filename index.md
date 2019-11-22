@@ -30,7 +30,7 @@ body {
 .column {
   float: left;
   width: 25%;
-  padding: 50px;
+  padding: 20px;
   text-align: center;
   font-size: 25px;
   cursor: pointer;

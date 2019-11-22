@@ -1,6 +1,19 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<div class="header"  padding: 10px;>
+
+<div style="text-align:right">
+ <a href="examplefile.pdf" download class="right">Download Resume</a>
+</div>
+
+<div style="text-align:center">
+  <h3>Resume</h3>
+  <p>For detail information click on the boxes below:</p>
+</div>
+</div>
+
 <style>
 * {
   box-sizing: border-box;
@@ -10,18 +23,6 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* Page header
-.header {
-  float: left;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  font-size: 25px;
-  cursor: pointer;
-  color: white;
-}
-
 
 /* The grid: Three equal columns that floats next to each other */
 .column {
@@ -57,18 +58,6 @@ body {
 </head>
 
 <body>
-
-<div class="header">
-
-<div style="text-align:right">
- <a href="examplefile.pdf" download class="right">Download Resume</a>
-</div>
-
-<div style="text-align:center">
-  <h3>Resume</h3>
-  <p>For detail information click on the boxes below:</p>
-</div>
-</div>
 
 <!-- Three columns -->
 <div class="row">

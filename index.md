@@ -60,7 +60,7 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   background: #1abc9c;
   color: white;

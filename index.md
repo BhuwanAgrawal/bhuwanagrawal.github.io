@@ -241,7 +241,7 @@ body {
 
 
 <div id="b2" class="containerTab" style="display:none;background:green">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Experience</h2>
 <div class="row">
   <div class="side">
@@ -259,7 +259,7 @@ body {
 </div>
 
 <div id="b3" class="containerTab" style="display:none;background:blue">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Projects</h2>
   <div class="main">
     <h2>TITLE HEADING</h2>
@@ -277,14 +277,14 @@ body {
 </div>
 
 <div id="b4" class="containerTab" style="display:none;background:red">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Education</h2>
   <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
 </div>
 
 
 <div id="b5" class="containerTab" style="display:none;background:yellow">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Personal Information</h2>
   <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
 </div>

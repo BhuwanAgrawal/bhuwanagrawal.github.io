@@ -141,7 +141,7 @@ body {
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
-  background-color: white;
+  background-color: LightCyan;
   padding: 20px;
 }
 
@@ -201,7 +201,7 @@ body {
 
 <!-- Three columns -->
 <div class="row">
-  <div class="column" onclick="openTab('b1');" style="background:LightCyan">
+  <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
     About Me
   </div>
   <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;">

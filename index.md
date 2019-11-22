@@ -1,21 +1,6 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-<div class="header">
-
-<div style="text-align:right">
- <a href="examplefile.pdf" download class="right">Download Resume</a>
-</div>
-
-<div style="text-align:center">
-  <h3>Resume</h3>
-  <p>For detail information click on the boxes below:</p>
-</div>
-</div>
-
-
 <style>
 * {
   box-sizing: border-box;
@@ -58,8 +43,20 @@ body {
 }
 </style>
 </head>
+
 <body>
 
+<div class="header">
+
+<div style="text-align:right">
+ <a href="examplefile.pdf" download class="right">Download Resume</a>
+</div>
+
+<div style="text-align:center">
+  <h3>Resume</h3>
+  <p>For detail information click on the boxes below:</p>
+</div>
+</div>
 
 <!-- Three columns -->
 <div class="row">

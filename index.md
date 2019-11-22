@@ -223,7 +223,7 @@ body {
 <div id="b1" class="containerTab" style="background:green">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>About Me</h2>
-  <div class="row">
+  <div class="main">
     <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
     <p>Some text..</p>
@@ -239,7 +239,7 @@ body {
 <div id="b2" class="containerTab" style="display:none;background:green">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Experience</h2>
-  <div class="row">
+  <div class="main">
     <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
     <p>Some text..</p>
@@ -267,7 +267,7 @@ body {
 <div id="b4" class="containerTab" style="display:none;background:red">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Education</h2>
-  <div class="row">
+  <div class="main">
     <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
     <p>Some text..</p>
@@ -282,7 +282,7 @@ body {
 <div id="b5" class="containerTab" style="display:none;background:yellow">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Personal Information</h2>
-  <div class="row">
+  <div class="main">
        <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
     <p>Some text..</p>

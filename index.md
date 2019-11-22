@@ -220,7 +220,7 @@ body {
 
 <!-- Full-width columns: (hidden by default) -->
 
-<div id="b1" class="containerTab" style="background:green">
+<div id="b1" class="containerTab" style="background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>About Me</h2>
   <div class="main">
@@ -236,7 +236,7 @@ body {
 
 
 
-<div id="b2" class="containerTab" style="display:none;background:green">
+<div id="b2" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Experience</h2>
   <div class="main">
@@ -250,7 +250,7 @@ body {
   </div>
 </div>
 
-<div id="b3" class="containerTab" style="display:none;background:blue">
+<div id="b3" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Projects</h2>
   <div class="main">
@@ -264,7 +264,7 @@ body {
   </div>
 </div>
 
-<div id="b4" class="containerTab" style="display:none;background:red">
+<div id="b4" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Education</h2>
   <div class="main">
@@ -279,7 +279,7 @@ body {
 </div>
 
 
-<div id="b5" class="containerTab" style="display:none;background:yellow">
+<div id="b5" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Personal Information</h2>
   <div class="main">

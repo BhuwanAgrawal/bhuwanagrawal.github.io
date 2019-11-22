@@ -6,11 +6,11 @@
 <div class="header">
 
 <div style="text-align:right">
- <a href="examplefile.pdf" download class="right">Download file</a>
+ <a href="examplefile.pdf" download class="right">Download Resume</a>
 </div>
 
 <div style="text-align:center">
-  <h2>Resume</h2>
+  <h3>Resume</h3>
   <p>For detail information click on the boxes below:</p>
 </div>
 </div>
@@ -29,7 +29,7 @@ body {
 /* The grid: Three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 20%;
+  width: 25%;
   padding: 50px;
   text-align: center;
   font-size: 25px;

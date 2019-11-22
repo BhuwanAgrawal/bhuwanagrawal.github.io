@@ -222,12 +222,10 @@ body {
 <div class="header">
 
 <a href="examplefile.pdf" download>Download file</a>
-<div style="text-align:center">
+<div style="text-align:right">
   <h2>Resume</h2>
   <p>For detail information click on the boxes below:</p>
 </div>
-  <h1>My Website</h1>
-  <p>A <b>responsive</b> website created by me.</p>
 </div>
 
 <div class="navbar">

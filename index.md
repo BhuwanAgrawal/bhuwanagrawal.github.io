@@ -190,7 +190,7 @@ body {
   <i class="material-icons">computer</i>
   <h6> <b>Address: </b>B-105 Stellar Mi Citihomes, Omicron 3, Greater Noida, 201310</h6>
   <h6> <b>Mobile: </b>8800149988</h6>
-  <h6> <b>Email: </b>bhuwan83@gmail.com</h6>
+  <h6> <b>Email: </b>mailto:bhuwan83@gmail.com</h6>
   <h6> <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a></h6>
 </div>
 <div style="text-align:center">

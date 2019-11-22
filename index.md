@@ -2,7 +2,29 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="header"  padding: 10px;>
+
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+</style>
+<body>
+<div class="header"  >
 
 <div style="text-align:right">
  <a href="examplefile.pdf" download class="right">Download Resume</a>
@@ -13,6 +35,9 @@
   <p>For detail information click on the boxes below:</p>
 </div>
 </div>
+</body>
+
+
 
 <style>
 * {

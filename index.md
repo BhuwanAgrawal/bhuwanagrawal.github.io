@@ -221,8 +221,8 @@ body {
 
 <div class="header">
 
-<a href="examplefile.pdf" download>Download file</a>
-<div style="text-align:right">
+<a href="examplefile.pdf" download class="right">Download file</a>
+<div style="text-align:center">
   <h2>Resume</h2>
   <p>For detail information click on the boxes below:</p>
 </div>

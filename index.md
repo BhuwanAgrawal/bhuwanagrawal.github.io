@@ -1,6 +1,18 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<div class="header">
+
+<a href="examplefile.pdf" download class="right">Download file</a>
+<div style="text-align:center">
+  <h2>Resume</h2>
+  <p>For detail information click on the boxes below:</p>
+</div>
+</div>
+
+
 <style>
 * {
   box-sizing: border-box;
@@ -219,14 +231,6 @@ body {
 </style>
 <body>
 
-<div class="header">
-
-<a href="examplefile.pdf" download class="right">Download file</a>
-<div style="text-align:center">
-  <h2>Resume</h2>
-  <p>For detail information click on the boxes below:</p>
-</div>
-</div>
 
 <div class="navbar">
   <a href="#" class="active">Home</a>

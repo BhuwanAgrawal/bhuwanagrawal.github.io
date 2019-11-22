@@ -182,11 +182,6 @@ body {
 
 
 <div class="header">
- 
-<div style="text-align:right">
- <p><a href="examplefile.pdf" download class="right">Resume</a></p>
-</div>
-
 <div style="text-align:center">
   <!--h1>Resume</h1-->
   <h6> <b>Name: </b>Bhuwan Agrawal</h6>
@@ -306,7 +301,9 @@ function openTab(tabName) {
 
 
 <div class="footer">
-  <h2>Footer</h2>
+ <div style="text-align:right">
+ <p><a href="examplefile.pdf" download class="right">Download Resume</a></p>
+</div>
 </div>
 
 </body>

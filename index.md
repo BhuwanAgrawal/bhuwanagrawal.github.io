@@ -1,6 +1,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- First style-->
 <style>
@@ -172,21 +173,24 @@ body {
 
 <div class="header">
  
-<div style="text-align:right,font-weight: bold">
+<div style="text-align:right">
  <p><a href="examplefile.pdf" download class="right">Resume</a></p>
-<p> <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a></p>
 </div>
 
 <div style="text-align:center">
   <h1>Resume</h1>
   <p class="right"> <b>Name: </b>Bhuwan Agrawal</p>
+  <i class="material-icons">computer</i>
   <p class="right"> <b>Address: </b>B-105 Stellar Mi Citihomes, Omicron 3, Greater Noida, 201310</p>
   <p class="right"> <b>Mobile: </b>8800149988</p>
   <p class="right"> <b>Email: </b>bhuwan83@gmail.com</p>
   <p class="right"> <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a></p>
+</div>
+<div style="text-align:center">
   <p>For detail information click on the boxes below:</p>
 </div>
 </div>
+
 
 
 <!-- Three columns -->

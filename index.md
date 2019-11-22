@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 <!-- First style-->
 <style>
@@ -192,7 +192,7 @@ body {
   <h6> <b>Mobile: </b>8800149988</h6>
   
   <h6><b>Email: </b><A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
-  <h6> <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a></h6>
+  <h6><b>Linkedin: </b><a href="https://www.linkedin.com/in/bhuwanagrawal">BhuwanAgrawal</a></h6>
 </div>
 <div style="text-align:center">
   <p>For detail information click on the boxes below:</p>

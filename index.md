@@ -3,34 +3,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<body>
-<div class="header">
 
-height: 200px;
-  width: 50%;
-  background-color: powderblue;
-  <p>For detail information click on the boxes below:</p>
-  </div>
-  </body>
 
-<body>
-<div class="header">
 
-height: 200px;
-  width: 50%;
-  background-color: powderblue;
- 
-<div style="text-align:right">
- <a href="examplefile.pdf" download class="right">Download Resume</a>
-</div>
 
-<div style="text-align:center">
-  <h3>Resume</h3>
-  <p>For detail information click on the boxes below:</p>
-</div>
-</div>
-</body>
-
+<!-- First style-->
 <style>
 * {
   box-sizing: border-box;
@@ -72,66 +49,9 @@ body {
   cursor: pointer;
 }
 </style>
-</head>
-
-<body>
-
-<!-- Three columns -->
-<div class="row">
-  <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
-    Experience
-  </div>
-  <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;">
-    Projects
-  </div>
-  <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;">
-    Education
-  </div>
-   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;">
-    Personal Information
-  </div>
-</div>
-
-<!-- Full-width columns: (hidden by default) -->
-<div id="b1" class="containerTab" style="display:none;background:green">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Box 1</h2>
-  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
-</div>
-
-<div id="b2" class="containerTab" style="display:none;background:blue">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Box 2</h2>
-  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
-</div>
-
-<div id="b3" class="containerTab" style="display:none;background:red">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Box 3</h2>
-  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
-</div>
 
 
-<div id="b4" class="containerTab" style="display:none;background:yellow">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Box 4</h2>
-  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
-</div>
-
-<script>
-function openTab(tabName) {
-  var i, x;
-  x = document.getElementsByClassName("containerTab");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  document.getElementById(tabName).style.display = "block";
-}
-</script>
-  
-  <!-- Second style-->
-  
-  
+<!-- Second style-->
   <style>
 * {
   box-sizing: border-box;
@@ -145,7 +65,7 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 80px;
+  padding: 20px;
   text-align: center;
   background: #1abc9c;
   color: white;
@@ -174,7 +94,6 @@ body {
   padding: 14px 20px;
   text-decoration: none;
 }
-
 
 /* Right-aligned link */
 .navbar a.right {
@@ -246,7 +165,81 @@ body {
     width: 100%;
   }
 }
+
 </style>
+
+</head>
+
+<body>
+
+
+<div class="header">
+ 
+<div style="text-align:right">
+ <a href="examplefile.pdf" download class="right">Download Resume</a>
+</div>
+
+<div style="text-align:center">
+  <h3>Resume</h3>
+  <p>For detail information click on the boxes below:</p>
+</div>
+</div>
+
+
+<!-- Three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
+    Experience
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;">
+    Projects
+  </div>
+  <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;">
+    Education
+  </div>
+   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;">
+    Personal Information
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:green">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Box 1</h2>
+  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:blue">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Box 2</h2>
+  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:red">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Box 3</h2>
+  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+</div>
+
+
+<div id="b4" class="containerTab" style="display:none;background:yellow">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Box 4</h2>
+  <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+</div>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+</body>
+
 <body>
 
 
@@ -287,7 +280,5 @@ body {
 <div class="footer">
   <h2>Footer</h2>
 </div>
-  
-  
-
 </body>
+</html>

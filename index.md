@@ -73,6 +73,13 @@ body {
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
 }
+/* Increase the font size of the heading */
+.header h6 {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
@@ -179,12 +186,12 @@ body {
 
 <div style="text-align:center">
   <h1>Resume</h1>
-  <p class="right"> <b>Name: </b>Bhuwan Agrawal</p>
+  <h6> <b>Name: </b>Bhuwan Agrawal</h6>
   <i class="material-icons">computer</i>
-  <p class="right"> <b>Address: </b>B-105 Stellar Mi Citihomes, Omicron 3, Greater Noida, 201310</p>
-  <p class="right"> <b>Mobile: </b>8800149988</p>
-  <p class="right"> <b>Email: </b>bhuwan83@gmail.com</p>
-  <p class="right"> <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a></p>
+  <h6> <b>Address: </b>B-105 Stellar Mi Citihomes, Omicron 3, Greater Noida, 201310</h6>
+  <h6> <b>Mobile: </b>8800149988</h6>
+  <h6> <b>Email: </b>bhuwan83@gmail.com</h6>
+  <h6> <a href="https://www.linkedin.com/in/bhuwanagrawal" class="right">Linkedin</a></h6>
 </div>
 <div style="text-align:center">
   <p>For detail information click on the boxes below:</p>

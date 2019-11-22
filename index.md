@@ -37,7 +37,7 @@ body {
 </div>
 </body>
 
-
+</head>
 
 <style>
 * {

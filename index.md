@@ -236,7 +236,7 @@ body {
 
 
 
-<div id="b2" class="containerTab" style="display:none;background:LightSteelBlue">
+<div id="b2" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Summary</h2-->
   <div class="main">
@@ -250,7 +250,7 @@ body {
   </div>
 </div>
 
-<div id="b3" class="containerTab" style="display:none;background:LightSteelBlue">
+<div id="b3" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Experience</h2-->
   <div class="main">
@@ -264,7 +264,7 @@ body {
   </div>
 </div>
 
-<div id="b4" class="containerTab" style="display:none;background:LightSteelBlue">
+<div id="b4" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Certifications</h2-->
   <div class="main">
@@ -273,7 +273,7 @@ body {
 </div>
 
 
-<div id="b5" class="containerTab" style="display:none;background:LightSteelBlue">
+<div id="b5" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Software Skills</h2-->
   <div class="main">
@@ -289,7 +289,7 @@ body {
 
 
 
-<div id="b6" class="containerTab" style="display:none;background:LightSteelBlue">
+<div id="b6" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Projects</h2-->
   <div class="main">
@@ -304,7 +304,7 @@ body {
 </div>
 
 
-<div id="b7" class="containerTab" style="display:none;background:LightSteelBlue">
+<div id="b7" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Qualification</h2-->
   <div class="main">

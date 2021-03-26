@@ -230,13 +230,7 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Objective</h2>
   <div class="main">
-    <h2>TITLE HEADING</h2>
-    <p><h5>Title description, Dec 7, 2017</h5></p>
-    <p>Some text..</p>
-    <br>
-    <p><h2>TITLE HEADING</h2></p>
-    <p><h5>Title description, Sep 2, 2017</h5></p>
-    <p>Some text..</p>
+    <p><h5>My objective is to achieve a challenging position in Software testing and Quality Management in a company, where acquired skills will be utilized towards continued growth and advancement of the organization.</h5></p>
   </div>
 </div>
 

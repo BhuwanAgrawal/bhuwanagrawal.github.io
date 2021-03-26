@@ -272,12 +272,12 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Software Skills</h2>
   <div class="main">
-    <p><h5>• Automation Testing Tool		Selenium, Ranorex and TestComplete</h5></p>
-    <p><h5>• Version Management Tool		SVN, Github</h5></p>
-	<p><h5>• Bug Reporting Tools			QC, JIRA</h5></p>
-    <p><h5>• Operating System				Windows XP/7/10, Server 2K8</h5></p>
-	<p><h5>• Applications					MS-Office: Excel, Word, Power Point</h5></p>
-    <p><h5>• Database				    	SQL Server</h5></p>
+    <p><h5>• Automation Testing Tool:       Selenium, Ranorex and TestComplete</h5></p>
+    <p><h5>• Version Management Tool:       SVN, Github</h5></p>
+	<p><h5>• Bug Reporting Tools:           QC, JIRA</h5></p>
+    <p><h5>• Operating System:              Windows XP/7/10, Server 2K8</h5></p>
+	<p><h5>• Applications:                  MS-Office: Excel, Word, Power Point</h5></p>
+    <p><h5>• Database:                      SQL Server</h5></p>
   </div>
 </div>
 

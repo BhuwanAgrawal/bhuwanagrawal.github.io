@@ -202,19 +202,25 @@ body {
 <!-- Three columns -->
 <div class="row">
   <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
-    <b>About Me</b>
+    <b>Objective</b>
+  </div>
+  <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
+    <b>Summary</b>
   </div>
   <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;">
-    <b>Experience</b>
+    <b>Working Experience</b>
+  </div>
+   <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;">
+    <b>Certifications</b>
   </div>
   <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;">
-    <b>Projects</b>
+    <b>Software Skill Set</b>
   </div>
   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;">
-    <b>Education</b>
+    <b>Projects</b>
   </div>
    <div class="column" onclick="openTab('b5');" style="background:#F5F5DC;">
-    <b>Personal Information</b>
+    <b>Qualification</b>
   </div>
 </div>
 
@@ -222,7 +228,7 @@ body {
 
 <div id="b1" class="containerTab" style="background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>About Me</h2>
+  <h2>Objective</h2>
   <div class="main">
     <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -238,7 +244,7 @@ body {
 
 <div id="b2" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Experience</h2>
+  <h2>Summary</h2>
   <div class="main">
     <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -252,7 +258,7 @@ body {
 
 <div id="b3" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Projects</h2>
+  <h2>Working Experience</h2>
   <div class="main">
       <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -266,7 +272,7 @@ body {
 
 <div id="b4" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Education</h2>
+  <h2>Certifications</h2>
   <div class="main">
     <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -281,7 +287,38 @@ body {
 
 <div id="b5" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Personal Information</h2>
+  <h2>Software Skill Set</h2>
+  <div class="main">
+       <h2>TITLE HEADING</h2>
+    <p><h5>Title description, Dec 7, 2017</h5></p>
+    <p>Some text..</p>
+    <br>
+    <p><h2>TITLE HEADING</h2></p>
+    <p><h5>Title description, Sep 2, 2017</h5></p>
+    <p>Some text..</p>
+  </div>
+</div>
+
+
+
+<div id="b6" class="containerTab" style="display:none;background:LightSteelBlue">
+  <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
+  <h2>Projects</h2>
+  <div class="main">
+       <h2>TITLE HEADING</h2>
+    <p><h5>Title description, Dec 7, 2017</h5></p>
+    <p>Some text..</p>
+    <br>
+    <p><h2>TITLE HEADING</h2></p>
+    <p><h5>Title description, Sep 2, 2017</h5></p>
+    <p>Some text..</p>
+  </div>
+</div>
+
+
+<div id="b7" class="containerTab" style="display:none;background:LightSteelBlue">
+  <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
+  <h2>Qualification</h2>
   <div class="main">
        <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>

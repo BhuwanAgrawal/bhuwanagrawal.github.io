@@ -333,7 +333,7 @@ function openTab(tabName) {
 
 <div class="footer">
  <div style="text-align:right">
- <p><i class='fa fa-download'></i>: <a href="Resume_Bhuwan_Agrawal.pdf" download class="right">Download Resume</a></p>
+ <p><i class='fa fa-download'></i>&ensp; : <a href="Resume_Bhuwan_Agrawal.pdf" download class="right">Download Resume</a></p>
 </div>
 </div>
 

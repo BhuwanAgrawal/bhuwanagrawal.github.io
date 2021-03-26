@@ -201,25 +201,25 @@ body {
 
 <!-- Seven columns -->
 <div class="row">
-  <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;column-rule-style:double;column-width: 50px">
+  <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;column-rule-style:double">
     <b>Objective</b>
   </div>
-  <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;column-rule-style:double;column-width: 50px">
+  <div class="column" onclick="openTab('b2');" style="background:#F5F5DC;column-rule-style:double">
     <b>Summary</b>
   </div>
-  <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;column-rule-style:double;column-width: 50px">
+  <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;column-rule-style:double">
     <b>Experience</b>
   </div>
-   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;column-rule-style:double;column-width: 50px">
+   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;column-rule-style:double">
     <b>Certifications</b>
   </div>
-  <div class="column" onclick="openTab('b5');" style="background:#F5F5DC;column-rule-style:double;column-width: 50px">
+  <div class="column" onclick="openTab('b5');" style="background:#F5F5DC;column-rule-style:double">
     <b>Software Skills</b>
   </div>
-  <div class="column" onclick="openTab('b6');" style="background:#F5F5DC;column-rule-style:double;column-width: 50px">
+  <div class="column" onclick="openTab('b6');" style="background:#F5F5DC;column-rule-style:double">
     <b>Projects</b>
   </div>
-   <div class="column" onclick="openTab('b7');" style="background:#F5F5DC;column-rule-style:double;column-width: 50px">
+   <div class="column" onclick="openTab('b7');" style="background:#F5F5DC;column-rule-style:double">
     <b>Qualification</b>
   </div>
 </div>

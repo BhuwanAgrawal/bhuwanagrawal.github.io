@@ -254,13 +254,8 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Experience</h2-->
   <div class="main">
-      <h2>TITLE HEADING</h2>
-    <p><h5>Title description, Dec 7, 2017</h5></p>
-    <p>Some text..</p>
-    <br>
-    <p><h2>TITLE HEADING</h2></p>
-    <p><h5>Title description, Sep 2, 2017</h5></p>
-    <p>Some text..</p>
+    <p><h5>• Working as an Associate Team Lead in Xorlabs.com, Greater Noida from March-2014 to till date.</h5></p>
+    <p><h5>• Worked as a Software Test Engineer in Safenet Infotech Pvt. Ltd., Noida through Magna InfoTech Pvt. Ltd., Hyderabad from March-2012 to March-2014.</h5></p>
   </div>
 </div>
 
@@ -308,13 +303,8 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Qualification</h2-->
   <div class="main">
-       <h2>TITLE HEADING</h2>
-    <p><h5>Title description, Dec 7, 2017</h5></p>
-    <p>Some text..</p>
-    <br>
-    <p><h2>TITLE HEADING</h2></p>
-    <p><h5>Title description, Sep 2, 2017</h5></p>
-    <p>Some text..</p>
+    <p><h5>• Done Master of Computer Application from UP Technical University with 64.28%.</h5></p>
+    <p><h5>• Done Bachelor of Computer Application from Allahabad Agriculture Institute Deemed Universitywith 7.96 CGPA.</h5></p>
   </div>
 </div>
 

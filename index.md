@@ -228,7 +228,7 @@ body {
 
 <div id="b1" class="containerTab" style="background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <!--h2>Objective</h2-->
+  <h2>Objective</h2>
   <div class="main">
     <p><h5>My objective is to achieve a challenging position in Software testing and Quality Management in a company, where acquired skills will be utilized towards continued growth and advancement of the organization.</h5></p>
   </div>
@@ -238,7 +238,7 @@ body {
 
 <div id="b2" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <!--h2>Summary</h2-->
+  <h2>Summary</h2>
   <div class="main">
     <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -252,33 +252,32 @@ body {
 
 <div id="b3" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <!--h2>Experience</h2-->
+  <h2>Experience</h2>
   <div class="main">
-    <p><h5>• Working as an Associate Team Lead in Xorlabs.com, Greater Noida from March-2014 to till date.</h5></p>
-    <p><h5>• Worked as a Software Test Engineer in Safenet Infotech Pvt. Ltd., Noida through Magna InfoTech Pvt. Ltd., Hyderabad from March-2012 to March-2014.</h5></p>
+    <p><h5>• Working as an Associate Team Lead in Xorlabs.com, Greater Noida from March-2014 to till date</h5></p>
+    <p><h5>• Worked as a Software Test Engineer in Safenet Infotech Pvt. Ltd., Noida through Magna InfoTech Pvt. Ltd., Hyderabad from March-2012 to March-2014</h5></p>
   </div>
 </div>
 
 <div id="b4" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <!--h2>Certifications</h2-->
+  <h2>Certifications</h2>
   <div class="main">
-    <p><h5>1) Certified Tester Foundation Level in Software Testing.</h5></p>
+    <p><h5>• Certified Tester Foundation Level in Software Testing</h5></p>
   </div>
 </div>
 
 
 <div id="b5" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <!--h2>Software Skills</h2-->
+  <h2>Software Skills</h2>
   <div class="main">
-       <h2>TITLE HEADING</h2>
-    <p><h5>Title description, Dec 7, 2017</h5></p>
-    <p>Some text..</p>
-    <br>
-    <p><h2>TITLE HEADING</h2></p>
-    <p><h5>Title description, Sep 2, 2017</h5></p>
-    <p>Some text..</p>
+    <p><h5>• Automation Testing Tool		Selenium, Ranorex and TestComplete</h5></p>
+    <p><h5>• Version Management Tool		SVN, Github</h5></p>
+	<p><h5>• Bug Reporting Tools			QC, JIRA</h5></p>
+    <p><h5>• Operating System				Windows XP/7/10, Server 2K8</h5></p>
+	<p><h5>• Applications					MS-Office: Excel, Word, Power Point</h5></p>
+    <p><h5>• Database				    	SQL Server</h5></p>
   </div>
 </div>
 
@@ -286,7 +285,7 @@ body {
 
 <div id="b6" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <!--h2>Projects</h2-->
+  <h2>Projects</h2>
   <div class="main">
        <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -301,10 +300,10 @@ body {
 
 <div id="b7" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <!--h2>Qualification</h2-->
+  <h2>Qualification</h2>
   <div class="main">
-    <p><h5>• Done Master of Computer Application from UP Technical University with 64.28%.</h5></p>
-    <p><h5>• Done Bachelor of Computer Application from Allahabad Agriculture Institute Deemed Universitywith 7.96 CGPA.</h5></p>
+    <p><h5>• Done Master of Computer Application from UP Technical University with 64.28%</h5></p>
+    <p><h5>• Done Bachelor of Computer Application from Allahabad Agriculture Institute Deemed Universitywith 7.96 CGPA</h5></p>
   </div>
 </div>
 

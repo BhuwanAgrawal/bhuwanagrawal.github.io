@@ -239,14 +239,26 @@ body {
 <div id="b2" class="containerTab" style="display:none;background:LightSteelBlue;color:black">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Summary</h2>
-  <div class="main">
-    <h2>TITLE HEADING</h2>
-    <p><h5>Title description, Dec 7, 2017</h5></p>
-    <p>Some text..</p>
-    <br>
-    <p><h2>TITLE HEADING</h2></p>
-    <p><h5>Title description, Sep 2, 2017</h5></p>
-    <p>Some text..</p>
+  <div class="main">  
+    <h2>A total 9 years of Quality Assurance experience in Software industry</h2>
+    <p><h5>•	Extensive knowledge in performing Automation testing using Selenium, Ranorex and TestComplete.</h5></p>
+	<p><h5>•	Proficient in VBScript.</h5></p>
+	<p><h5>•	Knowledge of SDLC and STLC.</h5></p>
+	<p><h5>•	Good knowledge and experience of providing quality control in web based as well as Client-server-based applications.</h5></p>
+	<p><h5>•	Extensive experience in following QA Methodologies: writing Test Cases, executing and reporting.</h5></p>
+	<p><h5>•	Performed Defect Reporting and Tracking throughout the defect life cycle.</h5></p>
+	<p><h5>•	Experience in Black Box Testing, Database Testing and Functional Testing, Automation Testing.</h5></p>
+	<p><h5>•	Testing on different Operating System Windows XP/7/10,Server 2K8</h5></p>
+	<p><h5>•	Skilled on: </h5></p>
+	<p><h5>•	Automation Testing Tool: Selenium, Ranorex and TestComplete</h5></p>
+	<p><h5>•	Version Management Tool: SVN, Github</h5></p>
+	<p><h5>•	Bug Reporting Tools: QC, JIRA</h5></p>
+	<p><h5>•	Responsible for Project Planning and Estimations</h5></p>
+	<p><h5>•	Team Management (Team size of 7)</h5></p>
+	<p><h5>•	Efficient tasks delegation</h5></p>
+	<p><h5>•	Daily Scrum / Status tracking of tasks</h5></p>
+	<p><h5>•	Project/Defect status Reporting</h5></p>
+	<p><h5>•	Self-starter and highly motivated with team building spirit and ability to mentor and learn from team members.</h5></p>
   </div>
 </div>
 

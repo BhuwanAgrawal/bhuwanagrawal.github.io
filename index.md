@@ -274,10 +274,10 @@ body {
   <div class="main">
     <p><h5>• Automation Testing Tool:&emsp;&emsp;&emsp;Selenium, Ranorex and TestComplete</h5></p>
     <p><h5>• Version Management Tool:&emsp;&emsp;SVN, Github</h5></p>
-	<p><h5>• Bug Reporting Tools:&emsp;&emsp;&emsp;&emsp;QC, JIRA</h5></p>
-    <p><h5>• Operating System:&emsp;&emsp;&emsp;&emsp;&emsp;Windows XP/7/10, Server 2K8</h5></p>
-	<p><h5>• Applications:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;MS-Office: Excel, Word, Power Point</h5></p>
-    <p><h5>• Database:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SQL Server</h5></p>
+	<p><h5>• Bug Reporting Tools:&emsp;&emsp;&emsp;&emsp;&ensp;QC, JIRA</h5></p>
+    <p><h5>• Operating System:&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Windows XP/7/10, Server 2K8</h5></p>
+	<p><h5>• Applications:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;MS-Office: Excel, Word, Power Point</h5></p>
+    <p><h5>• Database:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SQL Server</h5></p>
   </div>
 </div>
 

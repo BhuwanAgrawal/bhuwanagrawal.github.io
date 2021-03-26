@@ -185,12 +185,12 @@ body {
 <div style="text-align:center; line-height: 1.0">
   <h2><u>CURRICULUM VITAE</u></h2>
   <img src="CTFL.png" alt="Cinque Terre" width="200" height="150" align="right" padding="10px">
-  <h6> <b>Name: </b>Bhuwan Agrawal</h6>
-  <h6><i class='fa fa-home'></i>: B-105 Stellar Mi Citihomes,</h6>
-  <h6>Omicron 3, Greater Noida, 201310</h6>
-  <h6><i class='fas fa-mobile-alt'></i>: 8800149988</h6>
-  <h6><i class='fa fa-envelope'></i>: <A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
-  <h6><i class='fab fa-linkedin'></i>: <a href="https://www.linkedin.com/in/bhuwanagrawal">BhuwanAgrawal</a></h6>
+  <h6 style="color:black"> <b>Name: </b>Bhuwan Agrawal</h6>
+  <h6 style="color:black"><i class='fa fa-home'></i>: B-105 Stellar Mi Citihomes,</h6>
+  <h6 style="color:black">Omicron 3, Greater Noida, 201310</h6>
+  <h6 style="color:black"><i class='fas fa-mobile-alt'></i>: 8800149988</h6>
+  <h6 style="color:black"><i class='fa fa-envelope'></i>: <A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
+  <h6 style="color:black"><i class='fab fa-linkedin'></i>: <a href="https://www.linkedin.com/in/bhuwanagrawal">BhuwanAgrawal</a></h6>
 </div>
 <!--div style="text-align:center">
   <p>For detail information click on the boxes below:</p>
@@ -268,13 +268,7 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Certifications</h2-->
   <div class="main">
-    <h2>TITLE HEADING</h2>
-    <p><h5>Title description, Dec 7, 2017</h5></p>
-    <p>Some text..</p>
-    <br>
-    <p><h2>TITLE HEADING</h2></p>
-    <p><h5>Title description, Sep 2, 2017</h5></p>
-    <p>Some text..</p>
+    <p><h5>1) Certified Tester Foundation Level in Software Testing.</h5></p>
   </div>
 </div>
 

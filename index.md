@@ -199,7 +199,7 @@ body {
 
 
 
-<!-- Three columns -->
+<!-- Seven columns -->
 <div class="row">
   <div class="column" onclick="openTab('b1');" style="background:#F5F5DC;">
     <b>Objective</b>
@@ -208,13 +208,13 @@ body {
     <b>Summary</b>
   </div>
   <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;">
-    <b>Working Experience</b>
+    <b>Experience</b>
   </div>
    <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;">
     <b>Certifications</b>
   </div>
   <div class="column" onclick="openTab('b5');" style="background:#F5F5DC;">
-    <b>Software Skill Set</b>
+    <b>Software Skills</b>
   </div>
   <div class="column" onclick="openTab('b6');" style="background:#F5F5DC;">
     <b>Projects</b>
@@ -258,7 +258,7 @@ body {
 
 <div id="b3" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Working Experience</h2>
+  <h2>Experience</h2>
   <div class="main">
       <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -287,7 +287,7 @@ body {
 
 <div id="b5" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Software Skill Set</h2>
+  <h2>Software Skills</h2>
   <div class="main">
        <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>

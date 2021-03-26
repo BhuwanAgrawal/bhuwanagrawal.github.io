@@ -228,7 +228,7 @@ body {
 
 <div id="b1" class="containerTab" style="background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Objective</h2>
+  <!--h2>Objective</h2-->
   <div class="main">
     <p><h5>My objective is to achieve a challenging position in Software testing and Quality Management in a company, where acquired skills will be utilized towards continued growth and advancement of the organization.</h5></p>
   </div>
@@ -238,7 +238,7 @@ body {
 
 <div id="b2" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Summary</h2>
+  <!--h2>Summary</h2-->
   <div class="main">
     <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -252,7 +252,7 @@ body {
 
 <div id="b3" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Experience</h2>
+  <!--h2>Experience</h2-->
   <div class="main">
       <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -266,7 +266,7 @@ body {
 
 <div id="b4" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Certifications</h2>
+  <!--h2>Certifications</h2-->
   <div class="main">
     <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -281,7 +281,7 @@ body {
 
 <div id="b5" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Software Skills</h2>
+  <!--h2>Software Skills</h2-->
   <div class="main">
        <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -297,7 +297,7 @@ body {
 
 <div id="b6" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Projects</h2>
+  <!--h2>Projects</h2-->
   <div class="main">
        <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>
@@ -312,7 +312,7 @@ body {
 
 <div id="b7" class="containerTab" style="display:none;background:LightSteelBlue">
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
-  <h2>Qualification</h2>
+  <!--h2>Qualification</h2-->
   <div class="main">
        <h2>TITLE HEADING</h2>
     <p><h5>Title description, Dec 7, 2017</h5></p>

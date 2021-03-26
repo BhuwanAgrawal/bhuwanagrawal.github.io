@@ -250,14 +250,16 @@ body {
 	<p><h5>•	Experience in Black Box Testing, Database Testing and Functional Testing, Automation Testing.</h5></p>
 	<p><h5>•	Testing on different Operating System Windows XP/7/10,Server 2K8</h5></p>
 	<p><h5>•	Skilled on: </h5></p>
-	<p><h5>•	Automation Testing Tool: Selenium, Ranorex and TestComplete</h5></p>
-	<p><h5>•	Version Management Tool: SVN, Github</h5></p>
-	<p><h5>•	Bug Reporting Tools: QC, JIRA</h5></p>
+	<p><h5>&emsp;&emsp•	Automation Testing Tool: Selenium, Ranorex and TestComplete</h5></p>
+	<p><h5>&emsp;&emsp•	Version Management Tool: SVN, Github</h5></p>
+	<p><h5>&emsp;&emsp•	Bug Reporting Tools: QC, JIRA</h5></p>
+	<p><h5></h5></p>
 	<p><h5>•	Responsible for Project Planning and Estimations</h5></p>
 	<p><h5>•	Team Management (Team size of 7)</h5></p>
 	<p><h5>•	Efficient tasks delegation</h5></p>
 	<p><h5>•	Daily Scrum / Status tracking of tasks</h5></p>
 	<p><h5>•	Project/Defect status Reporting</h5></p>
+	<p><h5></h5></p>
 	<p><h5>•	Self-starter and highly motivated with team building spirit and ability to mentor and learn from team members.</h5></p>
   </div>
 </div>

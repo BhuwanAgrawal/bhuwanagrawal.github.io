@@ -183,7 +183,7 @@ body {
 
 <div class="header">
 <div style="text-align:center">
-  <h3><u>CURRICULUM VITAE</u></h3>
+  <h2><u>CURRICULUM VITAE</u></h2>
   <img src="CTFL.png" alt="Cinque Terre" width="200" height="150" align="right" padding="10px">
   <h6> <b>Name: </b>Bhuwan Agrawal</h6>
   <h6><i class='fa fa-home'></i>: B-105 Stellar Mi Citihomes,</h6>

@@ -182,7 +182,7 @@ body {
 
 
 <div class="header">
-<div style="text-align:center">
+<div style="text-align:center" line-height: normal;>
   <h2><u>CURRICULUM VITAE</u></h2>
   <img src="CTFL.png" alt="Cinque Terre" width="200" height="150" align="right" padding="10px">
   <h6> <b>Name: </b>Bhuwan Agrawal</h6>

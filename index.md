@@ -185,12 +185,12 @@ body {
 <div style="text-align:center; line-height: 1.0">
   <h2><u>CURRICULUM VITAE</u></h2>
   <img src="CTFL.png" alt="Cinque Terre" width="200" height="150" align="right" padding="10px">
-  <h6> <b>Name: </b>Bhuwan Agrawal</h6>
-  <h6><i class='fa fa-home'></i>: B-105 Stellar Mi Citihomes,</h6>
-  <h6>Omicron 3, Greater Noida, 201310</h6>
-  <h6><i class='fas fa-mobile-alt'></i>: 8800149988</h6>
-  <h6><i class='fa fa-envelope'></i>: <A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
-  <h6><i class='fab fa-linkedin'></i>: <a href="https://www.linkedin.com/in/bhuwanagrawal">BhuwanAgrawal</a></h6>
+  <h6 style="color:black"> <b>Name: </b>Bhuwan Agrawal</h6>
+  <h6 style="color:black"><i class='fa fa-home'></i>: B-105 Stellar Mi Citihomes,</h6>
+  <h6 style="color:black">Omicron 3, Greater Noida, 201310</h6>
+  <h6 style="color:black"><i class='fas fa-mobile-alt'></i>: 8800149988</h6>
+  <h6 style="color:black"><i class='fa fa-envelope'></i>: <A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
+  <h6 style="color:black"><i class='fab fa-linkedin'></i>: <a href="https://www.linkedin.com/in/bhuwanagrawal">BhuwanAgrawal</a></h6>
 </div>
 <!--div style="text-align:center">
   <p>For detail information click on the boxes below:</p>
@@ -230,7 +230,7 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <!--h2>Objective</h2-->
   <div class="main">
-    <p><h5>My objective is to achieve a challenging position in Software testing and Quality Management in a company, where acquired skills will be utilized towards continued growth and advancement of the organization.</h5></p>
+    <p style="color:black"><h5>My objective is to achieve a challenging position in Software testing and Quality Management in a company, where acquired skills will be utilized towards continued growth and advancement of the organization.</h5></p>
   </div>
 </div>
 

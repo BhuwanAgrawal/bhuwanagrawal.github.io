@@ -338,29 +338,4 @@ function openTab(tabName) {
 </div>
 
 </body>
-
-
-<body>
-
-<h1>My First Google Map</h1>
-
-<div id="googleMap" style="width:100%;height:400px;"></div>
-
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
-
-<script src="https://www.google.com/maps/place/Stellar+MI+Citihomes/@28.4780949,77.5511076,15z/data=!4m5!3m4!1s0x0:0xb97e1cb9aa3dca4b!8m2!3d28.4780949!4d77.5511076"></script>
-
-</body>
-
-
-
-
 </html>

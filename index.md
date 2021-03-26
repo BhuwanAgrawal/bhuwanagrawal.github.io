@@ -210,7 +210,7 @@ body {
   <div class="column" onclick="openTab('b3');" style="background:#F5F5DC;column-rule-style:double;column-gap: 20px;column-width: 50px">
     <b>Experience</b>
   </div>
-   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;column-rule-style:double;column-gap: 25px;column-width: 50px">
+   <div class="column" onclick="openTab('b4');" style="background:#F5F5DC;column-rule-style:double;column-gap: 30px;column-width: 50px">
     <b>Certifications</b>
   </div>
   <div class="column" onclick="openTab('b5');" style="background:#F5F5DC;column-rule-style:double;column-gap: 30px;column-width: 50px">
@@ -219,7 +219,7 @@ body {
   <div class="column" onclick="openTab('b6');" style="background:#F5F5DC;column-rule-style:double;column-gap: 5px;column-width: 50px">
     <b>Projects</b>
   </div>
-   <div class="column" onclick="openTab('b7');" style="background:#F5F5DC;column-rule-style:double;column-gap: 20px;column-width: 50px">
+   <div class="column" onclick="openTab('b7');" style="background:#F5F5DC;column-rule-style:double;column-gap: 25px;column-width: 50px">
     <b>Qualification</b>
   </div>
 </div>

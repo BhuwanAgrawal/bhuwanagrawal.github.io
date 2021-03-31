@@ -306,10 +306,10 @@ body {
 	
 	<h2>• SQLCM Xorlabs.com, Greater Noida (Jan-2020 – Till Date)</h2>
     <p><h5>Role: (Manual/Automation Testing)</h5></p>
-    <p>• Involved in Manual Testing of the application.
-• Involved in Automation Testing of the application using Ranorex.
-• Created Automated Test scripts for the functionalities and executed the same through Ranorex.
-• Maintenance of TestComplete test scripts.</p>
+    <p>• Involved in Manual Testing of the application.</p>
+<p>• Involved in Automation Testing of the application using Ranorex.</p>
+<p>• Created Automated Test scripts for the functionalities and executed the same through Ranorex.</p>
+<p>• Maintenance of TestComplete test scripts.</p>
 	
 
 

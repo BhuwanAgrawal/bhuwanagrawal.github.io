@@ -240,7 +240,7 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Summary</h2>
   <div class="main">  
-    <h2>A total 9 years of Quality Assurance experience in Software industry</h2>
+    <h2>A total 9.5 years of Quality Assurance experience in Software industry</h2>
     <p><h5>•	Extensive knowledge in performing Automation testing using Selenium, Ranorex and TestComplete.</h5></p>
 	<p><h5>•	Proficient in VBScript.</h5></p>
 	<p><h5>•	Knowledge of SDLC and STLC.</h5></p>
@@ -253,6 +253,7 @@ body {
 	<p><h5>&emsp;&emsp;•	Automation Testing Tool: Selenium, Ranorex and TestComplete</h5></p>
 	<p><h5>&emsp;&emsp;•	Version Management Tool: SVN, Github</h5></p>
 	<p><h5>&emsp;&emsp;•	Bug Reporting Tools: QC, JIRA</h5></p>
+	<p><h5>&emsp;&emsp;•	Test case management tools: TestRail, TestLink</h5></p>
 	<p><h5>•	Responsible for Project Planning and Estimations</h5></p>
 	<p><h5>•	Team Management (Team size of 7)</h5></p>
 	<p><h5>•	Efficient tasks delegation</h5></p>
@@ -266,7 +267,8 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Experience</h2>
   <div class="main">
-    <p><h5>• Working as an Associate Team Lead in Xorlabs.com, Greater Noida from March-2014 to till date</h5></p>
+    <p><h5>• Working as a Sr. Test Engineer in DLT LABS, Noida from June-2021 to till date.</h5></p>
+    <p><h5>• Worked as an Associate Team Lead in Xorlabs.com, Greater Noida from March-2014 to June-2021.</h5></p>
     <p><h5>• Worked as a Software Test Engineer in Safenet Infotech Pvt. Ltd., Noida through Magna InfoTech Pvt. Ltd., Hyderabad from March-2012 to March-2014</h5></p>
   </div>
 </div>
@@ -290,6 +292,7 @@ body {
     <p><h5>• Operating System:&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Windows XP/7/10, Server 2K8</h5></p>
 	<p><h5>• Applications:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;MS-Office: Excel, Word, Power Point</h5></p>
     <p><h5>• Database:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;SQL Server</h5></p>
+	<p><h5>• Test case management tools:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;TestRail, TestLink</h5></p>
   </div>
 </div>
 
@@ -299,7 +302,14 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Projects</h2>
   <div class="main">
-  	<h2>• SQLCM Xorlabs.com, Greater Noida (Jan-2020 – Till Date)</h2>
+  
+    <h2>•	THOR (DL Asset Track) DLT LABS, Noida (June-2021 – Till Date)</h2>
+    <p><h5>Role: (Manual Testing)</h5></p>
+    <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
+	<p>• Created Test cases for the functionalities and executed the same.</p>
+	<p>• Bug Reporting/ Maintenance done using Jira.</p>
+ 
+  	<h2>• SQLCM Xorlabs.com, Greater Noida (Jan-2020 – June-2021)</h2>
     <p><h5>Role: (Manual/Automation Testing)</h5></p>
     <p>• Involved in Manual Testing of the application.</p>
 	<p>• Involved in Automation Testing of the application using Ranorex.</p>

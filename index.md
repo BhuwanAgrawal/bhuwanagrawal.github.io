@@ -292,7 +292,7 @@ body {
     <p><h5>• Operating System:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Windows XP/7/10, Server 2K8</h5></p>
 	<p><h5>• Applications:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;MS-Office: Excel, Word, Power Point</h5></p>
     <p><h5>• Database:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;SQL Server</h5></p>
-	<p><h5>• Test Case Management Tools:&emsp;&emsp;&emsp;&emsp;&ensp;TestRail, TestLink</h5></p>
+	<p><h5>• Test Case Management Tools:&emsp;&emsp;&emsp;&emsp;TestRail, TestLink</h5></p>
   </div>
 </div>
 

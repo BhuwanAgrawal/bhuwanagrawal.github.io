@@ -186,7 +186,7 @@ body {
   <h2><u>CURRICULUM VITAE</u></h2>
   <img src="CTFL.png" alt="Cinque Terre" width="200" height="150" align="right" padding="10px">
   <h6 style="color:black"> <b>Name: </b>Bhuwan Agrawal</h6>
-  <h6 style="color:black"><i class='fa fa-home'></i>: B-105 Stellar Mi Citihomes,</h6>
+  <h6 style="color:black"><i class='fa fa-home' aria-hidden="true"></i>: B-105 Stellar Mi Citihomes,</h6>
   <h6 style="color:black">Omicron 3, Greater Noida, 201310</h6>
   <h6 style="color:black"><i class='fas fa-mobile-alt'></i>: 8800149988</h6>
   <h6 style="color:black"><i class='fa fa-envelope'></i>: <A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>

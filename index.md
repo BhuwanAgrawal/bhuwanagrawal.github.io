@@ -240,7 +240,7 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Summary</h2>
   <div class="main">  
-    <h2>A total 9.9 years of Quality Assurance experience in Software industry</h2>
+    <h2>A total 10.3 years of Quality Assurance experience in Software industry</h2>
     <p><h5>•	Extensive knowledge in performing Automation testing using Selenium, Ranorex and TestComplete.</h5></p>
 	<p><h5>•	Proficient in VBScript.</h5></p>
 	<p><h5>•	Knowledge of SDLC and STLC.</h5></p>
@@ -303,12 +303,20 @@ body {
   <h2>Projects</h2>
   <div class="main">
   
-    <h2>•	THOR (DL Asset Track) DLT LABS, Noida (June-2021 – Till Date)</h2>
+	<h2>•	PPD (DL Asset Track) DLT LABS, Noida (Mar-2022 – Till Date)</h2>
     <p><h5>Role: (Manual Testing)</h5></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
-	<p>• Created Test cases for the functionalities and executed the same.</p>
+	<p>• Created Test cases in Test case management tool (TestLink) for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
- 
+  
+	<br>
+    <h2>•	THOR (DL Asset Track) DLT LABS, Noida (June-2021 – Feb-2022)</h2>
+    <p><h5>Role: (Manual Testing)</h5></p>
+    <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
+	<p>• Created Test cases in Test case management tool (TestLink) for the functionalities and executed the same.</p>
+	<p>• Bug Reporting/ Maintenance done using Jira.</p>
+	
+	<br>
   	<h2>• SQLCM Xorlabs.com, Greater Noida (Jan-2020 – June-2021)</h2>
     <p><h5>Role: (Manual/Automation Testing)</h5></p>
     <p>• Involved in Manual Testing of the application.</p>

@@ -240,7 +240,7 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Summary</h2>
   <div class="main">  
-    <h2>A total 10.3 years of Quality Assurance experience in Software industry</h2>
+    <h2>A total 10.7 years of Quality Assurance experience in Software industry</h2>
     <p><h5>•	Extensive knowledge in performing Automation testing using Selenium, Ranorex and TestComplete.</h5></p>
 	<p><h5>•	Proficient in VBScript.</h5></p>
 	<p><h5>•	Knowledge of SDLC and STLC.</h5></p>

@@ -1,7 +1,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
 
 
 
@@ -186,10 +187,10 @@ body {
   <h2><u>CURRICULUM VITAE</u></h2>
   <img src="CTFL.png" alt="Cinque Terre" width="200" height="150" align="right" padding="10px">
   <h6 style="color:black"> <b>Name: </b>Bhuwan Agrawal</h6>
-  <h6 style="color:black"><i class='fas fa-home'></i> <b>:</b> B-105 Stellar Mi Citihomes,</h6>
+  <h6 style="color:black"><i class='fa fa-home'></i> <b>:</b> B-105 Stellar Mi Citihomes,</h6>
   <h6 style="color:black">Omicron 3, Greater Noida, 201310</h6>
   <h6 style="color:black"><i class='fas fa-mobile-alt'></i> <b>:</b> 8800149988</h6>
-  <h6 style="color:black"><i class='fas fa-envelope'></i> <b>:</b> <A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
+  <h6 style="color:black"><i class='fa fa-envelope'></i> <b>:</b> <A HREF="mailto:name@mydomain.com">bhuwan83@gmail.com</A></h6>
   <h6 style="color:black"><i class='fab fa-linkedin'></i> <b>:</b> <a href="https://www.linkedin.com/in/bhuwanagrawal">BhuwanAgrawal</a></h6>
 </div>
 <!--div style="text-align:center">

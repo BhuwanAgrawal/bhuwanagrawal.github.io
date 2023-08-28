@@ -312,28 +312,28 @@ body {
   
 	<br>
   	<h2>•	Jarvis Retail Lending Bitxia Technology, Gurugram (Sep-2022 – Apr-2023)</h2>
-    <p><h5>Role: (Project Management, Manual Testing)</h5></p>
+    <p><h4>Role: (Project Management, Manual Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases in Test case management tool (TestLink) for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
   
 	<br>
 	<h2>•	PPD (DL Asset Track) DLT LABS, Noida (Mar-2022 – Sep-2022)</h2>
-    <p><h5>Role: (Manual Testing)</h5></p>
+    <p><h4>Role: (Manual Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases in Test case management tool (TestLink) for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
   
 	<br>
     <h2>•	THOR (DL Asset Track) DLT LABS, Noida (June-2021 – Feb-2022)</h2>
-    <p><h5>Role: (Manual Testing)</h5></p>
+    <p><h4>Role: (Manual Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases in Test case management tool (TestLink) for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
 	
 	<br>
   	<h2>• SQLCM Xorlabs.com, Greater Noida (Jan-2020 – June-2021)</h2>
-    <p><h5>Role: (Manual/Automation Testing)</h5></p>
+    <p><h4>Role: (Manual/Automation Testing)</h4></p>
     <p>• Involved in Manual Testing of the application.</p>
 	<p>• Involved in Automation Testing of the application using Ranorex.</p>
 	<p>• Created Automated Test scripts for the functionalities and executed the same through Ranorex.</p>
@@ -341,13 +341,13 @@ body {
 	
     <br>
     <p><h2>• XMF Automation Xorlabs.com, Greater Noida (Jan-2019 – Dec-2020)</h2></p>
-    <p><h5>Role: (Automation Testing)</h5></p>
+    <p><h4>Role: (Automation Testing)</h4></p>
     <p>• Developed a Hybrid framework using Selenium Web driver and Java.</p>
 	<p>• Writing test scripts using keywords.</p>
 	
 	<br>
     <p><h2>• SQLCM Xorlabs.com, Greater Noida (Sep-2016 – Dec-2019)</h2></p>
-    <p><h5>Role: (Manual/Automation Testing)</h5></p>
+    <p><h4>Role: (Manual/Automation Testing)</h4></p>
     <p>• Involved in Manual Testing of the application.</p>
 	<p>• Involved in Automation Testing of the application using Ranorex.</p>
 	<p>• Created Automated Test scripts for the functionalities and executed the same through Ranorex.</p>
@@ -355,34 +355,34 @@ body {
 
 	<br>
     <p><h2>• CML Configurator Model Testing Xorlabs.com, Greater Noida (May-2015 – May-2019)</h2></p>
-    <p><h5>Role: (Manual Testing)</h5></p>
+    <p><h4>Role: (Manual Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
 
 	<br>
     <p><h2>• SQL Secure Xorlabs.com, Greater Noida (Aug-2017 – Oct-2017)</h2></p>
-    <p><h5>Role: (Automation Testing)</h5></p>
+    <p><h4>Role: (Automation Testing)</h4></p>
     <p>• Involved in Automation Testing of the application.</p>
 	<p>• Created Automated Test scripts for the functionalities and executed the same through TestComplete</p>
 
 	<br>
     <p><h2>• Uptime Xorlabs.com, Greater Noida (Jan-2017– July-2017)</h2></p>
-    <p><h5>Role: (Manual Testing)</h5></p>
+    <p><h4>Role: (Manual Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
     <p>• Created Test cases for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
 
 	<br>
     <p><h2>• ASD	Xorlabs.com, Greater Noida (Mar-2014 – Dec-2016)</h2></p>
-    <p><h5>Role: (Manual Testing)</h5></p>
+    <p><h4>Role: (Manual Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
 	
 	<br>
     <p><h2>• One Source Configurator (OSC) Xorlabs.com, Greater Noida (Mar-2014 – Dec-2016)</h2></p>
-    <p><h5>Role: (Manual Testing/Automation Testing)</h5></p>
+    <p><h4>Role: (Manual Testing/Automation Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
@@ -391,7 +391,7 @@ body {
 
 	<br>
     <p><h2>• MSQT	Xorlabs.com., Greater Noida (Mar-2014 – Dec-2015)</h2></p>
-    <p><h5>Role: (Manual Testing)</h5></p>
+    <p><h4>Role: (Manual Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
@@ -399,21 +399,21 @@ body {
 
 	<br>
     <p><h2>• Usage Reporting System	Safenet Infotech Pvt. Ltd., Noida (Dec-2012– Mar-2014)</h2></p>
-    <p><h5>Role: (Manual Testing)</h5></p>
+    <p><h4>Role: (Manual Testing)</h4></p>
     <p>• Involved in Functional Testing, Database Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
     <p>• Created Test cases for the functionalities and executed the same.</p>
     <p>• Bug Reporting/ Maintenance done using MKS/Jira.</p>
 
 	<br>
     <p><h2>• WPS Online	Safenet Infotech Pvt. Ltd., Noida (Mar-2012 – Dec-2012)</h2></p>
-    <p><h5>Role: (Manual Testing/Automation Testing)</h5></p>
+    <p><h4>Role: (Manual Testing/Automation Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases for the functionalities and executed the same.</p>
 	<p>• Involved in writing/maintenance of QTP scripts (with VB script) for functional of the application.</p>
 	<p>• Bug Reporting/ Maintenance done using MKS.</p>
 	<br>
     <p><h2>• WPS Client	Safenet Infotech Pvt. Ltd., Noida (Mar-2012 – Dec-2012)</h2></p>
-    <p><h5>Role: (Manual Testing/Automation Testing)</h5></p>
+    <p><h4>Role: (Manual Testing/Automation Testing)</h4></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
     <p>• Created Test cases for the functionalities and executed the same.</p>
     <p>• Involved in writing/maintenance of QTP scripts (with VB script) for functional of the application.</p>

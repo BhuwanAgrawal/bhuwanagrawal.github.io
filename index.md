@@ -240,7 +240,7 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Summary</h2>
   <div class="main">  
-    <h2>A total 10.7 years of Quality Assurance experience in Software industry</h2>
+    <h2>A total 11.7 years of Quality Assurance experience in Software industry</h2>
     <p><h5>•	Extensive knowledge in performing Automation testing using Selenium, Ranorex and TestComplete.</h5></p>
 	<p><h5>•	Proficient in VBScript.</h5></p>
 	<p><h5>•	Knowledge of SDLC and STLC.</h5></p>
@@ -267,7 +267,8 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Experience</h2>
   <div class="main">
-    <p><h5>• Working as a Sr. Test Engineer in DLT LABS, Noida from June-2021 to till date.</h5></p>
+    <p><h5>• Working as a QA Manager in Bitxia Technology, Gurugram from Sep-2022 to Present</h5></p>
+    <p><h5>• Worked as a Sr. Test Engineer in DLT LABS, Noida from June-2021 to Sep-2022</h5></p>
     <p><h5>• Worked as an Associate Team Lead in Xorlabs.com, Greater Noida from March-2014 to June-2021.</h5></p>
     <p><h5>• Worked as a Software Test Engineer in Safenet Infotech Pvt. Ltd., Noida through Magna InfoTech Pvt. Ltd., Hyderabad from March-2012 to March-2014</h5></p>
   </div>
@@ -302,8 +303,22 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Projects</h2>
   <div class="main">
+
+  	<h2>•	Investor Portal Bitxia Technology, Gurugram (Sep-2022 – Till Date)</h2>
+    <p><h5>Role: (Project Management, Manual Testing)</h5></p>
+    <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
+	<p>• Created Test cases in Test case management tool (TestLink) for the functionalities and executed the same.</p>
+	<p>• Bug Reporting/ Maintenance done using Jira.</p>
   
-	<h2>•	PPD (DL Asset Track) DLT LABS, Noida (Mar-2022 – Till Date)</h2>
+	<br>
+  	<h2>•	Jarvis Retail Lending Bitxia Technology, Gurugram (Sep-2022 – Apr-2023)</h2>
+    <p><h5>Role: (Project Management, Manual Testing)</h5></p>
+    <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
+	<p>• Created Test cases in Test case management tool (TestLink) for the functionalities and executed the same.</p>
+	<p>• Bug Reporting/ Maintenance done using Jira.</p>
+  
+	<br>
+	<h2>•	PPD (DL Asset Track) DLT LABS, Noida (Mar-2022 – Sep-2022)</h2>
     <p><h5>Role: (Manual Testing)</h5></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases in Test case management tool (TestLink) for the functionalities and executed the same.</p>

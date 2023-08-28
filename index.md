@@ -305,7 +305,7 @@ body {
   <div class="main">
 
   	<h2>•	Investor Portal Bitxia Technology, Gurugram (Sep-2022 – Till Date)</h2>
-    <p><h5>Role: (Project Management, Manual Testing)</h5></p>
+    <p><h5><b>Role: (Project Management, Manual Testing)</b></h5></p>
     <p>• Involved in Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
 	<p>• Created Test cases in Test case management tool (TestLink) for the functionalities and executed the same.</p>
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>

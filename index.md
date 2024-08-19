@@ -268,7 +268,7 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Experience</h2>
   <div class="main">
-    <p><h5>• Working as a QA Manager in Bitxia Technology, Gurugram from Sep-2022 to Present</h5></p>
+    <p><h5>• Working as a QA Manager in Bitxia Tech, Gurugram from Sep-2022 to Present</h5></p>
     <p><h5>• Worked as a Sr. Test Engineer in DLT LABS, Noida from June-2021 to Sep-2022</h5></p>
     <p><h5>• Worked as an Associate Team Lead in Xorlabs.com, Greater Noida from March-2014 to June-2021.</h5></p>
     <p><h5>• Worked as a Software Test Engineer in Safenet Infotech Pvt. Ltd., Noida through Magna InfoTech Pvt. Ltd., Hyderabad from March-2012 to March-2014</h5></p>
@@ -305,7 +305,7 @@ body {
   <h2>Projects</h2>
   <div class="main">
   
-   	<h2>•	Investor Portal Bitxia Technology, Gurugram (Apr-2023 – Present)</h2>
+   	<h2>• APL Logistics Application Bitxia Tech, Gurugram  (Apr-2023 – Present)</h2>
     <p><h4><b>Role: (Project Management, Manual Testing)</b></h4></p>
 	<p>• Handling the team of 5 resources</p>
 	<p>• Client interaction</p>
@@ -316,7 +316,7 @@ body {
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
   
 	<br>
-  	<h2>•	Investor Portal Bitxia Technology, Gurugram (Sep-2022 – Apr-2023)</h2>
+  	<h2>•	Investor Portal Bitxia Tech, Gurugram (Sep-2022 – Apr-2023)</h2>
     <p><h4><b>Role: (Project Management, Manual Testing)</b></h4></p>
 	<p>• Handling the team of 5 resources</p>
 	<p>• Client interaction</p>
@@ -327,7 +327,7 @@ body {
 	<p>• Bug Reporting/ Maintenance done using Jira.</p>
   
 	<br>
-  	<h2>•	Jarvis Retail Lending Bitxia Technology, Gurugram (Sep-2022 – Apr-2023)</h2>
+  	<h2>•	Jarvis Retail Lending Bitxia Tech, Gurugram (Sep-2022 – Apr-2023)</h2>
     <p><h4>Role: (Project Management, Manual Testing)</h4></p>
 	<p>• Handling the team of 5 resources</p>
 	<p>• Client interaction</p>

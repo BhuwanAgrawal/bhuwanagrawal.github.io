@@ -241,7 +241,7 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Summary</h2>
   <div class="main">  
-    <h2>A total 12.6 years of Quality Assurance experience in Software industry</h2>
+    <h2>A total 13.1 years of Quality Assurance experience in Software industry</h2>
     <p><h5>•	Extensive knowledge in performing Automation testing using Selenium, Ranorex and TestComplete.</h5></p>
 	<p><h5>•	Proficient in VBScript.</h5></p>
 	<p><h5>•	Knowledge of SDLC and STLC.</h5></p>
@@ -304,10 +304,21 @@ body {
   <!--span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span-->
   <h2>Projects</h2>
   <div class="main">
+
+   	<h2>• eNAM 2.0 Application Bitxia Tech, Gurugram  (Dec-2024 – Present)</h2>
+    <p><h4><b>Role: (QA Manager, Manual Testing)</b></h4></p>
+	<p>• Handling the team of 6 resources</p>
+	<p>• Client interaction</p>
+	<p>• Project estimation and planning</p>
+	<p>• Task distribution</p>
+    <p>• Involved in Requirement gathering, Functional Testing, Retesting, Regression Testing and GUI Testing of the application.</p>
+	<p>• Created Test cases for the functionalities and executed the same.</p>
+	<p>• Bug Reporting/ Maintenance done using Jira.</p>
   
+	<br>
    	<h2>• APL Logistics Application Bitxia Tech, Gurugram  (Apr-2023 – Present)</h2>
     <p><h4><b>Role: (Project Management, Manual Testing)</b></h4></p>
-	<p>• Handling the team of 5 resources</p>
+	<p>• Handling the team of 6 resources</p>
 	<p>• Client interaction</p>
 	<p>• Project estimation and planning</p>
 	<p>• Task distribution</p>

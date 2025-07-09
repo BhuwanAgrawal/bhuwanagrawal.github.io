@@ -18,23 +18,21 @@
 </head>
 <body>
 
-<div class="header" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px; position: relative;">
-  <img src="CTFL.png" alt="Certification" style="position: absolute; bottom: 10px; right: 20px; width: 140px; height: auto;">
-  <div style="flex: 1 1 300px; text-align: center;">
-    <h1 style="font-size: 32px; margin-bottom: 5px;"><u>CURRICULUM VITAE</u></h1>
-    <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276;">Bhuwan Agrawal</h2>
-    <h4 style="margin-top: -10px; font-family: 'Georgia', serif; color: #1a5276;">QA Manager</h4>
+<div class="header" style="background-color: LightCyan; padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+  <div style="flex: 1 1 60%; min-width: 300px;">
+    <h1 style="font-size: 32px; text-align: center; margin-bottom: 5px;"><u>CURRICULUM VITAE</u></h1>
+    <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276; text-align: center;">Bhuwan Agrawal</h2>
+    <h4 style="margin-top: -10px; font-family: 'Georgia', serif; color: #1a5276; text-align: center;">QA Manager</h4>
     <hr style="width: 60%; margin: 10px auto; border: 1px solid #1a5276;">
+    <p style="text-align: center;"><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
+    <p style="text-align: center;"><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
+    <p style="text-align: center;"><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal">linkedin.com/in/bhuwanagrawal</a></p>
   </div>
-  <div style="flex: 0 0 auto;">
-  <img src="profile.jpg" alt="Profile Photo" style="width: 140px; height: 140px; border-radius: 8px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+  <div style="flex: 0 1 35%; min-width: 180px; display: flex; flex-direction: column; align-items: center; gap: 15px;">
+    <img src="profile.jpg" alt="Profile Photo" style="width: 140px; height: 140px; border-radius: 8px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+    <img src="CTFL.png" alt="Certification" style="width: 140px; height: auto;">
+  </div>
 </div>
-  <hr style="width: 60%; margin: 10px auto; border: 1px solid #1a5276;">
-  <p><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
-  <p><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
-  <p><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal">linkedin.com/in/bhuwanagrawal</a></p>
-</div>
-
 <div class="navbar">
   <a href="#objective" onclick="openTab('objective'); window.location.hash='objective'">Objective</a>
   <a href="#summary" onclick="openTab('summary'); window.location.hash='summary'">Summary</a>

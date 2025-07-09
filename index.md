@@ -2,32 +2,40 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src='https://kit.fontawesome.com/1053334a8a.js' crossorigin='anonymous'></script>
-<style>
-  body { font-family: Arial, sans-serif; margin: 0; }
-  .header, .footer { background-color: LightCyan; padding: 10px; text-align: center; position: relative; }
-  .header img { position: absolute; top: 10px; right: 20px; width: 160px; height: auto; }
-  .navbar { overflow: hidden; background-color: #333; display: flex; flex-wrap: wrap; justify-content: center; }
-  .navbar a { color: white; padding: 14px 20px; text-decoration: none; display: block; text-align: center; }
-  .navbar a:hover { background-color: #ddd; color: black; }
-  .containerTab { display: none; padding: 20px; background: LightSteelBlue; color: black; }
-  ul { padding-left: 20px; }
-  h2 { color: darkblue; }
-  .activeTab { display: block !important; }
-  .header h1 { font-size: 32px; margin-bottom: 5px; }
-</style>
+<style>$1
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .header > div {
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar a {
+    text-align: left;
+    padding-left: 20px;
+  }
+}</style>
 </head>
 <body>
 
 <div class="header" style="background-color: LightCyan; padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-  <div style="flex: 1 1 60%; min-width: 300px;">
-    <h1 style="font-size: 32px; text-align: center; margin-bottom: 5px;"><u>CURRICULUM VITAE</u></h1>
-    <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276; text-align: center;">Bhuwan Agrawal</h2>
-    <h4 style="margin-top: -10px; font-family: 'Georgia', serif; color: #1a5276; text-align: center;">QA Manager</h4>
-    
-    <p style="text-align: center;"><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
-    <p style="text-align: center;"><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
-    <p style="text-align: center;"><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal">linkedin.com/in/bhuwanagrawal</a></p>
+  <div style="flex: 1 1 60%; min-width: 300px; background-color: #f5f9fc; padding: 15px; border-radius: 10px; border: 1px solid #cfdce6;">
+  <div style="text-align: center;">
+    <h1 style="font-size: 36px; color: #1a5276; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 5px;"><u>Curriculum Vitae</u></h1>
   </div>
+  <div style="text-align: left;">
+    <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276;">Bhuwan Agrawal</h2>
+    <h4 style="margin-top: -10px; font-family: 'Georgia', serif; color: #1a5276;">QA Manager</h4>
+    <p><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
+    <p><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
+    <p><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal">linkedin.com/in/bhuwanagrawal</a></p>
+  </div>
+</div>
   <div style="flex: 0 1 35%; min-width: 180px; display: flex; flex-direction: column; align-items: center;">
   <div style="margin-bottom: 15px;">
     <img src="profile.jpg" alt="Profile Photo" style="width: 140px; height: 140px; border-radius: 8px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.2);">

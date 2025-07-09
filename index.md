@@ -90,17 +90,17 @@
 </div>
 
 <div id="career-objective" class="containerTab">
-  <h2>Objective</h2>
+  <h2>Career Objective</h2>
   <p>To achieve a challenging position in Software Testing and Quality Assurance, leveraging my skills to contribute to the organization's success and personal growth.</p>
 </div>
 
 <div id="profile-summary" class="containerTab">
-  <h2>Professional Summary</h2>
+  <h2>Profile Summary</h2>
   <p>Quality Assurance Professional with over 13 years of experience in software testing, automation, and quality management. Proficient in manual and automated testing using tools such as Selenium, Cypress, Ranorex, and TestComplete. Skilled in test case design, defect tracking, team management, and client communication. Proven ability to lead QA teams, deliver high-quality products, and ensure testing best practices.</p>
 </div>
 
 <div id="work-experience" class="containerTab">
-  <h2>Professional Experience</h2>
+  <h2>Work Experience</h2>
   <ul>
     <li><i class="fas fa-briefcase"></i> <strong>QA Manager – Bitxia Tech Pvt. Ltd.</strong>, Gurugram (Sep 2022 – Present)</li>
     <li><i class="fas fa-briefcase"></i> <strong>Sr. Test Engineer – DLT LABS</strong>, Noida (Jun 2021 – Sep 2022)</li>
@@ -117,7 +117,7 @@
 </div>
 
 <div id="technical-skills" class="containerTab">
-  <h2>Core Skills</h2>
+  <h2>Technical Skills</h2>
   <ul>
     <li><i class="fas fa-tools"></i> Testing Tools: Selenium, Cypress, Ranorex, TestComplete, QTP</li>
     <li><i class="fas fa-code"></i> Languages: Java, VBScript</li>
@@ -159,7 +159,7 @@
 </div>
 
 <div id="academic-background" class="containerTab">
-  <h2>Education</h2>
+  <h2>Academic Background</h2>
   <ul>
     <li>MCA – UP Technical University – 64.28%</li>
     <li>BCA – Allahabad Agriculture Institute – 7.96 CGPA</li>

@@ -19,7 +19,7 @@
 <body>
 
 <div class="header" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px; position: relative;">
-  <img src="CTFL.png" alt="Certification" style="position: absolute; top: 10px; right: 20px; width: 160px; height: auto;">
+  <img src="CTFL.png" alt="Certification" style="position: absolute; bottom: 10px; right: 20px; width: 140px; height: auto;">
   <div style="flex: 1 1 300px; text-align: center;">
     <h1 style="font-size: 32px; margin-bottom: 5px;"><u>CURRICULUM VITAE</u></h1>
     <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276;">Bhuwan Agrawal</h2>

@@ -62,13 +62,18 @@
     </div>
     <div style="flex: 0 1 35%; min-width: 180px; display: flex; flex-direction: column; align-items: center;">
       <div style="margin-bottom: 15px;">
-        <img src="profile.jpg" alt="Profile Photo" style="width: 110px; height: 110px; border-radius: 8px; object-fit: cover; object-position: top; box-shadow: 0 0 8px rgba(0,0,0,0.2); border: 2px solid #1a5276;">
+        <img src="profile.jpg" alt="Profile Photo" style="width: 110px; height: 110px; border-radius: 8px; object-fit: cover; object-position: top center; box-shadow: 0 0 8px rgba(0,0,0,0.2); border: 2px solid #1a5276;">
       </div>
       <div style="text-align: center;">
   <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank" rel="noopener noreferrer">
     <img src="CTFL.png" alt="Certification" style="width: 140px; height: auto; border: 2px solid #1a5276; border-radius: 8px;">
   </a>
-  <div style="margin-top: 5px; font-size: 14px; color: #1a5276;">ISTQB Certified</div>
+  <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #1a5276;" title="View Certification">
+  <div style="margin-top: 5px; font-size: 14px; display: flex; align-items: center; gap: 5px; justify-content: center;">
+    <i class="fas fa-certificate"></i>
+    ISTQB Certified
+  </div>
+</a>
 </div>
     </div>
   </div>

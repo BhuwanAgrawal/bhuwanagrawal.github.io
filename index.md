@@ -4,9 +4,10 @@
 <script src='https://kit.fontawesome.com/1053334a8a.js' crossorigin='anonymous'></script>
 <style>
   body { font-family: Arial, sans-serif; margin: 0; }
-  .header, .footer { background-color: LightCyan; padding: 10px; text-align: center; }
-  .navbar { overflow: hidden; background-color: #333; display: flex; justify-content: space-around; }
-  .navbar a { color: white; padding: 14px 20px; text-decoration: none; display: block; }
+  .header, .footer { background-color: LightCyan; padding: 10px; text-align: center; position: relative; }
+  .header img { position: absolute; top: 10px; right: 20px; width: 120px; height: auto; }
+  .navbar { overflow: hidden; background-color: #333; display: flex; flex-wrap: wrap; justify-content: center; }
+  .navbar a { color: white; padding: 14px 20px; text-decoration: none; display: block; text-align: center; }
   .navbar a:hover { background-color: #ddd; color: black; }
   .containerTab { display: none; padding: 20px; background: LightSteelBlue; color: black; }
   ul { padding-left: 20px; }
@@ -17,6 +18,7 @@
 <body>
 
 <div class="header">
+  <img src="CTFL.png" alt="Certification">
   <h2><u>CURRICULUM VITAE</u></h2>
   <h4>Bhuwan Agrawal</h4>
   <p>B-105 Stellar Mi Citihomes, Omicron 3, Greater Noida, 201310</p>
@@ -25,13 +27,13 @@
 </div>
 
 <div class="navbar">
-  <a onclick="openTab('b1')">Objective</a>
-  <a onclick="openTab('b2')">Summary</a>
-  <a onclick="openTab('b3')">Experience</a>
-  <a onclick="openTab('b6')">Projects</a>
-  <a onclick="openTab('b5')">Skills</a>
-  <a onclick="openTab('b4')">Certifications</a>
-  <a onclick="openTab('b7')">Education</a>
+  <a href="#" onclick="openTab('b1')">Objective</a>
+  <a href="#" onclick="openTab('b2')">Summary</a>
+  <a href="#" onclick="openTab('b3')">Experience</a>
+  <a href="#" onclick="openTab('b6')">Projects</a>
+  <a href="#" onclick="openTab('b5')">Skills</a>
+  <a href="#" onclick="openTab('b4')">Certifications</a>
+  <a href="#" onclick="openTab('b7')">Education</a>
 </div>
 
 <div id="b1" class="containerTab activeTab">

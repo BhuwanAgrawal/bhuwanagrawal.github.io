@@ -193,7 +193,7 @@
   <p><strong><i class="fas fa-building"></i> Safenet Infotech Pvt. Ltd.</strong></p>
   <ul>
     <li>Usage Reporting System, WPS Online, WPS Client</li>
-    <li><em>Responsibilities:</em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS</li>
+    <li><strong>Responsibilities:</strong> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS</li>
   </ul>
 </div>
 

@@ -80,26 +80,26 @@
   </div>
 </div>
 <div class="navbar">
-  <a href="#objective" onclick="openTab('objective'); window.location.hash='objective'">Career Objective</a>
-  <a href="#summary" onclick="openTab('summary'); window.location.hash='summary'">Profile Summary</a>
-  <a href="#projects" onclick="openTab('projects'); window.location.hash='projects'">Key Projects</a>
-  <a href="#experience" onclick="openTab('experience'); window.location.hash='experience'">Work Experience</a>
-  <a href="#skills" onclick="openTab('skills'); window.location.hash='skills'">Technical Skills</a>
+  <a href="#career-objective" onclick="openTab('career-objective'); window.location.hash='career-objective'">Career Objective</a>
+  <a href="#profile-summary" onclick="openTab('profile-summary'); window.location.hash='profile-summary'">Profile Summary</a>
+  <a href="#key-projects" onclick="openTab('key-projects'); window.location.hash='key-projects'">Key Projects</a>
+  <a href="#work-experience" onclick="openTab('work-experience'); window.location.hash='work-experience'">Work Experience</a>
+  <a href="#technical-skills" onclick="openTab('technical-skills'); window.location.hash='technical-skills'">Technical Skills</a>
   <a href="#certifications" onclick="openTab('certifications'); window.location.hash='certifications'">Certifications</a>
-  <a href="#education" onclick="openTab('education'); window.location.hash='education'">Academic Background</a>
+  <a href="#academic-background" onclick="openTab('academic-background'); window.location.hash='academic-background'">Academic Background</a>
 </div>
 
-<div id="objective" class="containerTab">
+<div id="career-objective" class="containerTab">
   <h2>Objective</h2>
   <p>To achieve a challenging position in Software Testing and Quality Assurance, leveraging my skills to contribute to the organization's success and personal growth.</p>
 </div>
 
-<div id="summary" class="containerTab">
+<div id="profile-summary" class="containerTab">
   <h2>Professional Summary</h2>
   <p>Quality Assurance Professional with over 13 years of experience in software testing, automation, and quality management. Proficient in manual and automated testing using tools such as Selenium, Cypress, Ranorex, and TestComplete. Skilled in test case design, defect tracking, team management, and client communication. Proven ability to lead QA teams, deliver high-quality products, and ensure testing best practices.</p>
 </div>
 
-<div id="experience" class="containerTab">
+<div id="work-experience" class="containerTab">
   <h2>Professional Experience</h2>
   <ul>
     <li><i class="fas fa-briefcase"></i> <strong>QA Manager – Bitxia Tech Pvt. Ltd.</strong>, Gurugram (Sep 2022 – Present)</li>
@@ -116,7 +116,7 @@
   </ul>
 </div>
 
-<div id="skills" class="containerTab">
+<div id="technical-skills" class="containerTab">
   <h2>Core Skills</h2>
   <ul>
     <li><i class="fas fa-tools"></i> Testing Tools: Selenium, Cypress, Ranorex, TestComplete, QTP</li>
@@ -130,7 +130,7 @@
   </ul>
 </div>
 
-<div id="projects" class="containerTab">
+<div id="key-projects" class="containerTab">
   <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
   <p><strong><i class="fas fa-building"></i> Bitxia Tech Pvt. Ltd.</strong></p>
   <ul>
@@ -158,7 +158,7 @@
   </ul>
 </div>
 
-<div id="education" class="containerTab">
+<div id="academic-background" class="containerTab">
   <h2>Education</h2>
   <ul>
     <li>MCA – UP Technical University – 64.28%</li>

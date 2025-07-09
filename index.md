@@ -99,7 +99,7 @@
   <p>To achieve a challenging position in Software Testing and Quality Assurance, leveraging my skills to contribute to the organization's success and personal growth.</p>
 </div>
 
-<div id="profile-summary" class="containerTab">
+<div id="profile-summary" class="containerTab activeTab">
   <h2>Profile Summary</h2>
   <p>Quality Assurance Professional with over 13 years of experience in software testing, automation, and quality management. Proficient in manual and automated testing using tools such as Selenium, Cypress, Ranorex, and TestComplete. Skilled in test case design, defect tracking, team management, and client communication. Proven ability to lead QA teams, deliver high-quality products, and ensure testing best practices.</p>
 </div>
@@ -178,7 +178,13 @@ function openTab(tabName) {
   for (let i = 0; i < tabs.length; i++) {
     tabs[i].classList.remove("activeTab");
   }
-  );
+  links.forEach(link => link.classList.remove("activeLink"));
+  const activeTab = document.getElementById(tabName);
+  const activeLink = document.querySelector(`.navbar a[href="#${tabName}"]`);
+  if (activeTab) {
+    activeTab.classList.add("activeTab");
+    if (activeLink) activeLink.classList.add("activeLink");
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 
     // Update document title
     const titleMap = {
@@ -190,20 +196,7 @@ function openTab(tabName) {
       "certifications": "Certifications",
       "academic-background": "Academic Background"
     };
-    if (titleMap[tabName]) {
-      document.title = `Bhuwan Agrawal – ${titleMap[tabName]}`;
-    } else {
-      document.title = "Bhuwan Agrawal – Resume";
-    }
-  }
-}
-  links.forEach(link => link.classList.remove("activeLink"));
-  const activeTab = document.getElementById(tabName);
-  const activeLink = document.querySelector(`.navbar a[href="#${tabName}"]`);
-  if (activeTab) {
-    activeTab.classList.add("activeTab");
-    if (activeLink) activeLink.classList.add("activeLink");
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.title = titleMap[tabName] ? `Bhuwan Agrawal – ${titleMap[tabName]}` : "Bhuwan Agrawal – Resume";
   }
 }
 

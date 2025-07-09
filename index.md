@@ -121,8 +121,8 @@
 <div class="navbar">
   <a href="#career-objective" onclick="openTab('career-objective'); window.location.hash='career-objective'">Career Objective</a>
   <a href="#profile-summary" onclick="openTab('profile-summary'); window.location.hash='profile-summary'">Profile Summary</a>
-  <a href="#key-projects" onclick="openTab('key-projects'); window.location.hash='key-projects'">Key Projects</a>
   <a href="#work-experience" onclick="openTab('work-experience'); window.location.hash='work-experience'">Work Experience</a>
+  <a href="#key-projects" onclick="openTab('key-projects'); window.location.hash='key-projects'">Key Projects</a>
   <a href="#technical-skills" onclick="openTab('technical-skills'); window.location.hash='technical-skills'">Technical Skills</a>
   <a href="#certifications" onclick="openTab('certifications'); window.location.hash='certifications'">Certifications</a>
   <a href="#academic-background" onclick="openTab('academic-background'); window.location.hash='academic-background'">Academic Background</a>

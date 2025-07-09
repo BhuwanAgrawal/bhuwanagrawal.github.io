@@ -19,9 +19,8 @@
     flex-direction: column;
   }
   .navbar a {
-    text-align: left;
-    padding-left: 20px;
-  }
+  font-size: 13px;
+  padding: 8px 14px;
 }
 .navbar a {
   padding: 12px 20px;

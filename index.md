@@ -179,13 +179,7 @@ function openTab(tabName) {
   for (let i = 0; i < tabs.length; i++) {
     tabs[i].classList.remove("activeTab");
   }
-  links.forEach(link => link.classList.remove("activeLink"));
-  const activeTab = document.getElementById(tabName);
-  const activeLink = document.querySelector(`.navbar a[href="#${tabName}"]`);
-  if (activeTab) {
-    activeTab.classList.add("activeTab");
-    if (activeLink) activeLink.classList.add("activeLink");
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  );
 
     // Update document title
     const titleMap = {

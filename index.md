@@ -28,10 +28,14 @@
     <p style="text-align: center;"><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
     <p style="text-align: center;"><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal">linkedin.com/in/bhuwanagrawal</a></p>
   </div>
-  <div style="flex: 0 1 35%; min-width: 180px; display: flex; flex-direction: column; align-items: center; gap: 15px;">
+  <div style="flex: 0 1 35%; min-width: 180px; display: flex; flex-direction: column; align-items: center;">
+  <div style="margin-bottom: 15px;">
     <img src="profile.jpg" alt="Profile Photo" style="width: 140px; height: 140px; border-radius: 8px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+  </div>
+  <div>
     <img src="CTFL.png" alt="Certification" style="width: 140px; height: auto;">
   </div>
+</div>
 </div>
 <div class="navbar">
   <a href="#objective" onclick="openTab('objective'); window.location.hash='objective'">Objective</a>

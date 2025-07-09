@@ -183,7 +183,7 @@
   <ul>
     <li>PPD (DL Asset Track) (Mar 2022 – Sep 2022)</li>
     <li>THOR (DL Asset Track) (Jun 2021 – Feb 2022)</li>
-    <li><em>Responsibilities:</em> Manual testing of blockchain apps, TestLink, Jira</li>
+    <li><strong>Responsibilities:</strong> Manual testing of blockchain apps, TestLink, Jira</li>
   </ul>
   <p><strong><i class="fas fa-building"></i> Xorlabs.com</strong></p>
   <ul>

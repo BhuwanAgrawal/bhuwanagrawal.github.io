@@ -27,7 +27,7 @@
     <hr style="width: 60%; margin: 10px auto; border: 1px solid #1a5276;">
   </div>
   <div style="flex: 0 0 auto;">
-  <img src="bhuwan.jpg" alt="Profile Photo" style="width: 140px; height: 140px; border-radius: 8px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+  <img src="Bhuwan.jpg" alt="Profile Photo" style="width: 140px; height: 140px; border-radius: 8px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
 </div>
   <hr style="width: 60%; margin: 10px auto; border: 1px solid #1a5276;">
   <p><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>

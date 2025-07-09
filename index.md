@@ -80,13 +80,13 @@
   </div>
 </div>
 <div class="navbar">
-  <a href="#objective" onclick="openTab('objective'); window.location.hash='objective'">Objective</a>
-  <a href="#summary" onclick="openTab('summary'); window.location.hash='summary'">Summary</a>
-  <a href="#projects" onclick="openTab('projects'); window.location.hash='projects'">Projects</a>
-  <a href="#experience" onclick="openTab('experience'); window.location.hash='experience'">Experience</a>
-  <a href="#skills" onclick="openTab('skills'); window.location.hash='skills'">Skills</a>
+  <a href="#objective" onclick="openTab('objective'); window.location.hash='objective'">Career Objective</a>
+  <a href="#summary" onclick="openTab('summary'); window.location.hash='summary'">Profile Summary</a>
+  <a href="#projects" onclick="openTab('projects'); window.location.hash='projects'">Key Projects</a>
+  <a href="#experience" onclick="openTab('experience'); window.location.hash='experience'">Work Experience</a>
+  <a href="#skills" onclick="openTab('skills'); window.location.hash='skills'">Technical Skills</a>
   <a href="#certifications" onclick="openTab('certifications'); window.location.hash='certifications'">Certifications</a>
-  <a href="#education" onclick="openTab('education'); window.location.hash='education'">Education</a>
+  <a href="#education" onclick="openTab('education'); window.location.hash='education'">Academic Background</a>
 </div>
 
 <div id="objective" class="containerTab">
@@ -110,9 +110,9 @@
 </div>
 
 <div id="certifications" class="containerTab">
-  <h2>Certifications</h2>
+  <h2><i class="fas fa-award"></i> Certifications</h2>
   <ul>
-    <li>ISTQB Certified Tester – Foundation Level</li>
+    <li><i class="fas fa-certificate"></i> ISTQB Certified Tester – Foundation Level</li>
   </ul>
 </div>
 
@@ -131,8 +131,8 @@
 </div>
 
 <div id="projects" class="containerTab">
-  <h2>Project Experience</h2>
-  <p><strong>Bitxia Tech Pvt. Ltd.</strong></p>
+  <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
+  <p><strong><i class="fas fa-building"></i> Bitxia Tech Pvt. Ltd.</strong></p>
   <ul>
     <li>eNAM 2.0 (Dec 2024 – Present)</li>
     <li>APL Logistics (Apr 2023 – Present)</li>
@@ -140,18 +140,18 @@
     <li>Jarvis Retail Lending (Sep 2022 – Apr 2023)</li>
     <li><em>Responsibilities:</em> Team leadership (5–6 QA members), client communication, project estimation, manual testing (functional, regression, GUI), Jira, TestRail</li>
   </ul>
-  <p><strong>DLT LABS</strong></p>
+  <p><strong><i class="fas fa-building"></i> DLT LABS</strong></p>
   <ul>
     <li>PPD (DL Asset Track) (Mar 2022 – Sep 2022)</li>
     <li>THOR (DL Asset Track) (Jun 2021 – Feb 2022)</li>
     <li><em>Responsibilities:</em> Manual testing of blockchain apps, TestLink, Jira</li>
   </ul>
-  <p><strong>Xorlabs.com</strong></p>
+  <p><strong><i class="fas fa-building"></i> Xorlabs.com</strong></p>
   <ul>
     <li>SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
     <li><em>Responsibilities:</em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira</li>
   </ul>
-  <p><strong>Safenet Infotech Pvt. Ltd.</strong></p>
+  <p><strong><i class="fas fa-building"></i> Safenet Infotech Pvt. Ltd.</strong></p>
   <ul>
     <li>Usage Reporting System, WPS Online, WPS Client</li>
     <li><em>Responsibilities:</em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS</li>

@@ -21,19 +21,20 @@
 <div class="header">
   <img src="CTFL.png" alt="Certification">
   <h1><u>CURRICULUM VITAE</u></h1>
+  <h2 style="margin-top: 0; font-size: 26px;">Bhuwan Agrawal</h2>
   <p><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
   <p><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
   <p><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal">linkedin.com/in/bhuwanagrawal</a></p>
 </div>
 
 <div class="navbar">
-  <a href="#" onclick="openTab('b1')">Objective</a>
-  <a href="#" onclick="openTab('b2')">Summary</a>
-  <a href="#" onclick="openTab('b3')">Experience</a>
-  <a href="#" onclick="openTab('b6')">Projects</a>
-  <a href="#" onclick="openTab('b5')">Skills</a>
-  <a href="#" onclick="openTab('b4')">Certifications</a>
-  <a href="#" onclick="openTab('b7')">Education</a>
+  <a href="#b1" onclick="openTab('b1'); window.location.hash='b1'">Objective</a>
+  <a href="#b2" onclick="openTab('b2'); window.location.hash='b2'">Summary</a>
+  <a href="#b3" onclick="openTab('b3'); window.location.hash='b3'">Experience</a>
+  <a href="#b6" onclick="openTab('b6'); window.location.hash='b6'">Projects</a>
+  <a href="#b5" onclick="openTab('b5'); window.location.hash='b5'">Skills</a>
+  <a href="#b4" onclick="openTab('b4'); window.location.hash='b4'">Certifications</a>
+  <a href="#b7" onclick="openTab('b7'); window.location.hash='b7'">Education</a>
 </div>
 
 <div id="b1" class="containerTab activeTab">

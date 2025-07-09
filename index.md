@@ -177,7 +177,7 @@
     <li>APL Logistics (Apr 2023 – Present)</li>
     <li>Investor Portal (Sep 2022 – Apr 2023)</li>
     <li>Jarvis Retail Lending (Sep 2022 – Apr 2023)</li>
-    <li><em>Responsibilities:</em> Team leadership (5–6 QA members), client communication, project estimation, manual testing (functional, regression, GUI), Jira, TestRail</li>
+    <li><strong>Responsibilities:</strong> Team leadership (5–6 QA members), client communication, project estimation, manual testing (functional, regression, GUI), Jira, TestRail</li>
   </ul>
   <p><strong><i class="fas fa-building"></i> DLT LABS</strong></p>
   <ul>

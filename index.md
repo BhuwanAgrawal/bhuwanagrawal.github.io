@@ -1,5 +1,6 @@
 <html>
 <head>
+<link rel="icon" type="image/png" href="profile.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src='https://kit.fontawesome.com/1053334a8a.js' crossorigin='anonymous'></script>
 <style>
@@ -178,6 +179,31 @@ function openTab(tabName) {
   for (let i = 0; i < tabs.length; i++) {
     tabs[i].classList.remove("activeTab");
   }
+  links.forEach(link => link.classList.remove("activeLink"));
+  const activeTab = document.getElementById(tabName);
+  const activeLink = document.querySelector(`.navbar a[href="#${tabName}"]`);
+  if (activeTab) {
+    activeTab.classList.add("activeTab");
+    if (activeLink) activeLink.classList.add("activeLink");
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // Update document title
+    const titleMap = {
+      "career-objective": "Career Objective",
+      "profile-summary": "Profile Summary",
+      "key-projects": "Key Projects",
+      "work-experience": "Work Experience",
+      "technical-skills": "Technical Skills",
+      "certifications": "Certifications",
+      "academic-background": "Academic Background"
+    };
+    if (titleMap[tabName]) {
+      document.title = `Bhuwan Agrawal – ${titleMap[tabName]}`;
+    } else {
+      document.title = "Bhuwan Agrawal – Resume";
+    }
+  }
+}
   links.forEach(link => link.classList.remove("activeLink"));
   const activeTab = document.getElementById(tabName);
   const activeLink = document.querySelector(`.navbar a[href="#${tabName}"]`);

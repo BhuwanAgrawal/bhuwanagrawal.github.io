@@ -62,7 +62,7 @@
     </div>
     <div style="flex: 0 1 35%; min-width: 180px; display: flex; flex-direction: column; align-items: center;">
       <div style="margin-bottom: 15px;">
-        <img src="profile.jpg" alt="Profile Photo" style="width: 140px; height: 140px; border-radius: 8px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+        <img src="profile.jpg" alt="Profile Photo" style="width: 140px; height: 140px; border-radius: 8px; object-fit: contain; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
       </div>
       <div>
         <img src="CTFL.png" alt="Certification" style="width: 140px; height: auto;">

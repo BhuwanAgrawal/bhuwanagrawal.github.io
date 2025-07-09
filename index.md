@@ -82,8 +82,8 @@
 <div class="navbar">
   <a href="#objective" onclick="openTab('objective'); window.location.hash='objective'">Objective</a>
   <a href="#summary" onclick="openTab('summary'); window.location.hash='summary'">Summary</a>
-  <a href="#experience" onclick="openTab('experience'); window.location.hash='experience'">Experience</a>
   <a href="#projects" onclick="openTab('projects'); window.location.hash='projects'">Projects</a>
+  <a href="#experience" onclick="openTab('experience'); window.location.hash='experience'">Experience</a>
   <a href="#skills" onclick="openTab('skills'); window.location.hash='skills'">Skills</a>
   <a href="#certifications" onclick="openTab('certifications'); window.location.hash='certifications'">Certifications</a>
   <a href="#education" onclick="openTab('education'); window.location.hash='education'">Education</a>
@@ -96,23 +96,16 @@
 
 <div id="summary" class="containerTab">
   <h2>Professional Summary</h2>
-  <ul>
-    <li>13+ years of experience in Software Testing and QA</li>
-    <li>Expert in automation tools: Selenium, Cypress, Ranorex, TestComplete</li>
-    <li>Strong in manual testing: functional, regression, GUI, database</li>
-    <li>Experienced with SDLC/STLC, Agile, test planning, and team leadership</li>
-    <li>Tools: Jira, TestRail, TestLink, GitHub, SVN, SQL Server</li>
-    <li>Team management, client interaction, project estimation and delivery</li>
-  </ul>
+  <p>Quality Assurance Professional with over 13 years of experience in software testing, automation, and quality management. Proficient in manual and automated testing using tools such as Selenium, Cypress, Ranorex, and TestComplete. Skilled in test case design, defect tracking, team management, and client communication. Proven ability to lead QA teams, deliver high-quality products, and ensure testing best practices.</p>
 </div>
 
 <div id="experience" class="containerTab">
-  <h2>Experience</h2>
+  <h2>Professional Experience</h2>
   <ul>
-    <li><b>QA Manager – Bitxia Tech Pvt. Ltd.</b>, Gurugram (Sep 2022 – Present)</li>
-    <li><b>Sr. Test Engineer – DLT LABS</b>, Noida (Jun 2021 – Sep 2022)</li>
-    <li><b>Associate Team Lead – Xorlabs.com</b>, Greater Noida (Mar 2014 – Jun 2021)</li>
-    <li><b>Software Test Engineer – Safenet Infotech Pvt. Ltd.</b> via Magna InfoTech, Noida (Mar 2012 – Mar 2014)</li>
+    <li><i class="fas fa-briefcase"></i> <strong>QA Manager – Bitxia Tech Pvt. Ltd.</strong>, Gurugram (Sep 2022 – Present)</li>
+    <li><i class="fas fa-briefcase"></i> <strong>Sr. Test Engineer – DLT LABS</strong>, Noida (Jun 2021 – Sep 2022)</li>
+    <li><i class="fas fa-briefcase"></i> <strong>Associate Team Lead – Xorlabs.com</strong>, Greater Noida (Mar 2014 – Jun 2021)</li>
+    <li><i class="fas fa-briefcase"></i> <strong>Software Test Engineer – Safenet Infotech Pvt. Ltd.</strong> via Magna InfoTech, Noida (Mar 2012 – Mar 2014)</li>
   </ul>
 </div>
 
@@ -124,40 +117,44 @@
 </div>
 
 <div id="skills" class="containerTab">
-  <h2>Software Skills</h2>
+  <h2>Core Skills</h2>
   <ul>
-    <li>Languages: Java, VBScript</li>
-    <li>Automation Tools: Selenium, Cypress, Ranorex, TestComplete</li>
-    <li>Bug Tracking: Jira, QC, MKS</li>
-    <li>Test Management: TestRail, TestLink</li>
-    <li>Version Control: SVN, GitHub</li>
-    <li>Databases: SQL Server</li>
-    <li>OS: Windows XP/7/10, Server 2008</li>
-    <li>Office Tools: MS Excel, Word, PowerPoint</li>
+    <li><i class="fas fa-tools"></i> Testing Tools: Selenium, Cypress, Ranorex, TestComplete, QTP</li>
+    <li><i class="fas fa-code"></i> Languages: Java, VBScript</li>
+    <li><i class="fas fa-project-diagram"></i> Test Management Tools: TestRail, TestLink</li>
+    <li><i class="fas fa-bug"></i> Bug Tracking: JIRA, QC, MKS</li>
+    <li><i class="fas fa-code-branch"></i> Version Control: SVN, GitHub</li>
+    <li><i class="fas fa-database"></i> Database: SQL Server</li>
+    <li><i class="fas fa-desktop"></i> Operating Systems: Windows XP/7/10, Windows Server 2008</li>
+    <li><i class="fas fa-tasks"></i> Other: Agile Methodologies, Project Planning, Team Leadership, SDLC/STLC, Regression & Functional Testing</li>
   </ul>
 </div>
 
 <div id="projects" class="containerTab">
   <h2>Project Experience</h2>
-  <p><b>Bitxia Tech Pvt. Ltd.</b> (Sep 2022 – Present)</p>
+  <p><strong>Bitxia Tech Pvt. Ltd.</strong></p>
   <ul>
-    <li>eNAM 2.0, APL Logistics, Investor Portal, Jarvis Retail Lending – QA Manager</li>
-    <li>Responsibilities: Team leadership, test planning, client interaction, Jira/TestRail usage</li>
+    <li>eNAM 2.0 (Dec 2024 – Present)</li>
+    <li>APL Logistics (Apr 2023 – Present)</li>
+    <li>Investor Portal (Sep 2022 – Apr 2023)</li>
+    <li>Jarvis Retail Lending (Sep 2022 – Apr 2023)</li>
+    <li><em>Responsibilities:</em> Team leadership (5–6 QA members), client communication, project estimation, manual testing (functional, regression, GUI), Jira, TestRail</li>
   </ul>
-  <p><b>DLT LABS</b> (Jun 2021 – Sep 2022)</p>
+  <p><strong>DLT LABS</strong></p>
   <ul>
-    <li>PPD & THOR (DL Asset Track) – Manual Testing</li>
-    <li>Tools: Jira, TestLink</li>
+    <li>PPD (DL Asset Track) (Mar 2022 – Sep 2022)</li>
+    <li>THOR (DL Asset Track) (Jun 2021 – Feb 2022)</li>
+    <li><em>Responsibilities:</em> Manual testing of blockchain apps, TestLink, Jira</li>
   </ul>
-  <p><b>Xorlabs.com</b> (Mar 2014 – Jun 2021)</p>
+  <p><strong>Xorlabs.com</strong></p>
   <ul>
-    <li>Key Projects: SQLCM, XMF Automation, CML Configurator, SQL Secure, OSC, ASD, MSQT</li>
-    <li>Automation: Selenium, Ranorex, TestComplete</li>
+    <li>SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
+    <li><em>Responsibilities:</em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira</li>
   </ul>
-  <p><b>Safenet Infotech Pvt. Ltd.</b> (Mar 2012 – Mar 2014)</p>
+  <p><strong>Safenet Infotech Pvt. Ltd.</strong></p>
   <ul>
-    <li>Projects: Usage Reporting System, WPS Online, WPS Client</li>
-    <li>Manual + QTP (VBScript) Automation, MKS for defect tracking</li>
+    <li>Usage Reporting System, WPS Online, WPS Client</li>
+    <li><em>Responsibilities:</em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS</li>
   </ul>
 </div>
 

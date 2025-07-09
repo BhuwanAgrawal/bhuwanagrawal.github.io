@@ -4,6 +4,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src='https://kit.fontawesome.com/1053334a8a.js' crossorigin='anonymous'></script>
 <style>
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  background-color: #1a5276;
+  border-top: 2px solid #f1c40f;
+  border-bottom: 2px solid #f1c40f;
+}
+
+.navbar a {
+  font-size: 13px;
+  padding: 8px 16px;
+  color: white;
+  background-color: #1a5276;
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  display: inline-block;
+}
+
+.navbar a:hover {
+  background-color: #154360;
+  border-color: #f1c40f;
+}
+
+.navbar a.activeLink {
+  background-color: #154360;
+  border-color: #f1c40f;
+}
+
 .containerTab { display: none; padding: 20px; background: LightSteelBlue; color: black; }
 .activeTab { display: block !important; }
 @media screen and (max-width: 768px) {

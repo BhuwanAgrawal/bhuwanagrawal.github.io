@@ -46,6 +46,11 @@
   display: block !important;
   opacity: 1;
 }
+
+.navbar a.activeLink {
+  background-color: #154360;
+  border-bottom: 3px solid #f1c40f;
+}
 </style>
 </head>
 <body>
@@ -169,9 +174,19 @@
 <script>
 function openTab(tabName) {
   const tabs = document.getElementsByClassName("containerTab");
+  const links = document.querySelectorAll(".navbar a");
   for (let i = 0; i < tabs.length; i++) {
     tabs[i].classList.remove("activeTab");
   }
+  links.forEach(link => link.classList.remove("activeLink"));
+  const activeTab = document.getElementById(tabName);
+  const activeLink = document.querySelector(`.navbar a[href="#${tabName}"]`);
+  if (activeTab) {
+    activeTab.classList.add("activeTab");
+    if (activeLink) activeLink.classList.add("activeLink");
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
   const activeTab = document.getElementById(tabName);
   if (activeTab) {
     activeTab.classList.add("activeTab");
@@ -181,7 +196,7 @@ function openTab(tabName) {
 // Load default tab from URL or fallback
 window.onload = function () {
   const hash = window.location.hash.substring(1);
-  const defaultTab = document.getElementById(hash) ? hash : "summary";
+  const defaultTab = document.getElementById(hash) ? hash : "profile-summary";
   openTab(defaultTab);
 }
 </script>

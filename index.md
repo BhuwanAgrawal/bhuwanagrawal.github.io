@@ -64,9 +64,12 @@
       <div style="margin-bottom: 15px;">
         <img src="profile.jpg" alt="Profile Photo" style="$1; border: 2px solid #1a5276;">
       </div>
-      <div>
-        <img src="CTFL.png" alt="Certification" style="width: 140px; height: auto; border: 2px solid #1a5276;">
-      </div>
+      <div style="text-align: center;">
+  <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank">
+    <img src="CTFL.png" alt="Certification" style="width: 140px; height: auto; border: 2px solid #1a5276; border-radius: 8px;">
+  </a>
+  <div style="margin-top: 5px; font-size: 14px; color: #1a5276;">ISTQB Certified</div>
+</div>
     </div>
   </div>
 </div>

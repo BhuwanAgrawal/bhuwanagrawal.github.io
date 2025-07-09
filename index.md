@@ -27,8 +27,8 @@
     <hr style="width: 60%; margin: 10px auto; border: 1px solid #1a5276;">
   </div>
   <div style="flex: 0 0 auto;">
-    <img src="bhuwan.jpg" alt="Profile Photo" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-  </div>
+  <img src="deaa4e84-c288-406d-8b0b-d5dbcd65edbe.png" alt="Profile Photo" style="width: 140px; height: 140px; border-radius: 8px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+</div>
   <hr style="width: 60%; margin: 10px auto; border: 1px solid #1a5276;">
   <p><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
   <p><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>

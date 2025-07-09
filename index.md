@@ -23,7 +23,7 @@
     <h1 style="font-size: 32px; text-align: center; margin-bottom: 5px;"><u>CURRICULUM VITAE</u></h1>
     <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276; text-align: center;">Bhuwan Agrawal</h2>
     <h4 style="margin-top: -10px; font-family: 'Georgia', serif; color: #1a5276; text-align: center;">QA Manager</h4>
-    <hr style="width: 60%; margin: 10px auto; border: 1px solid #1a5276;">
+    
     <p style="text-align: center;"><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
     <p style="text-align: center;"><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
     <p style="text-align: center;"><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal">linkedin.com/in/bhuwanagrawal</a></p>

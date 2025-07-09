@@ -187,11 +187,6 @@ function openTab(tabName) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
-  const activeTab = document.getElementById(tabName);
-  if (activeTab) {
-    activeTab.classList.add("activeTab");
-  }
-}
 
 // Load default tab from URL or fallback
 window.onload = function () {

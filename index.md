@@ -188,7 +188,7 @@
   <p><strong><i class="fas fa-building"></i> Xorlabs.com</strong></p>
   <ul>
     <li>SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
-    <li><em>Responsibilities:</em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira</li>
+    <li><strong>Responsibilities:</strong> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira</li>
   </ul>
   <p><strong><i class="fas fa-building"></i> Safenet Infotech Pvt. Ltd.</strong></p>
   <ul>

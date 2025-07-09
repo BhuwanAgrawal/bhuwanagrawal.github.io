@@ -2,7 +2,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src='https://kit.fontawesome.com/1053334a8a.js' crossorigin='anonymous'></script>
-<style>$1
+<style>
+.containerTab { display: none; padding: 20px; background: LightSteelBlue; color: black; }
+.activeTab { display: block !important; }
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -19,7 +21,32 @@
     text-align: left;
     padding-left: 20px;
   }
-}</style>
+}
+.navbar a {
+  padding: 12px 20px;
+  color: white;
+  background-color: #1a5276;
+  text-decoration: none;
+  transition: background-color 0.3s, border-bottom 0.3s;
+  border-bottom: 3px solid transparent;
+}
+.navbar a:hover {
+  background-color: #154360;
+  border-bottom: 3px solid #f1c40f;
+}
+.containerTab {
+  display: none;
+  padding: 20px;
+  background: LightSteelBlue;
+  color: black;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.containerTab.activeTab {
+  display: block !important;
+  opacity: 1;
+}
+</style>
 </head>
 <body>
 
@@ -53,7 +80,7 @@
   <a href="#education" onclick="openTab('education'); window.location.hash='education'">Education</a>
 </div>
 
-<div id="objective" class="containerTab activeTab">
+<div id="objective" class="containerTab">
   <h2>Objective</h2>
   <p>To achieve a challenging position in Software Testing and Quality Assurance, leveraging my skills to contribute to the organization's success and personal growth.</p>
 </div>
@@ -135,11 +162,21 @@
 
 <script>
 function openTab(tabName) {
-  var x = document.getElementsByClassName("containerTab");
-  for (var i = 0; i < x.length; i++) {
-    x[i].classList.remove("activeTab");
+  const tabs = document.getElementsByClassName("containerTab");
+  for (let i = 0; i < tabs.length; i++) {
+    tabs[i].classList.remove("activeTab");
   }
-  document.getElementById(tabName).classList.add("activeTab");
+  const activeTab = document.getElementById(tabName);
+  if (activeTab) {
+    activeTab.classList.add("activeTab");
+  }
+}
+
+// Load default tab from URL or fallback
+window.onload = function () {
+  const hash = window.location.hash.substring(1);
+  const defaultTab = document.getElementById(hash) ? hash : "summary";
+  openTab(defaultTab);
 }
 </script>
 

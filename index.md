@@ -21,28 +21,29 @@
 <div class="header">
   <img src="CTFL.png" alt="Certification">
   <h1><u>CURRICULUM VITAE</u></h1>
-  <h2 style="margin-top: 0; font-size: 26px;">Bhuwan Agrawal</h2>
+  <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #2c3e50; text-align: left; padding-left: 15px;">Bhuwan Agrawal</h2>
+  <h4 style="margin-top: -10px; font-family: 'Georgia', serif; color: #2c3e50; text-align: left; padding-left: 15px;">QA Manager</h4>
   <p><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
   <p><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
   <p><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal">linkedin.com/in/bhuwanagrawal</a></p>
 </div>
 
 <div class="navbar">
-  <a href="#b1" onclick="openTab('b1'); window.location.hash='b1'">Objective</a>
-  <a href="#b2" onclick="openTab('b2'); window.location.hash='b2'">Summary</a>
-  <a href="#b3" onclick="openTab('b3'); window.location.hash='b3'">Experience</a>
-  <a href="#b6" onclick="openTab('b6'); window.location.hash='b6'">Projects</a>
-  <a href="#b5" onclick="openTab('b5'); window.location.hash='b5'">Skills</a>
-  <a href="#b4" onclick="openTab('b4'); window.location.hash='b4'">Certifications</a>
-  <a href="#b7" onclick="openTab('b7'); window.location.hash='b7'">Education</a>
+  <a href="#objective" onclick="openTab('objective'); window.location.hash='objective'">Objective</a>
+  <a href="#summary" onclick="openTab('summary'); window.location.hash='summary'">Summary</a>
+  <a href="#experience" onclick="openTab('experience'); window.location.hash='experience'">Experience</a>
+  <a href="#projects" onclick="openTab('projects'); window.location.hash='projects'">Projects</a>
+  <a href="#skills" onclick="openTab('skills'); window.location.hash='skills'">Skills</a>
+  <a href="#certifications" onclick="openTab('certifications'); window.location.hash='certifications'">Certifications</a>
+  <a href="#education" onclick="openTab('education'); window.location.hash='education'">Education</a>
 </div>
 
-<div id="b1" class="containerTab activeTab">
+<div id="objective" class="containerTab activeTab">
   <h2>Objective</h2>
   <p>To achieve a challenging position in Software Testing and Quality Assurance, leveraging my skills to contribute to the organization's success and personal growth.</p>
 </div>
 
-<div id="b2" class="containerTab">
+<div id="summary" class="containerTab">
   <h2>Professional Summary</h2>
   <ul>
     <li>13+ years of experience in Software Testing and QA</li>
@@ -54,7 +55,7 @@
   </ul>
 </div>
 
-<div id="b3" class="containerTab">
+<div id="experience" class="containerTab">
   <h2>Experience</h2>
   <ul>
     <li><b>QA Manager – Bitxia Tech Pvt. Ltd.</b>, Gurugram (Sep 2022 – Present)</li>
@@ -64,14 +65,14 @@
   </ul>
 </div>
 
-<div id="b4" class="containerTab">
+<div id="certifications" class="containerTab">
   <h2>Certifications</h2>
   <ul>
     <li>ISTQB Certified Tester – Foundation Level</li>
   </ul>
 </div>
 
-<div id="b5" class="containerTab">
+<div id="skills" class="containerTab">
   <h2>Software Skills</h2>
   <ul>
     <li>Languages: Java, VBScript</li>
@@ -85,7 +86,7 @@
   </ul>
 </div>
 
-<div id="b6" class="containerTab">
+<div id="projects" class="containerTab">
   <h2>Project Experience</h2>
   <p><b>Bitxia Tech Pvt. Ltd.</b> (Sep 2022 – Present)</p>
   <ul>
@@ -109,7 +110,7 @@
   </ul>
 </div>
 
-<div id="b7" class="containerTab">
+<div id="education" class="containerTab">
   <h2>Education</h2>
   <ul>
     <li>MCA – UP Technical University – 64.28%</li>

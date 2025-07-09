@@ -158,7 +158,7 @@
   </ul>
 </div>
 
-<div id="academic-background" class="containerTab">
+<div id="academic-background" class="containerTab" style="margin-bottom: 40px;">
   <h2>Academic Background</h2>
   <ul>
     <li>MCA – UP Technical University – 64.28%</li>

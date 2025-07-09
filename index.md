@@ -5,7 +5,7 @@
 <style>
   body { font-family: Arial, sans-serif; margin: 0; }
   .header, .footer { background-color: LightCyan; padding: 10px; text-align: center; position: relative; }
-  .header img { position: absolute; top: 10px; right: 20px; width: 120px; height: auto; }
+  .header img { position: absolute; top: 10px; right: 20px; width: 160px; height: auto; }
   .navbar { overflow: hidden; background-color: #333; display: flex; flex-wrap: wrap; justify-content: center; }
   .navbar a { color: white; padding: 14px 20px; text-decoration: none; display: block; text-align: center; }
   .navbar a:hover { background-color: #ddd; color: black; }
@@ -13,15 +13,15 @@
   ul { padding-left: 20px; }
   h2 { color: darkblue; }
   .activeTab { display: block !important; }
+  .header h1 { font-size: 32px; margin-bottom: 5px; }
 </style>
 </head>
 <body>
 
 <div class="header">
   <img src="CTFL.png" alt="Certification">
-  <h2><u>CURRICULUM VITAE</u></h2>
-  <h4>Bhuwan Agrawal</h4>
-  <p>B-105 Stellar Mi Citihomes, Omicron 3, Greater Noida, 201310</p>
+  <h1><u>CURRICULUM VITAE</u></h1>
+  <p><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
   <p><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
   <p><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal">linkedin.com/in/bhuwanagrawal</a></p>
 </div>

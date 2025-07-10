@@ -80,11 +80,7 @@
 <div style="background-color: LightCyan; padding: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center; position: relative;">
   <h1 style="margin: 0 auto; font-size: 32px; color: #1a5276; font-family: 'Georgia', serif; text-align: center; flex: 1;">Curriculum Vitae</h1>
-  <div style="position: absolute; top: 50%; right: 0; transform: translateY(-50%);">
-    <button onclick="window.print()" title="Print or Export PDF" style="background-color: transparent; border: none; cursor: pointer; font-size: 20px; color: #1a5276;">
-      <i class="fas fa-print"></i>
-    </button>
-  </div>
+  
 </div>
   <div class="header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
     <div style="flex: 1 1 60%; min-width: 300px; background-color: #f5f9fc; padding: 15px; border-radius: 10px; border: 1px solid #cfdce6;">

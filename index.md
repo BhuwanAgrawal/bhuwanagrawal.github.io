@@ -122,12 +122,12 @@
 
 <div id="career-objective" class="containerTab">
   <h2>Career Objective</h2>
-  <p>To leverage over 13 years of experience in software quality assurance and test automation to lead high-performing QA teams, drive continuous improvement, and deliver high-quality digital solutions in a fast-paced environment.</p>
+  <p>To leverage over 13+ years of experience in software quality assurance and test automation to lead high-performing QA teams, drive continuous improvement, and deliver high-quality digital solutions in a fast-paced environment.</p>
 </div>
 
 <div id="profile-summary" class="containerTab activeTab">
   <h2>Profile Summary</h2>
-  <p>Quality Assurance Professional with over 13 years of experience in software testing, automation, and quality management. Proficient in manual and automated testing using tools such as Selenium, Cypress, Ranorex, and TestComplete. Skilled in test case design, defect tracking, team management, and client communication. Proven ability to lead QA teams, deliver high-quality products, and ensure testing best practices.</p>
+  <p>Quality Assurance Professional with over 13+ years of experience in software testing, automation, and quality management. Proficient in manual and automated testing using tools such as Selenium, Cypress, Ranorex, and TestComplete. Skilled in test case design, defect tracking, team management, and client communication. Proven ability to lead QA teams, deliver high-quality products, and ensure testing best practices.</p>
 </div>
 
 <div id="work-experience" class="containerTab">

@@ -78,7 +78,14 @@
 <body>
 
 <div style="background-color: LightCyan; padding: 20px;">
-  <h1 style="font-size: 36px; color: #1a5276; letter-spacing: 2px; text-transform: uppercase; text-align: center; margin-bottom: 20px;"><u>Curriculum Vitae</u></h1>
+  <div style="display: flex; justify-content: space-between; align-items: center; position: relative;">
+  <h1 style="margin: 0 auto; font-size: 32px; color: #1a5276; font-family: 'Georgia', serif; text-align: center; flex: 1;">Curriculum Vitae</h1>
+  <div style="position: absolute; top: 50%; right: 0; transform: translateY(-50%);">
+    <button onclick="window.print()" title="Print or Export PDF" style="background-color: transparent; border: none; cursor: pointer; font-size: 20px; color: #1a5276;">
+      <i class="fas fa-print"></i>
+    </button>
+  </div>
+</div>
   <div class="header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
     <div style="flex: 1 1 60%; min-width: 300px; background-color: #f5f9fc; padding: 15px; border-radius: 10px; border: 1px solid #cfdce6;">
       <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276; text-align: left;">Bhuwan Agrawal</h2>
@@ -102,12 +109,9 @@
     ISTQB Certified
   </div>
 </a>
-$1
-<div style="text-align: center; margin-top: 20px;">
-  <button onclick="window.print()" style="background-color: #1a5276; color: white; border: none; padding: 10px 20px; font-size: 14px; border-radius: 8px; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-    <i class="fas fa-print"></i> Print / Export PDF
-  </button>
 </div>
+    </div>
+  </div>
 </div>
 <div class="navbar">
   <a href="#career-objective" onclick="openTab('career-objective'); window.location.hash='career-objective'">Career Objective</a>

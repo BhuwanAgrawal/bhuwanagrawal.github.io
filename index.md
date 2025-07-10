@@ -122,7 +122,7 @@
 
 <div id="career-objective" class="containerTab">
   <h2>Career Objective</h2>
-  <p>To achieve a challenging position in Software Testing and Quality Assurance, leveraging my skills to contribute to the organization's success and personal growth.</p>
+  <p>To leverage over 13 years of experience in software quality assurance and test automation to lead high-performing QA teams, drive continuous improvement, and deliver high-quality digital solutions in a fast-paced environment.</p>
 </div>
 
 <div id="profile-summary" class="containerTab activeTab">

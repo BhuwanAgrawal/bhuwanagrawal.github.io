@@ -80,11 +80,7 @@
 <div style="background-color: LightCyan; padding: 20px;">
   <div style="display: flex; justify-content: space-between; align-items: center; position: relative;">
   <h1 style="margin: 0 auto; font-size: 32px; color: #1a5276; font-family: 'Georgia', serif; text-align: center; flex: 1;">Curriculum Vitae</h1>
-  <div style="position: absolute; top: 50%; right: 0; transform: translateY(-50%);">
-    <button onclick="window.print()" title="Print or Export PDF" style="background-color: transparent; border: none; cursor: pointer; font-size: 20px; color: #1a5276;">
-      <i class="fas fa-print"></i>
-    </button>
-  </div>
+  
 </div>
   <div class="header" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
     <div style="flex: 1 1 60%; min-width: 300px; background-color: #f5f9fc; padding: 15px; border-radius: 10px; border: 1px solid #cfdce6;">
@@ -93,6 +89,7 @@
       <p style="text-align: left;"><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
       <p style="text-align: left;"><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
       <p style="text-align: left;"><i class='fab fa-linkedin'></i> <a href="https://www.linkedin.com/in/bhuwanagrawal" target="_blank" rel="noopener noreferrer">linkedin.com/in/bhuwanagrawal</a></p>
+<p style="text-align: left;"><i class='fab fa-github'></i> <a href="https://github.com/BhuwanAgrawal" target="_blank" rel="noopener noreferrer">github.com/BhuwanAgrawal</a></p>
 <p style="text-align: left;"><a href="Resume_Bhuwan_Agrawal.pdf" download style="color: inherit; text-decoration: none;"><i class='fas fa-file-download'></i> Download Resume (PDF)</a></p>
     </div>
     <div style="flex: 0 1 35%; min-width: 180px; display: flex; flex-direction: column; align-items: center;">

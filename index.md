@@ -73,6 +73,26 @@
     width: 100%;
   }
 }
+
+
+@media print {
+  .navbar,
+  .containerTab:not(.activeTab),
+  button,
+  .print-button-container,
+  .print-icon {
+    display: none !important;
+  }
+  .containerTab {
+    display: block !important;
+    opacity: 1 !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  body {
+    background: white !important;
+  }
+}
 </style>
 </head>
 <body>

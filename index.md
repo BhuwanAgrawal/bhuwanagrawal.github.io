@@ -42,7 +42,6 @@
 }
 
 .containerTab {
-  display: none;
   padding: 20px;
   background: LightSteelBlue;
   color: black;
@@ -77,12 +76,33 @@
 
 @media print {
   .navbar,
-  .containerTab:not(.activeTab),
   button,
   .print-button-container,
-  .print-icon {
+  .print-icon,
+  .navbar a,
+  .print-icon-wrapper {
     display: none !important;
   }
+  .containerTab {
+    display: block !important;
+    opacity: 1 !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  body {
+    background: white !important;
+  }
+}
+  .containerTab {
+    display: block !important;
+    opacity: 1 !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  body {
+    background: white !important;
+  }
+}
   .containerTab {
     display: block !important;
     opacity: 1 !important;
@@ -225,12 +245,16 @@ function openTab(tabName) {
   const tabs = document.getElementsByClassName("containerTab");
   const links = document.querySelectorAll(".navbar a");
   for (let i = 0; i < tabs.length; i++) {
-    tabs[i].classList.remove("activeTab");
+    if (!tabs[i].classList.contains("activeTab")) {
+    tabs[i].style.display = "none";
+  }
+tabs[i].classList.remove("activeTab");
   }
   links.forEach(link => link.classList.remove("activeLink"));
   const activeTab = document.getElementById(tabName);
   const activeLink = document.querySelector(`.navbar a[href="#${tabName}"]`);
   if (activeTab) {
+    activeTab.style.display = "block";
     activeTab.classList.add("activeTab");
     if (activeLink) activeLink.classList.add("activeLink");
     window.scrollTo({ top: 0, behavior: 'smooth' });

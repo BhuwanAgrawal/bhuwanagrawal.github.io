@@ -102,9 +102,12 @@
     ISTQB Certified
   </div>
 </a>
+$1
+<div style="text-align: center; margin-top: 20px;">
+  <button onclick="window.print()" style="background-color: #1a5276; color: white; border: none; padding: 10px 20px; font-size: 14px; border-radius: 8px; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+    <i class="fas fa-print"></i> Print / Export PDF
+  </button>
 </div>
-    </div>
-  </div>
 </div>
 <div class="navbar">
   <a href="#career-objective" onclick="openTab('career-objective'); window.location.hash='career-objective'">Career Objective</a>

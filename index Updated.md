@@ -13,6 +13,9 @@
   background-color: #1a5276;
   border-top: 2px solid #f1c40f;
   border-bottom: 2px solid #f1c40f;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar a {
@@ -38,8 +41,20 @@
   border-color: #f1c40f;
 }
 
-.containerTab { display: none; padding: 20px; background: LightSteelBlue; color: black; }
-.activeTab { display: block !important; }
+.containerTab {
+  display: none;
+  padding: 20px;
+  background: LightSteelBlue;
+  color: black;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.containerTab.activeTab {
+  display: block !important;
+  opacity: 1;
+}
+
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -51,39 +66,12 @@
   }
   .navbar {
     flex-direction: column;
+    align-items: stretch;
   }
   .navbar a {
-  font-size: 13px;
-  padding: 8px 14px;
-}
-.navbar a {
-  padding: 12px 20px;
-  color: white;
-  background-color: #1a5276;
-  text-decoration: none;
-  transition: background-color 0.3s, border-bottom 0.3s;
-  border-bottom: 3px solid transparent;
-}
-.navbar a:hover {
-  background-color: #154360;
-  border-bottom: 3px solid #f1c40f;
-}
-.containerTab {
-  display: none;
-  padding: 20px;
-  background: LightSteelBlue;
-  color: black;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-.containerTab.activeTab {
-  display: block !important;
-  opacity: 1;
-}
-
-.navbar a.activeLink {
-  background-color: #154360;
-  border-bottom: 3px solid #f1c40f;
+    text-align: center;
+    width: 100%;
+  }
 }
 </style>
 </head>

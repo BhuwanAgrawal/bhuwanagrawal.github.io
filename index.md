@@ -151,7 +151,7 @@
   <h2>Technical Skills</h2>
   <ul>
     <li><i class="fas fa-tools"></i> Testing Tools: Selenium, Cypress, Ranorex, TestComplete, QTP</li>
-    <li><i class="fas fa-code"></i> Languages: Java, VBScript</li>
+    <li><i class="fas fa-code"></i> Languages: Java, Python</li>
     <li><i class="fas fa-project-diagram"></i> Test Management Tools: TestRail, TestLink</li>
     <li><i class="fas fa-bug"></i> Bug Tracking: JIRA, QC, MKS</li>
     <li><i class="fas fa-code-branch"></i> Version Control: SVN, GitHub</li>

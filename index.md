@@ -165,8 +165,8 @@
   <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
   <p><strong><i class="fas fa-building"></i> Bitxia Tech Pvt. Ltd.</strong></p>
   <ul>
-    <li>eNAM 2.0 (Dec 2024 – Present)</li>
-    <li>APL Logistics (Apr 2023 – Present)</li>
+    <li>eNAM 2.0 (Dec 2024 – July 2025)</li>
+    <li>APL Logistics (Apr 2023 – Dec 2024)</li>
     <li>Investor Portal (Sep 2022 – Apr 2023)</li>
     <li>Jarvis Retail Lending (Sep 2022 – Apr 2023)</li>
     <li><strong>Responsibilities:</strong> Team leadership (5–6 QA members), client communication, project estimation, manual testing (functional, regression, GUI), Jira, TestRail</li>

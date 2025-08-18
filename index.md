@@ -133,7 +133,7 @@
 <div id="work-experience" class="containerTab">
   <h2>Work Experience</h2>
   <ul>
-    <li><i class="fas fa-briefcase"></i> <strong>QA Manager – Bitxia Tech Pvt. Ltd.</strong>, Gurugram (Sep 2022 – Present)</li>
+    <li><i class="fas fa-briefcase"></i> <strong>QA Manager – Bitxia Tech Pvt. Ltd.</strong>, Gurugram (Sep 2022 – July 2025)</li>
     <li><i class="fas fa-briefcase"></i> <strong>Sr. Test Engineer – DLT LABS</strong>, Noida (Jun 2021 – Sep 2022)</li>
     <li><i class="fas fa-briefcase"></i> <strong>Associate Team Lead – Xorlabs.com</strong>, Greater Noida (Mar 2014 – Jun 2021)</li>
     <li><i class="fas fa-briefcase"></i> <strong>Software Test Engineer – Safenet Infotech Pvt. Ltd.</strong> via Magna InfoTech, Noida (Mar 2012 – Mar 2014)</li>

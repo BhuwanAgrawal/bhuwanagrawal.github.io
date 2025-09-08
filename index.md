@@ -127,21 +127,22 @@
 
 <div id="technical-skills" class="containerTab">
   <h2>Technical Skills</h2>
-  <ul>
-    <li>Testing Tools: Selenium, Cypress, Playwright</li>
-    <li>Languages: Java, Python, JavaScript, TypeScript</li>
-    <li>Test Management Tools: TestRail, TestLink</li>
-    <li>API Testing: Postman, Playwright</li>
-    <li>CI/CD Tools: Jenkins, GitHub Actions</li>
-    <li>Cloud Testing Platforms: Browserstack</li>
-    <li>AI Tools: Cursor AI, GitHub Copilot</li>
-    <li>Bug Tracking: JIRA</li>
-    <li>Version Control: SVN, GitHub</li>
-    <li>Database: MS SQL Server, Postgres</li>
-    <li>Operating Systems: Windows 10/11</li>
-    <li>Other: Agile Methodologies, Project Planning, Team Leadership, SDLC/STLC, Regression & Functional Testing</li>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li><strong>Testing Tools:</strong>&emsp;&emsp;&emsp; Selenium, Cypress, Playwright</li>
+    <li><strong>Languages:</strong>&emsp;&emsp;&emsp; Java, Python, JavaScript, TypeScript</li>
+    <li><strong>Test Management Tools:</strong>&emsp;&emsp;&emsp; TestRail, TestLink</li>
+    <li><strong>API Testing:</strong>&emsp;&emsp;&emsp; Postman, Playwright</li>
+    <li><strong>CI/CD Tools:</strong>&emsp;&emsp;&emsp; Jenkins, GitHub Actions</li>
+    <li><strong>Cloud Testing Platforms:</strong>&emsp;&emsp;&emsp; Browserstack</li>
+    <li><strong>AI Tools:</strong>&emsp;&emsp;&emsp; Cursor AI, GitHub Copilot</li>
+    <li><strong>Bug Tracking:</strong>&emsp;&emsp;&emsp; JIRA</li>
+    <li><strong>Version Control:</strong>&emsp;&emsp;&emsp; SVN, GitHub</li>
+    <li><strong>Database:</strong>&emsp;&emsp;&emsp; MS SQL Server, Postgres</li>
+    <li><strong>Operating Systems:</strong>&emsp;&emsp;&emsp; Windows 10/11</li>
+    <li><strong>Other:</strong>&emsp;&emsp;&emsp; Agile Methodologies, Project Planning, Team Leadership, SDLC/STLC, Regression & Functional Testing</li>
   </ul>
 </div>
+
 
 <div id="work-experience" class="containerTab">
   <h2>Work Experience</h2>

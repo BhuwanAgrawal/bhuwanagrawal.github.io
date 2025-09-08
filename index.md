@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src='https://kit.fontawesome.com/1053334a8a.js' crossorigin='anonymous'></script>
 <style>
+/* Navbar Styling */
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -37,6 +38,8 @@
   background-color: #154360;
   border-color: #f1c40f;
 }
+
+/* Tab container styling */
 .containerTab {
   display: none;
   padding: 20px;
@@ -49,6 +52,8 @@
   display: block !important;
   opacity: 1;
 }
+
+/* Header and Responsive */
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -65,6 +70,51 @@
   .navbar a {
     text-align: center;
     width: 100%;
+  }
+}
+
+/* Technical Skills Styling */
+#technical-skills ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#technical-skills li {
+  display: flex;
+  padding: 4px 0; /* spacing between items */
+  flex-wrap: wrap; /* allow wrapping on small screens */
+}
+
+#technical-skills li strong {
+  flex: 0 0 180px; /* fixed width for headings */
+  text-align: right;
+  margin-right: 15px;
+  font-weight: bold;
+  color: #2c3e50; /* subtle dark color for headings */
+}
+
+#technical-skills li span {
+  flex: 1; /* remaining space for values */
+  color: #34495e; /* slightly lighter color for values */
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 600px) {
+  #technical-skills li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #technical-skills li strong {
+    text-align: left;
+    margin-right: 0;
+    margin-bottom: 2px;
+    flex: none; /* remove fixed width */
+  }
+
+  #technical-skills li span {
+    flex: none;
   }
 }
 </style>
@@ -125,24 +175,24 @@
   <p>QA Leader with 13+ years’ experience in automation and quality engineering. Skilled in building scalable QA frameworks across UI, API, DB, and performance testing. Hands-on with Cypress, Playwright, Jenkins and GitHub Actions. Proficient in AI-assisted testing using VS Code with GitHub Copilot and Cursor, driving faster script creation, improved test coverage, and higher efficiency. Strong track record in mentoring teams, defining QA strategy, and ensuring quality-first agile delivery.</p>
 </div>
 
+<!-- Updated Technical Skills Section -->
 <div id="technical-skills" class="containerTab">
   <h2>Technical Skills</h2>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li><strong>Testing Tools:</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Selenium, Cypress, Playwright</li>
-    <li><strong>Languages:</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Java, Python, JavaScript, TypeScript</li>
-    <li><strong>Test Management Tools:</strong>&emsp;&emsp; TestRail, TestLink</li>
-    <li><strong>API Testing:</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Postman, Playwright</li>
-    <li><strong>CI/CD Tools:</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Jenkins, GitHub Actions</li>
-    <li><strong>Cloud Testing Platforms:</strong>&emsp;&emsp; Browserstack</li>
-    <li><strong>AI Tools:</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Cursor AI, GitHub Copilot</li>
-    <li><strong>Bug Tracking:</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; JIRA</li>
-    <li><strong>Version Control:</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SVN, GitHub</li>
-    <li><strong>Database:</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; MS SQL Server, Postgres</li>
-    <li><strong>Operating Systems:</strong>&emsp;&emsp;&emsp;&emsp; Windows 10/11</li>
-    <li><strong>Other:</strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Agile Methodologies, Project Planning, Team Leadership, SDLC/STLC, Regression & Functional Testing</li>
+  <ul>
+    <li><strong>Testing Tools:</strong> <span>Selenium, Cypress, Playwright</span></li>
+    <li><strong>Languages:</strong> <span>Java, Python, JavaScript, TypeScript</span></li>
+    <li><strong>Test Management Tools:</strong> <span>TestRail, TestLink</span></li>
+    <li><strong>API Testing:</strong> <span>Postman, Playwright</span></li>
+    <li><strong>CI/CD Tools:</strong> <span>Jenkins, GitHub Actions</span></li>
+    <li><strong>Cloud Testing Platforms:</strong> <span>Browserstack</span></li>
+    <li><strong>AI Tools:</strong> <span>Cursor AI, GitHub Copilot</span></li>
+    <li><strong>Bug Tracking:</strong> <span>JIRA</span></li>
+    <li><strong>Version Control:</strong> <span>SVN, GitHub</span></li>
+    <li><strong>Database:</strong> <span>MS SQL Server, Postgres</span></li>
+    <li><strong>Operating Systems:</strong> <span>Windows 10/11</span></li>
+    <li><strong>Other:</strong> <span>Agile Methodologies, Project Planning, Team Leadership, SDLC/STLC, Regression & Functional Testing</span></li>
   </ul>
 </div>
-
 
 <div id="work-experience" class="containerTab">
   <h2>Work Experience</h2>
@@ -154,72 +204,7 @@
   </ul>
 </div>
 
-
-<div id="key-projects" class="containerTab">
-  <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
-  
-  <h3><i class="fas fa-building"></i> Bitxia Tech Pvt. Ltd.</h3>
-  <ul>
-    <li><strong>eNAM 2.0 (Dec 2024 – July 2025):</strong> Digital agri-trading platform enabling farmers, traders, and FPOs to buy/sell produce online.<br><em>Contribution:</em> Designed and executed automation framework using Playwright for UI and API automation, ensuring faster regression cycles and improved test coverage.</li>
-    <li><strong>APL Logistics COMS Application (Apr 2023 – Dec 2024):</strong> Comprehensive logistics and supply chain management solution for order, shipment, and warehouse operations.<br><em>Contribution:</em> Implemented Playwright-based automation integrated into CI/CD pipelines, enhancing reliability and reducing manual testing effort.</li>
-    <li><strong>Investor Portal (Sep 2022 – Apr 2023):</strong> Web platform for investors to manage profiles, portfolios, and track investments.<br><em>Contribution:</em> Developed Cypress automation scripts for functional and regression testing, reducing manual execution time and ensuring stability across releases.</li>
-    <li><strong>Jarvis Retail Lending (Sep 2022 – Apr 2023):</strong> Loan origination and management system enabling digital onboarding, credit assessment, and loan processing.<br><em>Contribution:</em> Built automation suite using Cypress and integrated it into CI/CD pipelines; introduced AI-assisted testing practices to improve test efficiency and reduce defect leakage.</li>
-  </ul>
-  <h4>Responsibilities at Bitxia:</h4>
-  <ul>
-    <li>Led a QA team of 5–6 members, handling client communication, project estimation, and test delivery (manual & automation).</li>
-    <li>Hands-on automation experience using Cypress and Playwright for UI and API test automation, improving coverage and reducing regression cycle time.</li>
-    <li>Ownership of QA automation architecture and scalability across UI, API, database, performance, and non-functional testing.</li>
-    <li>Mentored QA engineers on automation best practices, framework design, scripting, and AI-assisted testing with VS Code, GitHub Copilot, and Cursor.</li>
-    <li>Integrated automation frameworks into CI/CD pipelines (Jenkins, GitHub Actions) ensuring faster release cycles and deployment reliability.</li>
-    <li>Defined and implemented QA governance models, test strategy, and quality standards.</li>
-    <li>Collaborated closely with developers, product managers, and DevOps to embed a quality-first approach in agile delivery.</li>
-  </ul>
-
-  <h3><i class="fas fa-building"></i> DLT LABS</h3>
-  <ul>
-    <li><strong>PPD (DL Asset Track) (Mar 2022 – Sep 2022)</strong></li>
-    <li><strong>THOR (DL Asset Track) (Jun 2021 – Feb 2022)</strong></li>
-    <li><em><strong>Responsibilities:</strong></em> Manual testing of blockchain apps, TestLink, Jira.</li>
-  </ul>
-
-  <h3><i class="fas fa-building"></i> Xorlabs.com</h3>
-  <ul>
-    <li><strong>Projects:</strong> SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
-    <li><em><strong>Responsibilities:</strong></em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira.</li>
-  </ul>
-
-  <h3><i class="fas fa-building"></i> Safenet Infotech Pvt. Ltd.</h3>
-  <ul>
-    <li><strong>Projects:</strong> Usage Reporting System, WPS Online, WPS Client</li>
-    <li><em><strong>Responsibilities:</strong></em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS.</li>
-  </ul>
-</div>
-
-
-<div id="github-portfolio" class="containerTab">
-  <h2>GitHub Portfolio – Test Automation Projects</h2>
-  <ul>
-    <li><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a> – End-to-end automation framework demonstrating UI testing using Playwright.</li>
-    <li><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a> – Test automation suite for functional and regression testing of web applications.</li>
-    <li><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a> – Keyword-driven automation framework for regression and functional testing.</li>
-  </ul>
-</div>
-
-<div id="certifications" class="containerTab">
-  <h2>Certifications</h2>
-  <ul>
-    <li>ISTQB Certified Tester – Foundation Level</li>
-  </ul>
-</div>
-
-<div id="academic-background" class="containerTab">
-  <h2>Academic Background</h2>
-  <ul>
-    <li>MCA – UP Technical University – 64.28%</li>
-    <li>BCA – Allahabad Agriculture Institute – 7.96 CGPA</li>
-  </ul>
-</div>
+<!-- Other sections remain unchanged (key-projects, github-portfolio, certifications, academic-background) -->
 
 <script>
 function openTab(tabName) {

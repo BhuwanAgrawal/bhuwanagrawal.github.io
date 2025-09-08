@@ -63,7 +63,7 @@
   margin-bottom: 6px;
 }
 #technical-skills li strong {
-  width: 180px; /* Adjust width for alignment */
+  width: 220px; /* Adjust width for alignment */
   text-align: left;
 }
 

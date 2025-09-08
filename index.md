@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -104,6 +105,10 @@
   margin-left: 20px;
   color: #34495e;
 }
+.contribution-list li span {
+  font-weight: normal;
+  color: #2c3e50;
+}
 .responsibilities-title { margin-top: 10px; font-weight: bold; color: #1a5276; }
 .responsibilities-list li { list-style-type: square; margin-left: 20px; color: #2c3e50; margin-bottom: 4px; }
 
@@ -172,10 +177,10 @@ a:hover { text-decoration: underline; }
   <ul>
     <li><strong>Testing Tools:</strong> Selenium, Cypress, Playwright</li>
     <li><strong>Languages:</strong> Java, Python, JavaScript, TypeScript</li>
-    <li><strong>Test Management:</strong> TestRail, TestLink</li>
+    <li><strong>Test Management Tools:</strong> TestRail, TestLink</li>
     <li><strong>API Testing:</strong> Postman, Playwright</li>
     <li><strong>CI/CD Tools:</strong> Jenkins, GitHub Actions</li>
-    <li><strong>Cloud Testing:</strong> Browserstack</li>
+    <li><strong>Cloud Testing Platforms:</strong> Browserstack</li>
     <li><strong>AI Tools:</strong> Cursor AI, GitHub Copilot</li>
     <li><strong>Bug Tracking:</strong> JIRA</li>
     <li><strong>Version Control:</strong> SVN, GitHub</li>
@@ -197,13 +202,13 @@ a:hover { text-decoration: underline; }
 
 <div id="key-projects" class="containerTab section-block">
   <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
-
+  <!-- Bitxia Tech -->
   <h3 class="company-name">Bitxia Tech Pvt. Ltd.</h3>
   <ul class="contribution-list">
-    <li><strong>eNAM 2.0 (Dec 2024 – July 2025):</strong> Digital agri-trading platform enabling farmers, traders, and FPOs to buy/sell produce online.<br><em><strong>Contribution:</strong></em> Designed and executed automation framework using Playwright for UI and API automation, ensuring faster regression cycles and improved test coverage.</li>
-    <li><strong>APL Logistics COMS Application (Apr 2023 – Dec 2024):</strong> Comprehensive logistics and supply chain management solution for order, shipment, and warehouse operations.<br><em><strong>Contribution:</strong></em> Implemented Playwright-based automation integrated into CI/CD pipelines, enhancing reliability and reducing manual testing effort.</li>
-    <li><strong>Investor Portal (Sep 2022 – Apr 2023):</strong> Web platform for investors to manage profiles, portfolios, and track investments.<br><em><strong>Contribution:</strong></em> Developed Cypress automation scripts for functional and regression testing, reducing manual execution time and ensuring stability across releases.</li>
-    <li><strong>Jarvis Retail Lending (Sep 2022 – Apr 2023):</strong> Loan origination and management system enabling digital onboarding, credit assessment, and loan processing.<br><em><strong>Contribution:</strong></em> Built automation suite using Cypress and integrated it into CI/CD pipelines; introduced AI-assisted testing practices to improve test efficiency and reduce defect leakage.</li>
+    <li><strong>eNAM 2.0 (Dec 2024 – July 2025):</strong> Designed and executed automation framework using Playwright for UI and API automation, ensuring faster regression cycles and improved test coverage.</li>
+    <li><strong>APL Logistics COMS Application (Apr 2023 – Dec 2024):</strong> Implemented Playwright-based automation integrated into CI/CD pipelines, enhancing reliability and reducing manual testing effort.</li>
+    <li><strong>Investor Portal (Sep 2022 – Apr 2023):</strong> Developed Cypress automation scripts for functional and regression testing, reducing manual execution time and ensuring stability across releases.</li>
+    <li><strong>Jarvis Retail Lending (Sep 2022 – Apr 2023):</strong> Built automation suite using Cypress and integrated it into CI/CD pipelines; introduced AI-assisted testing practices to improve test efficiency and reduce defect leakage.</li>
   </ul>
   <div class="responsibilities-title">Responsibilities at Bitxia:</div>
   <ul class="responsibilities-list">
@@ -216,31 +221,34 @@ a:hover { text-decoration: underline; }
     <li>Collaborated closely with developers, product managers, and DevOps to embed a quality-first approach in agile delivery.</li>
   </ul>
 
+  <!-- DLT Labs -->
   <h3 class="company-name">DLT LABS</h3>
   <ul class="contribution-list">
     <li><strong>PPD (DL Asset Track) (Mar 2022 – Sep 2022)</strong> – Manual testing of blockchain apps, TestLink, Jira.</li>
     <li><strong>THOR (DL Asset Track) (Jun 2021 – Feb 2022)</strong> – Manual & functional testing using TestLink, Jira.</li>
   </ul>
 
+  <!-- Xorlabs -->
   <h3 class="company-name">Xorlabs.com</h3>
   <ul class="contribution-list">
     <li><strong>Projects:</strong> SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
-    <li><em><strong>Responsibilities:</strong></em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira.</li>
+    <li><em>Responsibilities:</em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira.</li>
   </ul>
 
+  <!-- Safenet Infotech -->
   <h3 class="company-name">Safenet Infotech Pvt. Ltd.</h3>
   <ul class="contribution-list">
     <li><strong>Projects:</strong> Usage Reporting System, WPS Online, WPS Client</li>
-    <li><em><strong>Responsibilities:</strong></em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS.</li>
+    <li><em>Responsibilities:</em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS.</li>
   </ul>
 </div>
 
 <div id="github-portfolio" class="containerTab section-block">
   <h2><i class="fab fa-github"></i> GitHub Portfolio – Test Automation Projects</h2>
   <ul class="contribution-list">
-    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a> – End-to-end automation framework demonstrating UI testing using Playwright.</li>
-    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a> – Test automation suite for functional and regression testing of web applications.</li>
-    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a> – Keyword-driven automation framework for regression and functional testing.</li>
+    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a><span> – End-to-end automation framework demonstrating UI testing using Playwright.</span></li>
+    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a><span> – Test automation suite for functional and regression testing of web applications.</span></li>
+    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a><span> – Keyword-driven automation framework for regression and functional testing.</span></li>
   </ul>
 </div>
 

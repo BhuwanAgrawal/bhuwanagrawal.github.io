@@ -87,7 +87,7 @@
 }
 
 #technical-skills li strong {
-  flex: 0 0 180px; /* fixed width for headings */
+  flex: 0 0 220px; /* increased width for headings */
   text-align: right;
   margin-right: 15px;
   font-weight: bold;

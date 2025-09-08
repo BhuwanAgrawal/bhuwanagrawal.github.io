@@ -79,40 +79,31 @@
   padding-left: 0;
   margin: 0;
 }
-
 #technical-skills li {
   display: flex;
-  padding: 4px 0; /* spacing between items */
-  flex-wrap: wrap; /* allow wrapping on small screens */
+  flex-wrap: wrap;
+  padding: 4px 0;
 }
-
 #technical-skills li strong {
-  flex: 0 0 220px; /* increased width for headings */
-  text-align: right;
-  margin-right: 15px;
+  text-align: left;
   font-weight: bold;
-  color: #2c3e50; /* subtle dark color for headings */
+  margin-right: 15px;
+  min-width: 200px;
+  color: #2c3e50;
 }
-
 #technical-skills li span {
-  flex: 1; /* remaining space for values */
-  color: #34495e; /* slightly lighter color for values */
+  flex: 1;
+  color: #34495e;
 }
-
-/* Responsive adjustments for mobile */
 @media (max-width: 600px) {
   #technical-skills li {
     flex-direction: column;
     align-items: flex-start;
   }
-
   #technical-skills li strong {
-    text-align: left;
     margin-right: 0;
     margin-bottom: 2px;
-    flex: none; /* remove fixed width */
   }
-
   #technical-skills li span {
     flex: none;
   }
@@ -164,18 +155,19 @@
   <a href="#academic-background" onclick="openTab('academic-background'); return false;">Academic Background</a>
 </div>
 
-<!-- Sections -->
+<!-- Career Objective -->
 <div id="career-objective" class="containerTab">
   <h2>Career Objective</h2>
   <p>To leverage over 13+ years of experience in software quality assurance, test automation, and AI-driven testing to architect scalable QA frameworks, mentor engineering teams, and deliver high-quality products through innovative, automation-first, and AI-powered testing strategies across UI, API, database, performance, and non-functional domains.</p>
 </div>
 
+<!-- Profile Summary -->
 <div id="profile-summary" class="containerTab">
   <h2>Profile Summary</h2>
   <p>QA Leader with 13+ years’ experience in automation and quality engineering. Skilled in building scalable QA frameworks across UI, API, DB, and performance testing. Hands-on with Cypress, Playwright, Jenkins and GitHub Actions. Proficient in AI-assisted testing using VS Code with GitHub Copilot and Cursor, driving faster script creation, improved test coverage, and higher efficiency. Strong track record in mentoring teams, defining QA strategy, and ensuring quality-first agile delivery.</p>
 </div>
 
-<!-- Updated Technical Skills Section -->
+<!-- Technical Skills -->
 <div id="technical-skills" class="containerTab">
   <h2>Technical Skills</h2>
   <ul>
@@ -194,6 +186,7 @@
   </ul>
 </div>
 
+<!-- Work Experience -->
 <div id="work-experience" class="containerTab">
   <h2>Work Experience</h2>
   <ul>
@@ -204,22 +197,90 @@
   </ul>
 </div>
 
-<!-- Other sections remain unchanged (key-projects, github-portfolio, certifications, academic-background) -->
+<!-- Project Experience -->
+<div id="key-projects" class="containerTab">
+  <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
+
+  <h3><i class="fas fa-building"></i> Bitxia Tech Pvt. Ltd.</h3>
+  <ul>
+    <li><strong>eNAM 2.0 (Dec 2024 – July 2025):</strong> Digital agri-trading platform enabling farmers, traders, and FPOs to buy/sell produce online.<br><em>Contribution:</em> Designed and executed automation framework using Playwright for UI and API automation.</li>
+    <li><strong>APL Logistics COMS Application (Apr 2023 – Dec 2024):</strong> Comprehensive logistics and supply chain management solution.<br><em>Contribution:</em> Implemented Playwright automation integrated with CI/CD pipelines.</li>
+    <li><strong>Investor Portal (Sep 2022 – Apr 2023):</strong> Platform for investors to manage portfolios.<br><em>Contribution:</em> Developed Cypress automation scripts for functional and regression testing.</li>
+    <li><strong>Jarvis Retail Lending (Sep 2022 – Apr 2023):</strong> Loan origination and management system.<br><em>Contribution:</em> Built automation suite using Cypress with AI-assisted testing practices.</li>
+  </ul>
+  <h4>Responsibilities:</h4>
+  <ul>
+    <li>Led QA team of 5–6 members; handled client communication, project estimation, and delivery.</li>
+    <li>Hands-on automation using Cypress & Playwright for UI and API testing.</li>
+    <li>Owned QA automation architecture for UI, API, DB, performance, and non-functional testing.</li>
+    <li>Mentored QA engineers on framework design, scripting, and AI-assisted testing.</li>
+    <li>Integrated automation frameworks into CI/CD pipelines (Jenkins, GitHub Actions).</li>
+    <li>Defined QA governance, test strategy, and quality standards.</li>
+    <li>Collaborated with developers, product managers, and DevOps to ensure quality-first agile delivery.</li>
+  </ul>
+
+  <h3><i class="fas fa-building"></i> DLT LABS</h3>
+  <ul>
+    <li><strong>PPD (DL Asset Track) (Mar 2022 – Sep 2022)</strong></li>
+    <li><strong>THOR (DL Asset Track) (Jun 2021 – Feb 2022)</strong></li>
+    <li><em><strong>Responsibilities:</strong></em> Manual testing of blockchain apps using TestLink and Jira.</li>
+  </ul>
+
+  <h3><i class="fas fa-building"></i> Xorlabs.com</h3>
+  <ul>
+    <li><strong>Projects:</strong> SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
+    <li><em><strong>Responsibilities:</strong></em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira.</li>
+  </ul>
+
+  <h3><i class="fas fa-building"></i> Safenet Infotech Pvt. Ltd.</h3>
+  <ul>
+    <li><strong>Projects:</strong> Usage Reporting System, WPS Online, WPS Client</li>
+    <li><em><strong>Responsibilities:</strong></em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS.</li>
+  </ul>
+</div>
+
+<!-- GitHub Portfolio -->
+<div id="github-portfolio" class="containerTab">
+  <h2>GitHub Portfolio – Test Automation Projects</h2>
+  <ul>
+    <li><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a> – End-to-end UI automation using Playwright.</li>
+    <li><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a> – Functional & regression testing suite.</li>
+    <li><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a> – Keyword-driven automation framework.</li>
+  </ul>
+</div>
+
+<!-- Certifications -->
+<div id="certifications" class="containerTab">
+  <h2>Certifications</h2>
+  <ul>
+    <li>ISTQB Certified Tester – Foundation Level</li>
+  </ul>
+</div>
+
+<!-- Academic Background -->
+<div id="academic-background" class="containerTab">
+  <h2>Academic Background</h2>
+  <ul>
+    <li>MCA – UP Technical University – 64.28%</li>
+    <li>BCA – Allahabad Agriculture Institute – 7.96 CGPA</li>
+  </ul>
+</div>
 
 <script>
 function openTab(tabName) {
   const tabs = document.getElementsByClassName("containerTab");
   const links = document.querySelectorAll(".navbar a");
-  for (let i = 0; i < tabs.length; i++) {
-    tabs[i].classList.remove("activeTab");
-  }
+
+  Array.from(tabs).forEach(tab => tab.classList.remove("activeTab"));
   links.forEach(link => link.classList.remove("activeLink"));
+
   const activeTab = document.getElementById(tabName);
   const activeLink = document.querySelector(`.navbar a[href="#${tabName}"]`);
   if (activeTab) {
     activeTab.classList.add("activeTab");
     if (activeLink) activeLink.classList.add("activeLink");
     window.scrollTo({ top: 0, behavior: 'smooth' });
+
     const titleMap = {
       "career-objective": "Career Objective",
       "profile-summary": "Profile Summary",
@@ -233,6 +294,7 @@ function openTab(tabName) {
     document.title = titleMap[tabName] ? `Bhuwan Agrawal – ${titleMap[tabName]}` : "Bhuwan Agrawal – Resume";
   }
 }
+
 window.onload = function () {
   const hash = window.location.hash.substring(1);
   const defaultTab = document.getElementById(hash) ? hash : "profile-summary";

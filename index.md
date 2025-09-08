@@ -125,7 +125,7 @@ a:hover { text-decoration: underline; }
   <div class="header">
     <div style="flex: 1 1 60%; min-width: 300px; background-color: #f5f9fc; padding: 15px; border-radius: 10px; border: 1px solid #cfdce6;">
       <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276; text-align: left;">Bhuwan Agrawal</h2>
-      <h4 style="margin-top: -10px; font-family: 'Georgia', serif; color: #1a5276; text-align: left; font-size: 16px;">
+      <h4 style="margin-top: -10px; font-family: 'Georgia', serif; color: #1a5276; text-align: left; font-size: 14px;">
 		QA Manager | Automation (Playwright, Cypress) | AI-Assisted Testing | CI/CD</h4>
 
       <p style="text-align: left;"><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>

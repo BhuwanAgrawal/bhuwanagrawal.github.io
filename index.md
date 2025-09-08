@@ -157,19 +157,19 @@ a:hover { text-decoration: underline; }
   <a href="#academic-background" onclick="openTab('academic-background'); return false;">Academic Background</a>
 </div>
 
-<!-- Sections: Career Objective, Profile Summary, Technical Skills, Work Experience, etc. -->
+<!-- Sections -->
 <div id="career-objective" class="containerTab section-block">
-  <h2>Career Objective</h2>
+  <h2><i class="fas fa-bullseye"></i> Career Objective</h2>
   <p>To leverage over 13+ years of experience in software quality assurance, test automation, and AI-driven testing to architect scalable QA frameworks, mentor engineering teams, and deliver high-quality products through innovative, automation-first, and AI-powered testing strategies across UI, API, database, performance, and non-functional domains.</p>
 </div>
 
 <div id="profile-summary" class="containerTab section-block">
-  <h2>Profile Summary</h2>
+  <h2><i class="fas fa-user"></i> Profile Summary</h2>
   <p>QA Leader with 13+ years’ experience in automation and quality engineering. Skilled in building scalable QA frameworks across UI, API, DB, and performance testing. Hands-on with Cypress, Playwright, Jenkins and GitHub Actions. Proficient in AI-assisted testing using VS Code with GitHub Copilot and Cursor, driving faster script creation, improved test coverage, and higher efficiency. Strong track record in mentoring teams, defining QA strategy, and ensuring quality-first agile delivery.</p>
 </div>
 
 <div id="technical-skills" class="containerTab section-block">
-  <h2>Technical Skills</h2>
+  <h2><i class="fas fa-tools"></i> Technical Skills</h2>
   <ul>
     <li><strong>Testing Tools:</strong> Selenium, Cypress, Playwright</li>
     <li><strong>Languages:</strong> Java, Python, JavaScript, TypeScript</li>
@@ -187,7 +187,7 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="work-experience" class="containerTab section-block">
-  <h2>Work Experience</h2>
+  <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
   <ul>
     <li><strong>QA Manager</strong> – Bitxia Tech Pvt. Ltd., Gurugram (Sep 2022 – July 2025)</li>
     <li><strong>Sr. Test Engineer</strong> – DLT LABS, Noida (Jun 2021 – Sep 2022)</li>
@@ -198,23 +198,50 @@ a:hover { text-decoration: underline; }
 
 <div id="key-projects" class="containerTab section-block">
   <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
-  <div class="section-block">
-    <h3 class="company-name">Bitxia Tech Pvt. Ltd.</h3>
-    <ul>
-      <li class="project-name"><strong>eNAM 2.0</strong> (Dec 2024 – July 2025)<br><em>Contribution:</em> Playwright UI & API automation.</li>
-      <li class="project-name"><strong>APL Logistics COMS</strong> (Apr 2023 – Dec 2024)<br><em>Contribution:</em> CI/CD integrated automation.</li>
-      <li class="project-name"><strong>Investor Portal</strong> (Sep 2022 – Apr 2023)<br><em>Contribution:</em> Cypress automation for regression & functional testing.</li>
-      <li class="project-name"><strong>Jarvis Retail Lending</strong> (Sep 2022 – Apr 2023)<br><em>Contribution:</em> Cypress + AI-assisted testing.</li>
-    </ul>
-  </div>
+
+  <h3 class="company-name">Bitxia Tech Pvt. Ltd.</h3>
+  <ul class="contribution-list">
+    <li><strong>eNAM 2.0 (Dec 2024 – July 2025):</strong> Digital agri-trading platform enabling farmers, traders, and FPOs to buy/sell produce online.<br><em>Contribution:</em> Designed and executed automation framework using Playwright for UI and API automation, ensuring faster regression cycles and improved test coverage.</li>
+    <li><strong>APL Logistics COMS Application (Apr 2023 – Dec 2024):</strong> Comprehensive logistics and supply chain management solution for order, shipment, and warehouse operations.<br><em>Contribution:</em> Implemented Playwright-based automation integrated into CI/CD pipelines, enhancing reliability and reducing manual testing effort.</li>
+    <li><strong>Investor Portal (Sep 2022 – Apr 2023):</strong> Web platform for investors to manage profiles, portfolios, and track investments.<br><em>Contribution:</em> Developed Cypress automation scripts for functional and regression testing, reducing manual execution time and ensuring stability across releases.</li>
+    <li><strong>Jarvis Retail Lending (Sep 2022 – Apr 2023):</strong> Loan origination and management system enabling digital onboarding, credit assessment, and loan processing.<br><em>Contribution:</em> Built automation suite using Cypress and integrated it into CI/CD pipelines; introduced AI-assisted testing practices to improve test efficiency and reduce defect leakage.</li>
+  </ul>
+  <div class="responsibilities-title">Responsibilities at Bitxia:</div>
+  <ul class="responsibilities-list">
+    <li>Led a QA team of 5–6 members, handling client communication, project estimation, and test delivery (manual & automation).</li>
+    <li>Hands-on automation experience using Cypress and Playwright for UI and API test automation, improving coverage and reducing regression cycle time.</li>
+    <li>Ownership of QA automation architecture and scalability across UI, API, database, performance, and non-functional testing.</li>
+    <li>Mentored QA engineers on automation best practices, framework design, scripting, and AI-assisted testing with VS Code, GitHub Copilot, and Cursor.</li>
+    <li>Integrated automation frameworks into CI/CD pipelines (Jenkins, GitHub Actions) ensuring faster release cycles and deployment reliability.</li>
+    <li>Defined and implemented QA governance models, test strategy, and quality standards.</li>
+    <li>Collaborated closely with developers, product managers, and DevOps to embed a quality-first approach in agile delivery.</li>
+  </ul>
+
+  <h3 class="company-name">DLT LABS</h3>
+  <ul class="contribution-list">
+    <li><strong>PPD (DL Asset Track) (Mar 2022 – Sep 2022)</strong> – Manual testing of blockchain apps, TestLink, Jira.</li>
+    <li><strong>THOR (DL Asset Track) (Jun 2021 – Feb 2022)</strong> – Manual & functional testing using TestLink, Jira.</li>
+  </ul>
+
+  <h3 class="company-name">Xorlabs.com</h3>
+  <ul class="contribution-list">
+    <li><strong>Projects:</strong> SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
+    <li><em>Responsibilities:</em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira.</li>
+  </ul>
+
+  <h3 class="company-name">Safenet Infotech Pvt. Ltd.</h3>
+  <ul class="contribution-list">
+    <li><strong>Projects:</strong> Usage Reporting System, WPS Online, WPS Client</li>
+    <li><em>Responsibilities:</em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS.</li>
+  </ul>
 </div>
 
 <div id="github-portfolio" class="containerTab section-block">
-  <h2><i class="fab fa-github"></i> GitHub Portfolio</h2>
-  <ul>
-    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a></li>
-    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a></li>
-    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a></li>
+  <h2><i class="fab fa-github"></i> GitHub Portfolio – Test Automation Projects</h2>
+  <ul class="contribution-list">
+    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a> – End-to-end automation framework demonstrating UI testing using Playwright.</li>
+    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a> – Test automation suite for functional and regression testing of web applications.</li>
+    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a> – Keyword-driven automation framework for regression and functional testing.</li>
   </ul>
 </div>
 

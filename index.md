@@ -90,7 +90,7 @@
   margin-bottom: 6px;
 }
 #technical-skills li strong {
-  width: 180px;
+  width: 220px;
   text-align: left;
 }
 

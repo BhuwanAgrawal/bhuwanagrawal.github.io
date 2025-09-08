@@ -154,25 +154,46 @@
 </div>
 
 <div id="key-projects" class="containerTab">
-  <h2>Project Experience</h2>
-  <h3>Bitxia Tech Pvt. Ltd.</h3>
+  <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
+  
+  <h3><i class="fas fa-building"></i> Bitxia Tech Pvt. Ltd.</h3>
   <ul>
     <li><strong>eNAM 2.0 (Dec 2024 – July 2025):</strong> Digital agri-trading platform enabling farmers, traders, and FPOs to buy/sell produce online.<br><em>Contribution:</em> Designed and executed automation framework using Playwright for UI and API automation, ensuring faster regression cycles and improved test coverage.</li>
-    <li><strong>APL Logistics COMS Application (Apr 2023 – Dec 2024):</strong> Comprehensive logistics and supply chain management solution.<br><em>Contribution:</em> Implemented Playwright-based automation integrated into CI/CD pipelines, enhancing reliability and reducing manual testing effort.</li>
-    <li><strong>Investor Portal (Sep 2022 – Apr 2023):</strong> Web platform for investors.<br><em>Contribution:</em> Developed Cypress automation scripts, reducing manual execution time and ensuring stability across releases.</li>
-    <li><strong>Jarvis Retail Lending (Sep 2022 – Apr 2023):</strong> Loan origination and management system.<br><em>Contribution:</em> Built automation suite with Cypress, integrated it into CI/CD pipelines, and introduced AI-assisted testing practices.</li>
+    <li><strong>APL Logistics COMS Application (Apr 2023 – Dec 2024):</strong> Comprehensive logistics and supply chain management solution for order, shipment, and warehouse operations.<br><em>Contribution:</em> Implemented Playwright-based automation integrated into CI/CD pipelines, enhancing reliability and reducing manual testing effort.</li>
+    <li><strong>Investor Portal (Sep 2022 – Apr 2023):</strong> Web platform for investors to manage profiles, portfolios, and track investments.<br><em>Contribution:</em> Developed Cypress automation scripts for functional and regression testing, reducing manual execution time and ensuring stability across releases.</li>
+    <li><strong>Jarvis Retail Lending (Sep 2022 – Apr 2023):</strong> Loan origination and management system enabling digital onboarding, credit assessment, and loan processing.<br><em>Contribution:</em> Built automation suite using Cypress and integrated it into CI/CD pipelines; introduced AI-assisted testing practices to improve test efficiency and reduce defect leakage.</li>
   </ul>
-  <h3>Responsibilities at Bitxia</h3>
+  <h4>Responsibilities at Bitxia:</h4>
   <ul>
-    <li>Led QA team of 5–6 members, managed client communication, estimations, and test delivery.</li>
-    <li>Hands-on with Cypress and Playwright for UI/API automation, reducing regression cycle time.</li>
-    <li>Owned QA automation architecture across UI, API, DB, performance, and non-functional testing.</li>
-    <li>Mentored engineers on automation best practices, frameworks, scripting, and AI-assisted testing.</li>
-    <li>Integrated automation frameworks into CI/CD pipelines (Jenkins, GitHub Actions).</li>
-    <li>Defined QA governance models, test strategy, and quality standards.</li>
-    <li>Collaborated with developers, product managers, and DevOps for agile delivery.</li>
+    <li>Led a QA team of 5–6 members, handling client communication, project estimation, and test delivery (manual & automation).</li>
+    <li>Hands-on automation experience using Cypress and Playwright for UI and API test automation, improving coverage and reducing regression cycle time.</li>
+    <li>Ownership of QA automation architecture and scalability across UI, API, database, performance, and non-functional testing.</li>
+    <li>Mentored QA engineers on automation best practices, framework design, scripting, and AI-assisted testing with VS Code, GitHub Copilot, and Cursor.</li>
+    <li>Integrated automation frameworks into CI/CD pipelines (Jenkins, GitHub Actions) ensuring faster release cycles and deployment reliability.</li>
+    <li>Defined and implemented QA governance models, test strategy, and quality standards.</li>
+    <li>Collaborated closely with developers, product managers, and DevOps to embed a quality-first approach in agile delivery.</li>
+  </ul>
+
+  <h3><i class="fas fa-building"></i> DLT LABS</h3>
+  <ul>
+    <li><strong>PPD (DL Asset Track) (Mar 2022 – Sep 2022)</strong></li>
+    <li><strong>THOR (DL Asset Track) (Jun 2021 – Feb 2022)</strong></li>
+    <li><em>Responsibilities:</em> Manual testing of blockchain apps, TestLink, Jira.</li>
+  </ul>
+
+  <h3><i class="fas fa-building"></i> Xorlabs.com</h3>
+  <ul>
+    <li>Projects: SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
+    <li><em>Responsibilities:</em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira.</li>
+  </ul>
+
+  <h3><i class="fas fa-building"></i> Safenet Infotech Pvt. Ltd.</h3>
+  <ul>
+    <li>Projects: Usage Reporting System, WPS Online, WPS Client</li>
+    <li><em>Responsibilities:</em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS.</li>
   </ul>
 </div>
+
 
 <div id="github-portfolio" class="containerTab">
   <h2>GitHub Portfolio – Test Automation Projects</h2>

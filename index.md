@@ -42,29 +42,12 @@
 .containerTab {
   display: none;
   padding: 20px;
-  background: LightSteelBlue;
-  color: black;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 .containerTab.activeTab {
   display: block !important;
   opacity: 1;
-}
-
-/* Technical skills list */
-#technical-skills ul {
-  list-style: none;
-  padding-left: 0;
-}
-#technical-skills li {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 6px;
-}
-#technical-skills li strong {
-  width: 220px; /* Adjust width for alignment */
-  text-align: left;
 }
 
 /* Header */
@@ -83,17 +66,45 @@
   .navbar a { text-align: center; width: 100%; }
 }
 
-/* Project experience styling */
-.company-block, .portfolio-block, .cert-block, .academic-block {
+/* Common block UI for all sections */
+.section-block {
   margin-bottom: 20px;
-  padding: 10px 15px;
+  padding: 15px 20px;
   background-color: #e8f0f8;
   border-left: 4px solid #1a5276;
   border-radius: 6px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
-.company-name { color: #1a5276; }
-.project-name { color: #154360; font-weight: bold; }
-.contribution-list li { list-style-type: disc; margin-left: 20px; color: #34495e; }
+.section-block:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
+
+/* Technical skills list */
+#technical-skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+#technical-skills li {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+#technical-skills li strong {
+  width: 180px;
+  text-align: left;
+}
+
+/* Project experience & GitHub contributions */
+.project-name, .company-name {
+  color: #154360;
+  font-weight: bold;
+}
+.contribution-list li {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #34495e;
+}
 .responsibilities-title { margin-top: 10px; font-weight: bold; color: #1a5276; }
 .responsibilities-list li { list-style-type: square; margin-left: 20px; color: #2c3e50; margin-bottom: 4px; }
 
@@ -146,28 +157,26 @@ a:hover { text-decoration: underline; }
   <a href="#academic-background" onclick="openTab('academic-background'); return false;">Academic Background</a>
 </div>
 
-<!-- Career Objective -->
-<div id="career-objective" class="containerTab">
+<!-- Sections: Career Objective, Profile Summary, Technical Skills, Work Experience, etc. -->
+<div id="career-objective" class="containerTab section-block">
   <h2>Career Objective</h2>
   <p>To leverage over 13+ years of experience in software quality assurance, test automation, and AI-driven testing to architect scalable QA frameworks, mentor engineering teams, and deliver high-quality products through innovative, automation-first, and AI-powered testing strategies across UI, API, database, performance, and non-functional domains.</p>
 </div>
 
-<!-- Profile Summary -->
-<div id="profile-summary" class="containerTab">
+<div id="profile-summary" class="containerTab section-block">
   <h2>Profile Summary</h2>
-  <p>QA Leader with 13+ years’ experience in automation and quality engineering. Skilled in building scalable QA frameworks across UI, API, DB, and performance testing. Hands-on with Cypress, Playwright, Jenkins, and GitHub Actions. Proficient in AI-assisted testing using VS Code with GitHub Copilot and Cursor, driving faster script creation, improved test coverage, and higher efficiency. Strong track record in mentoring teams, defining QA strategy, and ensuring quality-first agile delivery.</p>
+  <p>QA Leader with 13+ years’ experience in automation and quality engineering. Skilled in building scalable QA frameworks across UI, API, DB, and performance testing. Hands-on with Cypress, Playwright, Jenkins and GitHub Actions. Proficient in AI-assisted testing using VS Code with GitHub Copilot and Cursor, driving faster script creation, improved test coverage, and higher efficiency. Strong track record in mentoring teams, defining QA strategy, and ensuring quality-first agile delivery.</p>
 </div>
 
-<!-- Technical Skills -->
-<div id="technical-skills" class="containerTab">
-  <h2 style="text-align: left;">Technical Skills</h2>
+<div id="technical-skills" class="containerTab section-block">
+  <h2>Technical Skills</h2>
   <ul>
     <li><strong>Testing Tools:</strong> Selenium, Cypress, Playwright</li>
     <li><strong>Languages:</strong> Java, Python, JavaScript, TypeScript</li>
-    <li><strong>Test Management Tools:</strong> TestRail, TestLink</li>
+    <li><strong>Test Management:</strong> TestRail, TestLink</li>
     <li><strong>API Testing:</strong> Postman, Playwright</li>
     <li><strong>CI/CD Tools:</strong> Jenkins, GitHub Actions</li>
-    <li><strong>Cloud Testing Platforms:</strong> Browserstack</li>
+    <li><strong>Cloud Testing:</strong> Browserstack</li>
     <li><strong>AI Tools:</strong> Cursor AI, GitHub Copilot</li>
     <li><strong>Bug Tracking:</strong> JIRA</li>
     <li><strong>Version Control:</strong> SVN, GitHub</li>
@@ -177,8 +186,7 @@ a:hover { text-decoration: underline; }
   </ul>
 </div>
 
-<!-- Work Experience -->
-<div id="work-experience" class="containerTab">
+<div id="work-experience" class="containerTab section-block">
   <h2>Work Experience</h2>
   <ul>
     <li><strong>QA Manager</strong> – Bitxia Tech Pvt. Ltd., Gurugram (Sep 2022 – July 2025)</li>
@@ -188,109 +196,41 @@ a:hover { text-decoration: underline; }
   </ul>
 </div>
 
-<!-- Project Experience -->
-<div id="key-projects" class="containerTab">
+<div id="key-projects" class="containerTab section-block">
   <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
-
-  <div class="company-block">
-    <h3><i class="fas fa-building"></i> <span class="company-name">Bitxia Tech Pvt. Ltd.</span></h3>
+  <div class="section-block">
+    <h3 class="company-name">Bitxia Tech Pvt. Ltd.</h3>
     <ul>
-      <li><strong class="project-name">eNAM 2.0 (Dec 2024 – July 2025):</strong>
-        <ul class="contribution-list">
-          <li>Designed and executed automation framework using Playwright for UI and API automation.</li>
-        </ul>
-      </li>
-      <li><strong class="project-name">APL Logistics COMS Application (Apr 2023 – Dec 2024):</strong>
-        <ul class="contribution-list">
-          <li>Implemented Playwright automation integrated with CI/CD pipelines.</li>
-        </ul>
-      </li>
-      <li><strong class="project-name">Investor Portal (Sep 2022 – Apr 2023):</strong>
-        <ul class="contribution-list">
-          <li>Developed Cypress automation scripts for functional and regression testing.</li>
-        </ul>
-      </li>
-      <li><strong class="project-name">Jarvis Retail Lending (Sep 2022 – Apr 2023):</strong>
-        <ul class="contribution-list">
-          <li>Built automation suite using Cypress with AI-assisted testing practices.</li>
-        </ul>
-      </li>
-    </ul>
-    <h4 class="responsibilities-title">Responsibilities:</h4>
-    <ul class="responsibilities-list">
-      <li>Led QA team of 5–6 members; handled client communication, project estimation, and delivery.</li>
-      <li>Hands-on automation using Cypress & Playwright for UI and API testing.</li>
-      <li>Owned QA automation architecture for UI, API, DB, performance, and non-functional testing.</li>
-      <li>Mentored QA engineers on framework design, scripting, and AI-assisted testing.</li>
-      <li>Integrated automation frameworks into CI/CD pipelines (Jenkins, GitHub Actions).</li>
-      <li>Defined QA governance, test strategy, and quality standards.</li>
-      <li>Collaborated with developers, product managers, and DevOps to ensure quality-first agile delivery.</li>
-    </ul>
-  </div>
-
-  <div class="company-block">
-    <h3><i class="fas fa-building"></i> <span class="company-name">DLT LABS</span></h3>
-    <ul>
-      <li><strong class="project-name">PPD (DL Asset Track) (Mar 2022 – Sep 2022)</strong></li>
-      <li><strong class="project-name">THOR (DL Asset Track) (Jun 2021 – Feb 2022)</strong></li>
-      <li class="responsibilities-list"><em>Responsibilities:</em> Manual testing of blockchain apps using TestLink and Jira.</li>
-    </ul>
-  </div>
-
-  <div class="company-block">
-    <h3><i class="fas fa-building"></i> <span class="company-name">Xorlabs.com</span></h3>
-    <ul>
-      <li><strong class="project-name">Projects:</strong> SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
-      <li class="responsibilities-list"><em>Responsibilities:</em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira.</li>
-    </ul>
-  </div>
-
-  <div class="company-block">
-    <h3><i class="fas fa-building"></i> <span class="company-name">Safenet Infotech Pvt. Ltd.</span></h3>
-    <ul>
-      <li><strong class="project-name">Projects:</strong> Usage Reporting System, WPS Online, WPS Client</li>
-      <li class="responsibilities-list"><em>Responsibilities:</em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS.</li>
+      <li class="project-name"><strong>eNAM 2.0</strong> (Dec 2024 – July 2025)<br><em>Contribution:</em> Playwright UI & API automation.</li>
+      <li class="project-name"><strong>APL Logistics COMS</strong> (Apr 2023 – Dec 2024)<br><em>Contribution:</em> CI/CD integrated automation.</li>
+      <li class="project-name"><strong>Investor Portal</strong> (Sep 2022 – Apr 2023)<br><em>Contribution:</em> Cypress automation for regression & functional testing.</li>
+      <li class="project-name"><strong>Jarvis Retail Lending</strong> (Sep 2022 – Apr 2023)<br><em>Contribution:</em> Cypress + AI-assisted testing.</li>
     </ul>
   </div>
 </div>
 
-<!-- GitHub Portfolio -->
-<div id="github-portfolio" class="containerTab">
-  <h2><i class="fab fa-github"></i> GitHub Portfolio – Test Automation Projects</h2>
-  <div class="portfolio-block">
-    <ul>
-      <li><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a>
-        <ul class="contribution-list"><li>End-to-end UI automation using Playwright.</li></ul>
-      </li>
-      <li><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a>
-        <ul class="contribution-list"><li>Functional & regression testing suite.</li></ul>
-      </li>
-      <li><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a>
-        <ul class="contribution-list"><li>Keyword-driven automation framework.</li></ul>
-      </li>
-    </ul>
-  </div>
+<div id="github-portfolio" class="containerTab section-block">
+  <h2><i class="fab fa-github"></i> GitHub Portfolio</h2>
+  <ul>
+    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a></li>
+    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a></li>
+    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a></li>
+  </ul>
 </div>
 
-<!-- Certifications -->
-<div id="certifications" class="containerTab">
+<div id="certifications" class="containerTab section-block">
   <h2><i class="fas fa-certificate"></i> Certifications</h2>
-  <div class="cert-block">
-    <ul>
-      <li>ISTQB Certified Tester – Foundation Level</li>
-    </ul>
-  </div>
+  <ul>
+    <li>ISTQB Certified Tester – Foundation Level</li>
+  </ul>
 </div>
 
-<!-- Academic Background -->
-<div id="academic-background" class="containerTab">
+<div id="academic-background" class="containerTab section-block">
   <h2><i class="fas fa-graduation-cap"></i> Academic Background</h2>
-  <div class="academic-block">
-    <ul>
-      <li>MCA – UP Technical University – 64.28%</li>
-      <li>BCA – Allahabad Agriculture Institute – 7.96 CGPA</li>
-    </ul>
-  </div>
+  <ul>
+    <li>MCA – UP Technical University – 64.28%</li>
+    <li>BCA – Allahabad Agriculture Institute – 7.96 CGPA</li>
+  </ul>
 </div>
 
 <script>

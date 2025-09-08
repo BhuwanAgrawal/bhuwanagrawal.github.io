@@ -180,19 +180,19 @@
   <ul>
     <li><strong>PPD (DL Asset Track) (Mar 2022 – Sep 2022)</strong></li>
     <li><strong>THOR (DL Asset Track) (Jun 2021 – Feb 2022)</strong></li>
-    <li><em>Responsibilities:</em> Manual testing of blockchain apps, TestLink, Jira.</li>
+    <li><em><strong>Responsibilities:</strong></em> Manual testing of blockchain apps, TestLink, Jira.</li>
   </ul>
 
   <h3><i class="fas fa-building"></i> Xorlabs.com</h3>
   <ul>
-    <li>Projects: SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
-    <li><em>Responsibilities:</em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira.</li>
+    <li><strong>Projects:</strong> SQLCM, XMF Automation, CML Configurator, SQL Secure, Uptime, ASD, One Source Configurator, MSQT</li>
+    <li><em><strong>Responsibilities:</strong></em> Manual & automation testing (Ranorex, Selenium, TestComplete), Jira.</li>
   </ul>
 
   <h3><i class="fas fa-building"></i> Safenet Infotech Pvt. Ltd.</h3>
   <ul>
-    <li>Projects: Usage Reporting System, WPS Online, WPS Client</li>
-    <li><em>Responsibilities:</em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS.</li>
+    <li><strong>Projects:</strong> Usage Reporting System, WPS Online, WPS Client</li>
+    <li><em><strong>Responsibilities:</strong></em> Manual & QTP automation (VBScript), functional, GUI, DB testing, MKS.</li>
   </ul>
 </div>
 

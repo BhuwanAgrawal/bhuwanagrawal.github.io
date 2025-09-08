@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# Full HTML resume with all sections included (completed version)
-html_content = r"""
 <html>
 <head>
 <link rel="icon" type="image/png" href="profile.jpg">
@@ -238,10 +234,3 @@ window.onload = function () {
 
 </body>
 </html>
-"""
-
-# Save expanded HTML file
-output_file = Path("/mnt/data/index_full_expanded.html")
-output_file.write_text(html_content, encoding="utf-8")
-
-output_file

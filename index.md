@@ -306,7 +306,7 @@ a[href^="#certifications-"] {
 <!-- GitHub Portfolio -->
 <div id="github-portfolio" class="containerTab section-block">
   <h2><i class="fab fa-github"></i> GitHub Portfolio – Test Automation Projects</h2>
-  <ul style="list-style: disc; padding-left: 20px;">
+  <ul style="list-style: disc;">
     <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a><span> – End-to-end automation framework demonstrating UI testing using Playwright.</span></li>
     <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a><span> – Test automation suite for functional and regression testing of web applications.</span></li>
     <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a><span> – Keyword-driven automation framework for regression and functional testing.</span></li>

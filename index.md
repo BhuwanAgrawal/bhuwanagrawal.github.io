@@ -261,21 +261,21 @@ a:hover { text-decoration: underline; }
   <ul>
     <li>
       <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank">
-        <img src="https://www.istqb.org/images/logo_istqb.png" alt="ISTQB Logo" class="cert-logo">
+        <img src="ISTQB.png" alt="ISTQB Logo" class="cert-logo">
         ISTQB Certified Tester – Foundation Level (CTFL), 2011 
         <i class="fas fa-external-link-alt"></i>
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/learning/certificates/c5bb67e1670e6ff45ff785902220bd9570768ed590b833d63fea9745d62e6f4c?trk=share_certificate" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo" class="cert-logo">
+        <img src="Linkedin.png" alt="LinkedIn Logo" class="cert-logo">
         API Testing Foundations – LinkedIn Learning, 2025 
         <i class="fas fa-external-link-alt"></i>
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/learning/certificates/19c4590084f62e0303e9d21c0caf52f38ec7b99a0b13641bf989ef6ba410143f?trk=share_certificate" target="_blank">
-        <img src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" alt="Postman Logo" class="cert-logo">
+        <img src="postman.png" alt="Postman Logo" class="cert-logo">
         Postman Essential Training – LinkedIn Learning, 2025 
         <i class="fas fa-external-link-alt"></i>
       </a>

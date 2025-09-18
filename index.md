@@ -10,8 +10,8 @@
 
 <style>
 /* ---------------------------
-   Your existing styles (kept)
-   with a few targeted fixes
+   Restored full-page styles
+   with tabbed + fade improvements
    --------------------------- */
 
 /* Navbar styling */
@@ -45,12 +45,16 @@
   border-color: #f1c40f;
 }
 
-/* Container sections: show all sections (single-page resume) */
+/* Container tabs (tabbed behavior) */
 .containerTab {
-  display: block; /* show sections so scroll + scroll-spy works */
+  display: none;
   padding: 20px;
+  opacity: 0;
+  transition: opacity 0.45s ease-in-out;
+}
+.containerTab.active {
+  display: block;
   opacity: 1;
-  transition: opacity 0.5s ease-in-out;
 }
 
 /* Header */
@@ -175,7 +179,6 @@ a[href^="#certifications-"] {
   <div style="display: flex; justify-content: space-between; align-items: center; position: relative;">
     <h1 style="margin: 0 auto; font-size: 32px; color: #1a5276; font-family: 'Georgia', serif; text-align: center; flex: 1;">Curriculum Vitae</h1>
   </div>
-
   <div class="header">
     <div style="flex: 1 1 60%; min-width: 300px; background-color: #f5f9fc; padding: 15px; border-radius: 10px; border: 1px solid #cfdce6;">
       <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276; text-align: left;">Bhuwan Agrawal</h2>
@@ -188,7 +191,6 @@ a[href^="#certifications-"] {
       <p style="text-align: left;"><i class='fab fa-github'></i> <a href="https://github.com/BhuwanAgrawal" target="_blank">github.com/BhuwanAgrawal</a></p>
       <p style="text-align: left;"><a href="Resume_QA_Bhuwan_Agrawal.pdf" download style="color: inherit;"><i class='fas fa-file-download'></i> Download Resume (PDF)</a></p>
     </div>
-
     <div style="flex: 0 1 35%; min-width: 180px; display: flex; flex-direction: column; align-items: center;">
       <div style="margin-bottom: 15px;">
         <img src="profile.jpg" alt="Profile Photo" style="width: 110px; height: 110px; border-radius: 8px; object-fit: cover; object-position: top center; box-shadow: 0 0 8px rgba(0,0,0,0.2); border: 2px solid #1a5276;">
@@ -207,18 +209,18 @@ a[href^="#certifications-"] {
 
 <!-- Navbar -->
 <div class="navbar">
-  <!-- NOTE: links are normal href="#id" (JS will handle smooth scroll + hash update) -->
-  <a href="#career-objective">Career Objective</a>
-  <a href="#profile-summary">Profile Summary</a>
-  <a href="#technical-skills">Technical Skills</a>
-  <a href="#work-experience">Work Experience</a>
-  <a href="#key-projects">Project Experience</a>
-  <a href="#github-portfolio">GitHub Portfolio</a>
-  <a href="#certifications">Certifications</a>
-  <a href="#academic-background">Academic Background</a>
+  <a href="#career-objective" onclick="openTab(event,'career-objective')">Career Objective</a>
+  <a href="#profile-summary" onclick="openTab(event,'profile-summary')">Profile Summary</a>
+  <a href="#technical-skills" onclick="openTab(event,'technical-skills')">Technical Skills</a>
+  <a href="#work-experience" onclick="openTab(event,'work-experience')">Work Experience</a>
+  <a href="#key-projects" onclick="openTab(event,'key-projects')">Project Experience</a>
+  <a href="#github-portfolio" onclick="openTab(event,'github-portfolio')">GitHub Portfolio</a>
+  <a href="#certifications" onclick="openTab(event,'certifications')">Certifications</a>
+  <a href="#academic-background" onclick="openTab(event,'academic-background')">Academic Background</a>
 </div>
 
-<!-- Sections -->
+<!-- Sections (full original content restored) -->
+
 <div id="career-objective" class="containerTab section-block">
   <h2><i class="fas fa-bullseye"></i> Career Objective</h2>
   <p>To leverage over 13+ years of experience in software quality assurance, test automation, and AI-driven testing to architect scalable QA frameworks, mentor engineering teams, and deliver high-quality products through innovative, automation-first, and AI-powered testing strategies across UI, API, database, performance, and non-functional domains.</p>
@@ -260,7 +262,7 @@ a[href^="#certifications-"] {
 <!-- Project Experience (Full restored) -->
 <div id="key-projects" class="containerTab section-block">
   <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
-
+  
   <!-- Bitxia Tech -->
   <h3 class="company-name">Bitxia Tech Pvt. Ltd.</h3>
   <ul class="contribution-list">
@@ -318,7 +320,6 @@ a[href^="#certifications-"] {
   <ul class="contribution-list">
     <li class="project-name">
       <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank">
-        <!-- optional: keep ISTQB.png locally if you have it -->
         <img src="ISTQB.png" alt="ISTQB Logo" class="cert-logo" onerror="this.style.display='none'">
         ISTQB Certified Tester – Foundation Level (CTFL), 2011
       </a>
@@ -347,75 +348,52 @@ a[href^="#certifications-"] {
 </div>
 
 <script>
-/* Smooth navigation + hash update + scroll-spy
-   - Converts navbar clicks into smooth-scrolling to sections
-   - Updates the URL hash with pushState for clicks and replaceState during scrolling
-   - Hides/removes auto-inserted anchors if any exist
+/* Tabbed UI with fade-in + hash update
+   - openTab(evt, tabId): shows the tab with fade
+   - on load: opens the section from hash or defaults to profile-summary
+   - removes auto-inserted anchors under h2 (e.g., anchorjs)
 */
 
-document.addEventListener('DOMContentLoaded', function() {
-  const navLinks = document.querySelectorAll('.navbar a');
-  const sections = Array.from(document.querySelectorAll('.containerTab'));
-  const offset = 120; // adjust if your navbar height changes
+function openTab(evt, tabId) {
+  const tabs = document.querySelectorAll(".containerTab");
+  const links = document.querySelectorAll(".navbar a");
 
-  function setActiveLink(id) {
-    navLinks.forEach(link => {
-      link.classList.toggle('activeLink', link.getAttribute('href') === `#${id}`);
-    });
-  }
-
-  // handle click on navbar links
-  navLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const id = this.getAttribute('href').substring(1);
-      const el = document.getElementById(id);
-      if (!el) return;
-      // smooth scroll
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      // update history (so URL shows endpoint)
-      history.pushState(null, '', `#${id}`);
-      setActiveLink(id);
-      // update document title based on section header
-      const h2 = el.querySelector('h2');
-      if (h2) document.title = `Bhuwan Agrawal – ${h2.textContent.trim()}`;
-    });
+  // hide all tabs
+  tabs.forEach(t => {
+    t.classList.remove('active');
+    t.style.display = 'none';
   });
 
-  // scroll spy: highlight nav and update hash while scrolling
-  window.addEventListener('scroll', function() {
-    let current = sections[0]?.id || '';
-    for (const section of sections) {
-      const rect = section.getBoundingClientRect();
-      if (rect.top <= offset) {
-        current = section.id;
-      }
-    }
-    if (current) {
-      setActiveLink(current);
-      // replaceState to avoid cluttering history while scrolling
-      history.replaceState(null, '', `#${current}`);
-    }
-  });
+  // remove active state from links
+  links.forEach(l => l.classList.remove('activeLink'));
 
-  // on initial load, if there's a hash, scroll to it
-  const initialHash = window.location.hash.substring(1);
-  if (initialHash) {
-    const el = document.getElementById(initialHash);
-    if (el) {
-      // slight timeout to allow rendering
-      setTimeout(() => { el.scrollIntoView(); setActiveLink(initialHash); }, 50);
-    }
-  } else {
-    // default active link
-    setActiveLink('profile-summary');
+  // show target tab (with small delay to allow transition)
+  const target = document.getElementById(tabId);
+  if (!target) return;
+  target.style.display = 'block';
+  // tiny delay to trigger CSS transition
+  setTimeout(() => { target.classList.add('active'); }, 20);
+
+  // mark clicked nav link active
+  if (evt && evt.currentTarget) evt.currentTarget.classList.add('activeLink');
+  else {
+    // if no event (programmatic), set active link by href
+    const sel = document.querySelector(`.navbar a[href="#${tabId}"]`);
+    if (sel) sel.classList.add('activeLink');
   }
 
-  // remove any auto-inserted anchor links near headings (AnchorJS, etc.)
-  // This removes elements like <a class="anchorjs-link"> or similar inserted into h2
+  // update URL hash
+  history.pushState(null, '', `#${tabId}`);
+
+  // update document title based on section header
+  const h2 = target.querySelector('h2');
+  if (h2) document.title = `Bhuwan Agrawal – ${h2.textContent.trim()}`;
+}
+
+// Remove auto-inserted anchors near headings (AnchorJS-like)
+function removeAutoAnchors() {
   document.querySelectorAll('h2').forEach(h2 => {
     h2.querySelectorAll('a').forEach(a => {
-      // if it's an auto anchor (href starts with '#' and has no visible text) remove it
       const href = a.getAttribute('href') || '';
       const txt = a.textContent || '';
       if ((href.startsWith('#') && txt.trim() === '') || a.classList.contains('anchorjs-link') || a.classList.contains('header-link')) {
@@ -423,6 +401,31 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+}
+
+// On load: open section based on hash or default
+window.addEventListener('DOMContentLoaded', () => {
+  removeAutoAnchors();
+
+  const hash = window.location.hash.substring(1);
+  const defaultTab = hash && document.getElementById(hash) ? hash : 'profile-summary';
+
+  // simulate clicking the navbar link (so activeLink set)
+  const navLink = document.querySelector(`.navbar a[href="#${defaultTab}"]`);
+  if (navLink) {
+    navLink.click();
+  } else {
+    // fallback: directly open
+    openTab(null, defaultTab);
+  }
+});
+
+// support back/forward navigation: when popstate fired, open correct tab
+window.addEventListener('popstate', () => {
+  const hash = window.location.hash.substring(1);
+  const tab = hash && document.getElementById(hash) ? hash : 'profile-summary';
+  // open without event
+  openTab(null, tab);
 });
 </script>
 

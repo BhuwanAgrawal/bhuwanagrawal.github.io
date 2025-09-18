@@ -259,9 +259,70 @@ a:hover { text-decoration: underline; }
 <div id="certifications" class="containerTab section-block">
   <h2><i class="fas fa-certificate"></i> Certifications</h2>
   <ul>
-    <li>ISTQB Certified Tester – Foundation Level</li>
+    <li>
+      <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank">
+        <img src="https://www.istqb.org/images/logo_istqb.png" alt="ISTQB Logo" class="cert-logo">
+        ISTQB Certified Tester – Foundation Level (CTFL), 2011 
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/learning/certificates/c5bb67e1670e6ff45ff785902220bd9570768ed590b833d63fea9745d62e6f4c?trk=share_certificate" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo" class="cert-logo">
+        API Testing Foundations – LinkedIn Learning, 2025 
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/learning/certificates/19c4590084f62e0303e9d21c0caf52f38ec7b99a0b13641bf989ef6ba410143f?trk=share_certificate" target="_blank">
+        <img src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" alt="Postman Logo" class="cert-logo">
+        Postman Essential Training – LinkedIn Learning, 2025 
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </li>
   </ul>
 </div>
+
+<style>
+  #certifications ul {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0;
+  }
+
+  #certifications li {
+    margin-bottom: 12px; /* Space between items */
+  }
+
+  #certifications a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Neutral dark gray */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+
+  #certifications a:hover {
+    color: #0073e6; /* Highlight color on hover */
+  }
+
+  #certifications i {
+    margin-left: 6px; /* Space between text and icon */
+    font-size: 0.85em; /* Slightly smaller icon */
+    color: #666; /* Softer color */
+  }
+
+  #certifications a:hover i {
+    color: #0073e6; /* Icon also changes on hover */
+  }
+
+  .cert-logo {
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    object-fit: contain;
+  }
+</style>
+
 
 <div id="academic-background" class="containerTab section-block">
   <h2><i class="fas fa-graduation-cap"></i> Academic Background</h2>

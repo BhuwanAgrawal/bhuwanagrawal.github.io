@@ -311,6 +311,12 @@ a[href^="#certifications-"] {
     <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a><span> – Test automation suite for functional and regression testing of web applications.</span></li>
     <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a><span> – Keyword-driven automation framework for regression and functional testing.</span></li>
   </ul>
+  <ul class="contribution-list"> 
+  <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a><span> – End-to-end automation framework demonstrating UI testing using Playwright.</span></li> 
+  <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a><span> – Test automation suite for functional and regression testing of web applications.</span></li> 
+  <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a><span> – Keyword-driven automation framework for regression and functional testing.</span></li> 
+  </ul>
+  
 </div>
 
 <!-- Certifications -->
@@ -331,7 +337,7 @@ a[href^="#certifications-"] {
     </li>
     <li>
       <a href="https://www.linkedin.com/learning/certificates/19c4590084f62e0303e9d21c0caf52f38ec7b99a0b13641bf989ef6ba410143f?trk=share_certificate" target="_blank">
-        <img src="Postman.png" alt="Postman Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+        <img src="Linkedin.png" alt="Postman Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
         Postman Essential Training – LinkedIn Learning, 2025
       </a>
     </li>

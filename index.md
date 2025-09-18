@@ -1,11 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <link rel="icon" type="image/png" href="profile.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Font Awesome kit (same as yours) -->
 <script src='https://kit.fontawesome.com/1053334a8a.js' crossorigin='anonymous'></script>
 <title>Bhuwan Agrawal – Resume</title>
+
 <style>
+/* ---------------------------
+   Your existing styles (kept)
+   with a few targeted fixes
+   --------------------------- */
+
 /* Navbar styling */
 .navbar {
   display: flex;
@@ -37,16 +45,12 @@
   border-color: #f1c40f;
 }
 
-/* Container tabs */
+/* Container sections: show all sections (single-page resume) */
 .containerTab {
-  display: none;
+  display: block; /* show sections so scroll + scroll-spy works */
   padding: 20px;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-.containerTab.activeTab {
-  display: block !important;
   opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }
 
 /* Header */
@@ -99,11 +103,21 @@
   color: #154360;
   font-weight: bold;
 }
-.contribution-list li {
-  list-style-type: disc;
-  margin-left: 20px;
-  color: #34495e;
+.contribution-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
+.contribution-list li {
+  margin: 8px 0;
+}
+.contribution-list li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.contribution-list li a:hover { color: #0073e6; }
+
 .contribution-list li span {
   font-weight: normal;
   color: #2c3e50;
@@ -111,10 +125,49 @@
 .responsibilities-title { margin-top: 10px; font-weight: bold; color: #1a5276; }
 .responsibilities-list li { list-style-type: square; margin-left: 20px; color: #2c3e50; margin-bottom: 4px; }
 
+/* Generic link style */
 a { color: #154360; text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+/* Certification logos (if you keep local images ISTQB.png, Linkedin.png, Postman.png) */
+.cert-logo {
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+/* Hide auto-inserted anchor/link icons (from AnchorJS or similar) */
+.anchorjs-link,
+.header-link,
+h2 > a.anchor,
+h2 > .anchor,
+h2 .anchorjs-link,
+a[href^="#certifications-"] {
+  display: none !important;
+}
+
+/* Make section headings consistent */
+.containerTab h2 {
+  margin-top: 0;
+  color: #1a5276;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Small visual tweak for the CTFL image in header column */
+.header .cert-thumb img { max-width: 140px; height: auto; }
+
+/* Active nav link visual - ensure it stands out on sticky navbar */
+.navbar a.activeLink {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
 </style>
 </head>
+
 <body>
 
 <!-- Header Section -->
@@ -122,11 +175,12 @@ a:hover { text-decoration: underline; }
   <div style="display: flex; justify-content: space-between; align-items: center; position: relative;">
     <h1 style="margin: 0 auto; font-size: 32px; color: #1a5276; font-family: 'Georgia', serif; text-align: center; flex: 1;">Curriculum Vitae</h1>
   </div>
+
   <div class="header">
     <div style="flex: 1 1 60%; min-width: 300px; background-color: #f5f9fc; padding: 15px; border-radius: 10px; border: 1px solid #cfdce6;">
       <h2 style="margin-top: 0; font-size: 28px; font-family: 'Georgia', serif; color: #1a5276; text-align: left;">Bhuwan Agrawal</h2>
       <h4 style="margin-top: -10px; font-family: 'Georgia', serif; color: #1a5276; text-align: left; font-size: 14px;">
-		QA Manager | Automation (Playwright, Cypress) | AI-Assisted Testing | CI/CD</h4>
+        QA Manager | Automation (Playwright, Cypress) | AI-Assisted Testing | CI/CD</h4>
 
       <p style="text-align: left;"><i class='fas fa-map-marker-alt'></i> B-105 Stellar Mi Citihomes,<br>Omicron 3, Greater Noida, 201310</p>
       <p style="text-align: left;"><i class='fas fa-mobile-alt'></i> 8800149988 | <i class='fa fa-envelope'></i> <a href="mailto:bhuwan83@gmail.com">bhuwan83@gmail.com</a></p>
@@ -134,11 +188,12 @@ a:hover { text-decoration: underline; }
       <p style="text-align: left;"><i class='fab fa-github'></i> <a href="https://github.com/BhuwanAgrawal" target="_blank">github.com/BhuwanAgrawal</a></p>
       <p style="text-align: left;"><a href="Resume_QA_Bhuwan_Agrawal.pdf" download style="color: inherit;"><i class='fas fa-file-download'></i> Download Resume (PDF)</a></p>
     </div>
+
     <div style="flex: 0 1 35%; min-width: 180px; display: flex; flex-direction: column; align-items: center;">
       <div style="margin-bottom: 15px;">
         <img src="profile.jpg" alt="Profile Photo" style="width: 110px; height: 110px; border-radius: 8px; object-fit: cover; object-position: top center; box-shadow: 0 0 8px rgba(0,0,0,0.2); border: 2px solid #1a5276;">
       </div>
-      <div style="text-align: center;">
+      <div style="text-align: center;" class="cert-thumb">
         <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank">
           <img src="CTFL.png" alt="Certification" style="width: 140px; height: auto; border: 2px solid #1a5276; border-radius: 8px;">
         </a>
@@ -152,14 +207,15 @@ a:hover { text-decoration: underline; }
 
 <!-- Navbar -->
 <div class="navbar">
-  <a href="#career-objective" onclick="openTab('career-objective'); return false;">Career Objective</a>
-  <a href="#profile-summary" onclick="openTab('profile-summary'); return false;">Profile Summary</a>
-  <a href="#technical-skills" onclick="openTab('technical-skills'); return false;">Technical Skills</a>
-  <a href="#work-experience" onclick="openTab('work-experience'); return false;">Work Experience</a>
-  <a href="#key-projects" onclick="openTab('key-projects'); return false;">Project Experience</a>
-  <a href="#github-portfolio" onclick="openTab('github-portfolio'); return false;">GitHub Portfolio</a>
-  <a href="#certifications" onclick="openTab('certifications'); return false;">Certifications</a>
-  <a href="#academic-background" onclick="openTab('academic-background'); return false;">Academic Background</a>
+  <!-- NOTE: links are normal href="#id" (JS will handle smooth scroll + hash update) -->
+  <a href="#career-objective">Career Objective</a>
+  <a href="#profile-summary">Profile Summary</a>
+  <a href="#technical-skills">Technical Skills</a>
+  <a href="#work-experience">Work Experience</a>
+  <a href="#key-projects">Project Experience</a>
+  <a href="#github-portfolio">GitHub Portfolio</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#academic-background">Academic Background</a>
 </div>
 
 <!-- Sections -->
@@ -204,7 +260,7 @@ a:hover { text-decoration: underline; }
 <!-- Project Experience (Full restored) -->
 <div id="key-projects" class="containerTab section-block">
   <h2><i class="fas fa-project-diagram"></i> Project Experience</h2>
-  
+
   <!-- Bitxia Tech -->
   <h3 class="company-name">Bitxia Tech Pvt. Ltd.</h3>
   <ul class="contribution-list">
@@ -256,61 +312,31 @@ a:hover { text-decoration: underline; }
   </ul>
 </div>
 
+<!-- Certifications (formatted like GitHub Portfolio) -->
 <div id="certifications" class="containerTab section-block">
   <h2><i class="fas fa-award"></i> Certifications</h2>
   <ul class="contribution-list">
-    <li>
+    <li class="project-name">
       <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank">
-        <img src="ISTQB.png" alt="ISTQB Logo" class="cert-logo">
+        <!-- optional: keep ISTQB.png locally if you have it -->
+        <img src="ISTQB.png" alt="ISTQB Logo" class="cert-logo" onerror="this.style.display='none'">
         ISTQB Certified Tester – Foundation Level (CTFL), 2011
       </a>
     </li>
-    <li>
+    <li class="project-name">
       <a href="https://www.linkedin.com/learning/certificates/c5bb67e1670e6ff45ff785902220bd9570768ed590b833d63fea9745d62e6f4c?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="LinkedIn Logo" class="cert-logo">
+        <img src="Linkedin.png" alt="LinkedIn Logo" class="cert-logo" onerror="this.style.display='none'">
         API Testing Foundations – LinkedIn Learning, 2025
       </a>
     </li>
-    <li>
+    <li class="project-name">
       <a href="https://www.linkedin.com/learning/certificates/19c4590084f62e0303e9d21c0caf52f38ec7b99a0b13641bf989ef6ba410143f?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="Postman Logo" class="cert-logo">
+        <img src="Postman.png" alt="Postman Logo" class="cert-logo" onerror="this.style.display='none'">
         Postman Essential Training – LinkedIn Learning, 2025
       </a>
     </li>
   </ul>
 </div>
-
-<style>
-  #certifications ul {
-    list-style-type: none; /* Remove bullets */
-    padding-left: 0;
-  }
-
-  #certifications li {
-    margin-bottom: 12px; /* Space between items */
-  }
-
-  #certifications a {
-    text-decoration: none; /* Remove underline */
-    color: #333; /* Neutral dark gray */
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-  }
-
-  #certifications a:hover {
-    color: #0073e6; /* Highlight color on hover */
-  }
-
-  .cert-logo {
-    width: 22px;
-    height: 22px;
-    margin-right: 8px;
-    object-fit: contain;
-  }
-</style>
-
-
 
 <div id="academic-background" class="containerTab section-block">
   <h2><i class="fas fa-graduation-cap"></i> Academic Background</h2>
@@ -321,35 +347,83 @@ a:hover { text-decoration: underline; }
 </div>
 
 <script>
-function openTab(tabName) {
-  const tabs = document.getElementsByClassName("containerTab");
-  const links = document.querySelectorAll(".navbar a");
-  for (let i = 0; i < tabs.length; i++) tabs[i].classList.remove("activeTab");
-  links.forEach(link => link.classList.remove("activeLink"));
-  const activeTab = document.getElementById(tabName);
-  const activeLink = document.querySelector(`.navbar a[href="#${tabName}"]`);
-  if (activeTab) {
-    activeTab.classList.add("activeTab");
-    if (activeLink) activeLink.classList.add("activeLink");
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    const titleMap = {
-      "career-objective": "Career Objective",
-      "profile-summary": "Profile Summary",
-      "technical-skills": "Technical Skills",
-      "work-experience": "Work Experience",
-      "key-projects": "Project Experience",
-      "github-portfolio": "GitHub Portfolio",
-      "certifications": "Certifications",
-      "academic-background": "Academic Background"
-    };
-    document.title = titleMap[tabName] ? `Bhuwan Agrawal – ${titleMap[tabName]}` : "Bhuwan Agrawal – Resume";
+/* Smooth navigation + hash update + scroll-spy
+   - Converts navbar clicks into smooth-scrolling to sections
+   - Updates the URL hash with pushState for clicks and replaceState during scrolling
+   - Hides/removes auto-inserted anchors if any exist
+*/
+
+document.addEventListener('DOMContentLoaded', function() {
+  const navLinks = document.querySelectorAll('.navbar a');
+  const sections = Array.from(document.querySelectorAll('.containerTab'));
+  const offset = 120; // adjust if your navbar height changes
+
+  function setActiveLink(id) {
+    navLinks.forEach(link => {
+      link.classList.toggle('activeLink', link.getAttribute('href') === `#${id}`);
+    });
   }
-}
-window.onload = function () {
-  const hash = window.location.hash.substring(1);
-  const defaultTab = document.getElementById(hash) ? hash : "profile-summary";
-  openTab(defaultTab);
-}
+
+  // handle click on navbar links
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const id = this.getAttribute('href').substring(1);
+      const el = document.getElementById(id);
+      if (!el) return;
+      // smooth scroll
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // update history (so URL shows endpoint)
+      history.pushState(null, '', `#${id}`);
+      setActiveLink(id);
+      // update document title based on section header
+      const h2 = el.querySelector('h2');
+      if (h2) document.title = `Bhuwan Agrawal – ${h2.textContent.trim()}`;
+    });
+  });
+
+  // scroll spy: highlight nav and update hash while scrolling
+  window.addEventListener('scroll', function() {
+    let current = sections[0]?.id || '';
+    for (const section of sections) {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= offset) {
+        current = section.id;
+      }
+    }
+    if (current) {
+      setActiveLink(current);
+      // replaceState to avoid cluttering history while scrolling
+      history.replaceState(null, '', `#${current}`);
+    }
+  });
+
+  // on initial load, if there's a hash, scroll to it
+  const initialHash = window.location.hash.substring(1);
+  if (initialHash) {
+    const el = document.getElementById(initialHash);
+    if (el) {
+      // slight timeout to allow rendering
+      setTimeout(() => { el.scrollIntoView(); setActiveLink(initialHash); }, 50);
+    }
+  } else {
+    // default active link
+    setActiveLink('profile-summary');
+  }
+
+  // remove any auto-inserted anchor links near headings (AnchorJS, etc.)
+  // This removes elements like <a class="anchorjs-link"> or similar inserted into h2
+  document.querySelectorAll('h2').forEach(h2 => {
+    h2.querySelectorAll('a').forEach(a => {
+      // if it's an auto anchor (href starts with '#' and has no visible text) remove it
+      const href = a.getAttribute('href') || '';
+      const txt = a.textContent || '';
+      if ((href.startsWith('#') && txt.trim() === '') || a.classList.contains('anchorjs-link') || a.classList.contains('header-link')) {
+        a.remove();
+      }
+    });
+  });
+});
 </script>
 
 </body>

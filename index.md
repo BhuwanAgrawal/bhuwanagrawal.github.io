@@ -306,37 +306,47 @@ a[href^="#certifications-"] {
 <!-- GitHub Portfolio -->
 <div id="github-portfolio" class="containerTab section-block">
   <h2><i class="fab fa-github"></i> GitHub Portfolio – Test Automation Projects</h2>
-  <ul class="contribution-list">
-    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a><span> – End-to-end automation framework demonstrating UI testing using Playwright.</span></li>
-    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a><span> – Test automation suite for functional and regression testing of web applications.</span></li>
-    <li class="project-name"><a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a><span> – Keyword-driven automation framework for regression and functional testing.</span></li>
+  <ul style="list-style: disc; padding-left: 20px;">
+    <li class="project-name">
+      <a href="https://github.com/BhuwanAgrawal/Playwright-Project" target="_blank">Playwright Project</a>
+      <span> – End-to-end automation framework demonstrating UI testing using Playwright.</span>
+    </li>
+    <li class="project-name">
+      <a href="https://github.com/BhuwanAgrawal/Cypress-Project" target="_blank">Cypress Project</a>
+      <span> – Test automation suite for functional and regression testing of web applications.</span>
+    </li>
+    <li class="project-name">
+      <a href="https://github.com/BhuwanAgrawal/Selenium-KD-Project" target="_blank">Selenium Keyword Driven Project</a>
+      <span> – Keyword-driven automation framework for regression and functional testing.</span>
+    </li>
   </ul>
 </div>
 
 <!-- Certifications (formatted like GitHub Portfolio) -->
 <div id="certifications" class="containerTab section-block">
   <h2><i class="fas fa-award"></i> Certifications</h2>
-  <ul class="contribution-list">
+  <ul style="list-style: disc; padding-left: 20px;">
     <li class="project-name">
       <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank">
-        <img src="ISTQB.png" alt="ISTQB Logo" class="cert-logo" onerror="this.style.display='none'">
+        <img src="ISTQB.png" alt="ISTQB Logo" class="cert-logo" style="filter: grayscale(100%); width:22px; height:22px;" onerror="this.style.display='none'">
         ISTQB Certified Tester – Foundation Level (CTFL), 2011
       </a>
     </li>
     <li class="project-name">
       <a href="https://www.linkedin.com/learning/certificates/c5bb67e1670e6ff45ff785902220bd9570768ed590b833d63fea9745d62e6f4c?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="LinkedIn Logo" class="cert-logo" onerror="this.style.display='none'">
+        <img src="Linkedin.png" alt="LinkedIn Logo" class="cert-logo" style="filter: grayscale(100%); width:22px; height:22px;" onerror="this.style.display='none'">
         API Testing Foundations – LinkedIn Learning, 2025
       </a>
     </li>
     <li class="project-name">
       <a href="https://www.linkedin.com/learning/certificates/19c4590084f62e0303e9d21c0caf52f38ec7b99a0b13641bf989ef6ba410143f?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="Postman Logo" class="cert-logo" onerror="this.style.display='none'">
+        <img src="Postman.png" alt="Postman Logo" class="cert-logo" style="filter: grayscale(100%); width:22px; height:22px;" onerror="this.style.display='none'">
         Postman Essential Training – LinkedIn Learning, 2025
       </a>
     </li>
   </ul>
 </div>
+
 
 <div id="academic-background" class="containerTab section-block">
   <h2><i class="fas fa-graduation-cap"></i> Academic Background</h2>

@@ -257,27 +257,24 @@ a:hover { text-decoration: underline; }
 </div>
 
 <div id="certifications" class="containerTab section-block">
-  <h2><i class="fas fa-certificate"></i> Certifications</h2>
+  <h2><i class="fas fa-award"></i> Certifications</h2>
   <ul>
     <li>
       <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank">
         <img src="ISTQB.png" alt="ISTQB Logo" class="cert-logo">
-        ISTQB Certified Tester – Foundation Level (CTFL), 2011 
-        <i class="fas fa-external-link-alt"></i>
+        ISTQB Certified Tester – Foundation Level (CTFL), 2011
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/learning/certificates/c5bb67e1670e6ff45ff785902220bd9570768ed590b833d63fea9745d62e6f4c?trk=share_certificate" target="_blank">
         <img src="Linkedin.png" alt="LinkedIn Logo" class="cert-logo">
-        API Testing Foundations – LinkedIn Learning, 2025 
-        <i class="fas fa-external-link-alt"></i>
+        API Testing Foundations – LinkedIn Learning, 2025
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/learning/certificates/19c4590084f62e0303e9d21c0caf52f38ec7b99a0b13641bf989ef6ba410143f?trk=share_certificate" target="_blank">
-        <img src="postman.png" alt="Postman Logo" class="cert-logo">
-        Postman Essential Training – LinkedIn Learning, 2025 
-        <i class="fas fa-external-link-alt"></i>
+        <img src="Postman.png" alt="Postman Logo" class="cert-logo">
+        Postman Essential Training – LinkedIn Learning, 2025
       </a>
     </li>
   </ul>
@@ -305,16 +302,6 @@ a:hover { text-decoration: underline; }
     color: #0073e6; /* Highlight color on hover */
   }
 
-  #certifications i {
-    margin-left: 6px; /* Space between text and icon */
-    font-size: 0.85em; /* Slightly smaller icon */
-    color: #666; /* Softer color */
-  }
-
-  #certifications a:hover i {
-    color: #0073e6; /* Icon also changes on hover */
-  }
-
   .cert-logo {
     width: 22px;
     height: 22px;
@@ -322,6 +309,7 @@ a:hover { text-decoration: underline; }
     object-fit: contain;
   }
 </style>
+
 
 
 <div id="academic-background" class="containerTab section-block">

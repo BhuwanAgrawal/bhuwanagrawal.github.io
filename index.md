@@ -258,7 +258,7 @@ a:hover { text-decoration: underline; }
 
 <div id="certifications" class="containerTab section-block">
   <h2><i class="fas fa-award"></i> Certifications</h2>
-  <ul>
+  <ul class="contribution-list">
     <li>
       <a href="https://www.istqb.in/about-us/certified-tester/foundation-level/36257-bhuwan-agrawal" target="_blank">
         <img src="ISTQB.png" alt="ISTQB Logo" class="cert-logo">
@@ -273,7 +273,7 @@ a:hover { text-decoration: underline; }
     </li>
     <li>
       <a href="https://www.linkedin.com/learning/certificates/19c4590084f62e0303e9d21c0caf52f38ec7b99a0b13641bf989ef6ba410143f?trk=share_certificate" target="_blank">
-        <img src="Postman.png" alt="Postman Logo" class="cert-logo">
+        <img src="Linkedin.png" alt="Postman Logo" class="cert-logo">
         Postman Essential Training – LinkedIn Learning, 2025
       </a>
     </li>

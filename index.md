@@ -229,8 +229,8 @@ a[href^="#certifications-"] {
 <div id="technical-skills" class="containerTab section-block">
   <h2><i class="fas fa-tools"></i> Technical Skills</h2>
   <ul>
-    <li><strong>Testing Tools:</strong> Selenium, Cypress, Playwright</li>
-    <li><strong>Languages:</strong> Java, Python, JavaScript, TypeScript</li>
+    <li><strong>Testing Tools:</strong> Playwright, Cypress, Selenium</li>
+    <li><strong>Languages:</strong> JavaScript, Java</li>
     <li><strong>Test Management Tools:</strong> TestRail, TestLink</li>
     <li><strong>API Testing:</strong> Postman, Playwright</li>
     <li><strong>CI/CD Tools:</strong> Jenkins, GitHub Actions</li>

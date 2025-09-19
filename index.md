@@ -327,8 +327,14 @@ a[href^="#certifications-"] {
     </li>
     <li>
       <a href="https://www.linkedin.com/learning/certificates/19c4590084f62e0303e9d21c0caf52f38ec7b99a0b13641bf989ef6ba410143f?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="Postman Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+        <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
         Postman Essential Training – LinkedIn Learning, 2025
+      </a>
+    </li>
+	 <li>
+      <a href="https://www.linkedin.com/learning/certificates/9bbf9c82a82cc630a41f94a923a84a2d09756e09edf20b8b42fe3b4cf0c03e39?trk=share_certificate" target="_blank">
+        <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+        Introducing Postman – LinkedIn Learning, 2025
       </a>
     </li>
   </ul>

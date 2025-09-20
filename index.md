@@ -337,6 +337,12 @@ a[href^="#certifications-"] {
         Introducing Postman – LinkedIn Learning, 2025
       </a>
     </li>
+	<li>
+      <a href="https://www.linkedin.com/learning/certificates/6cf46ffc0ee6bbad834e5e7e617643ac966b7d405e0260cc99c443c2f61b7b3b?trk=share_certificate" target="_blank">
+        <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+        GitHub Essential Training: The Basics – LinkedIn Learning, 2025
+      </a>
+    </li>
   </ul>
 </div>
 

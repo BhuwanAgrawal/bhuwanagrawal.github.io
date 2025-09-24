@@ -343,6 +343,12 @@ a[href^="#certifications-"] {
         GitHub Essential Training: The Basics – LinkedIn Learning, 2025
       </a>
     </li>
+	<li>
+      <a href="https://www.linkedin.com/learning/certificates/40ad91a3177b4dd4101da229f2c510274f118b68e1ffff8abe3804918d45e3fc?trk=share_certificate" target="_blank">
+        <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+        Leaning GitHub – LinkedIn Learning, 2025
+      </a>
+    </li>
   </ul>
 </div>
 

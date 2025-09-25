@@ -319,6 +319,13 @@ a[href^="#certifications-"] {
         ISTQB Certified Tester – Foundation Level (CTFL), 2011
       </a>
     </li>
+  </ul>
+</div>
+
+<!-- LinkedIn Learning -->
+<div id="LinkedIn Learning" class="containerTab section-block">
+  <h2><i class="fas fa-award"></i> LinkedIn Learning</h2>
+  <ul style="list-style: disc; padding-left: 20px;">
     <li>
       <a href="https://www.linkedin.com/learning/certificates/c5bb67e1670e6ff45ff785902220bd9570768ed590b833d63fea9745d62e6f4c?trk=share_certificate" target="_blank">
         <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
@@ -346,7 +353,7 @@ a[href^="#certifications-"] {
 	<li>
       <a href="https://www.linkedin.com/learning/certificates/40ad91a3177b4dd4101da229f2c510274f118b68e1ffff8abe3804918d45e3fc?trk=share_certificate" target="_blank">
         <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
-        Leaning GitHub – LinkedIn Learning, 2025
+        Learning GitHub – LinkedIn Learning, 2025
       </a>
     </li>
   </ul>

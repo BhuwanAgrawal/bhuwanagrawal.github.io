@@ -325,7 +325,7 @@ a[href^="#certifications-"] {
 
 <!-- LinkedIn Learning -->
 <div id="LinkedIn-Learning" class="containerTab section-block">
-  <h2><i class="fas fa-award"></i> LinkedIn Learning</h2>
+  <h2><i class="fa-brands fa-linkedin"></i> LinkedIn Learning</h2>
   <ul style="list-style: disc; padding-left: 20px;">
     <li>
       <a href="https://www.linkedin.com/learning/certificates/c5bb67e1670e6ff45ff785902220bd9570768ed590b833d63fea9745d62e6f4c?trk=share_certificate" target="_blank">

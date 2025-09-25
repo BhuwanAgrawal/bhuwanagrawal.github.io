@@ -336,25 +336,29 @@ a[href^="#certifications-"] {
     </li>
     <li>
       <a href="https://www.linkedin.com/learning/certificates/19c4590084f62e0303e9d21c0caf52f38ec7b99a0b13641bf989ef6ba410143f?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+        <!--img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'" -->
+        <i class="fa-brands fa-linkedin"></i>
         Postman Essential Training – LinkedIn Learning, 2025
       </a>
     </li>
 	 <li>
       <a href="https://www.linkedin.com/learning/certificates/9bbf9c82a82cc630a41f94a923a84a2d09756e09edf20b8b42fe3b4cf0c03e39?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+         <!--img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'" -->
+        <i class="fa-brands fa-linkedin"></i>
         Introducing Postman – LinkedIn Learning, 2025
       </a>
     </li>
 	<li>
       <a href="https://www.linkedin.com/learning/certificates/6cf46ffc0ee6bbad834e5e7e617643ac966b7d405e0260cc99c443c2f61b7b3b?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+        <!--img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'" -->
+        <i class="fa-brands fa-linkedin"></i>
         GitHub Essential Training: The Basics – LinkedIn Learning, 2025
       </a>
     </li>
 	<li>
       <a href="https://www.linkedin.com/learning/certificates/40ad91a3177b4dd4101da229f2c510274f118b68e1ffff8abe3804918d45e3fc?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+         <!--img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'" -->
+        <i class="fa-brands fa-linkedin"></i>
         Learning GitHub – LinkedIn Learning, 2025
       </a>
     </li>

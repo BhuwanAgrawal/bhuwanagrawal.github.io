@@ -329,7 +329,8 @@ a[href^="#certifications-"] {
   <ul style="list-style: disc; padding-left: 20px;">
     <li>
       <a href="https://www.linkedin.com/learning/certificates/c5bb67e1670e6ff45ff785902220bd9570768ed590b833d63fea9745d62e6f4c?trk=share_certificate" target="_blank">
-        <img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'">
+        <!--img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'" -->
+        <i class="fa-brands fa-linkedin"></i>
         API Testing Foundations – LinkedIn Learning, 2025
       </a>
     </li>

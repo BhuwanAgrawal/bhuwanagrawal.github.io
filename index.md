@@ -147,6 +147,16 @@ a[href^="#certifications-"] {
   display: none !important;
 }
 
+/* Hide auto-inserted anchor/link icons (from AnchorJS or similar) */
+.anchorjs-link,
+.header-link,
+h2 > a.anchor,
+h2 > .anchor,
+h2 .anchorjs-link,
+a[href^="#LinkedIn Learning-"] {
+  display: none !important;
+}
+
 /* Make section headings consistent */
 .containerTab h2 {
   margin-top: 0;
@@ -211,6 +221,7 @@ a[href^="#certifications-"] {
   <a href="#key-projects" onclick="openTab(event,'key-projects')">Project Experience</a>
   <a href="#github-portfolio" onclick="openTab(event,'github-portfolio')">GitHub Portfolio</a>
   <a href="#certifications" onclick="openTab(event,'certifications')">Certifications</a>
+  <a href="#LinkedIn Learning" onclick="openTab(event,'LinkedIn Learning')">LinkedIn Learning</a>
   <a href="#academic-background" onclick="openTab(event,'academic-background')">Academic Background</a>
 </div>
 

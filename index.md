@@ -369,6 +369,13 @@ a[href^="#certifications-"] {
         Learning Git and GitHub – LinkedIn Learning, 2025
       </a>
     </li>
+    <li>
+      <a href="https://www.linkedin.com/learning/certificates/832d9eb0a0dfff779c1dc6137bc7154763d9f59a771a8efe78be5286fd89ec98?trk=share_certificate" target="_blank">
+         <!--img src="Linkedin.png" alt="LinkedIn Logo" style="width:22px; height:22px; margin-right:8px;" onerror="this.style.display='none'" -->
+        <i class="fa-brands fa-linkedin"></i>
+        Learning GitHub Actions – LinkedIn Learning, 2025
+      </a>
+    </li>
   </ul>
 </div>
 

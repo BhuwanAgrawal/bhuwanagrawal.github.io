@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="icon" type="image/png" href="profile.jpg">
+<link rel="icon" type="image/png" href="profile.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Font Awesome kit (same as yours) -->
 <script src='https://kit.fontawesome.com/1053334a8a.js' crossorigin='anonymous'></script>
